@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/">Photo <span>Portfolio</span></a>
+      <nav class="nav-actions" id="header-nav" aria-label="Primary"></nav>
+    </header>
+
+    <main id="app-root"></main>
+
+    <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Full screen photo">
+      <div id="lightbox-stage" class="lightbox__stage">
+        <div class="lightbox__top">
+          <div id="lightbox-caption" class="lightbox__caption"></div>
+          <button type="button" id="lightbox-close" class="lightbox__close" aria-label="Close">
+            ×
+          </button>
+        </div>
+        <button type="button" id="lightbox-prev" class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">
+          ‹
+        </button>
+        <img id="lightbox-image" class="lightbox__image" alt="" />
+        <button type="button" id="lightbox-next" class="lightbox__nav lightbox__nav--next" aria-label="Next photo">
+          ›
+        </button>
+        <p class="lightbox__hint">Arrow keys · Click outside to close</p>
+      </div>
+    </div>
+
+    <script src="gallery-data.js"></script>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
