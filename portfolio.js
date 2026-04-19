@@ -174,6 +174,7 @@
   function closeLightbox() {
     lightboxState = null;
     lightboxEl.hidden = true;
+    lightboxImg.classList.remove("is-loading");
     lightboxImg.removeAttribute("src");
     document.body.style.overflow = "";
   }
@@ -188,7 +189,20 @@
     var sorted = getSortedPhotosForGroup(lightboxState.groupId);
     var idx = lightboxState.index;
     var filename = sorted[idx];
-    lightboxImg.src = photoUrl(g.folder, filename);
+    var nextSrc = photoUrl(g.folder, filename);
+    lightboxImg.classList.add("is-loading");
+    lightboxImg.onload = function () {
+      lightboxImg.classList.remove("is-loading");
+    };
+    lightboxImg.onerror = function () {
+      lightboxImg.classList.remove("is-loading");
+    };
+    lightboxImg.src = nextSrc;
+    if (lightboxImg.complete) {
+      window.requestAnimationFrame(function () {
+        lightboxImg.classList.remove("is-loading");
+      });
+    }
     lightboxImg.alt = filename;
     lightboxCaption.textContent = g.title + " · " + (idx + 1) + " / " + sorted.length;
     btnPrev.disabled = idx <= 0;
