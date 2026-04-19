@@ -218,6 +218,13 @@
     updateLightboxImage();
   }
 
+  function isProtectedPhotoElement(target) {
+    return (
+      target instanceof Element &&
+      target.matches(".group-card__image, .thumb-tile img, .lightbox__image")
+    );
+  }
+
   function render() {
     var route = parseRoute();
     renderHeader(route);
@@ -247,6 +254,16 @@
 
   lightboxStage.addEventListener("click", function (e) {
     if (e.target === lightboxStage) closeLightbox();
+  });
+
+  document.addEventListener("contextmenu", function (e) {
+    if (!isProtectedPhotoElement(e.target)) return;
+    e.preventDefault();
+  });
+
+  document.addEventListener("dragstart", function (e) {
+    if (!isProtectedPhotoElement(e.target)) return;
+    e.preventDefault();
   });
 
   document.addEventListener("keydown", function (e) {
