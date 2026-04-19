@@ -79,7 +79,7 @@
     var hero = document.createElement("div");
     hero.className = "hero";
     hero.innerHTML =
-      "<h1>Photography</h1><p>Browse by collection. Each tile opens a gallery of full-resolution work.</p>";
+      "<h1>Marcin Jaruszewicz's Photography</h1><p>Welcome to my photography portfolio. I'm happy you are here! Enjoy!</p>";
 
     var grid = document.createElement("div");
     grid.className = "group-grid";
@@ -97,8 +97,8 @@
       img.src = g.logo;
       img.alt = "";
       img.loading = "lazy";
-      img.width = 800;
-      img.height = 600;
+      img.width = 250;
+      img.height = 250;
 
       var body = document.createElement("div");
       body.className = "group-card__body";
