@@ -192,6 +192,7 @@
     var filename = sorted[idx];
     var nextSrc = photoUrl(g.folder, filename);
     lightboxImg.classList.add("is-loading");
+    lightboxImg.removeAttribute("src");
     lightboxImg.onload = function () {
       lightboxImg.classList.remove("is-loading");
     };
