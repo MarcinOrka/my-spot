@@ -13,6 +13,7 @@
   var btnNext = document.getElementById("lightbox-next");
   var lightboxStage = document.getElementById("lightbox-stage");
   var headerNav = document.getElementById("header-nav");
+  lightboxImg.fetchPriority = "high";
 
   /** @type {{ groupId: string, index: number } | null} */
   var lightboxState = null;
@@ -96,7 +97,7 @@
       img.className = "group-card__image";
       img.src = g.logo;
       img.alt = "";
-      img.loading = "lazy";
+      img.fetchPriority = "high";
       img.width = 250;
       img.height = 250;
 
@@ -141,7 +142,7 @@
       var thumb = document.createElement("img");
       thumb.src = photoUrl(group.folder, filename);
       thumb.alt = "";
-      thumb.loading = "lazy";
+      thumb.fetchPriority = "high";
       thumb.decoding = "async";
 
       tile.appendChild(thumb);
