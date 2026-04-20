@@ -63,16 +63,38 @@
 
   function renderHeader(route) {
     headerNav.innerHTML = "";
+
+    var menu = createSectionsMenu(route.name === "group" ? route.id : null);
+    menu.classList.add("sections-menu--header");
+
     if (route.name === "group") {
-      var back = document.createElement("button");
-      back.type = "button";
-      back.className = "btn btn--ghost";
-      back.textContent = "← All collections";
-      back.addEventListener("click", function () {
-        setRoute({ name: "home" });
-      });
+      var back = document.createElement("a");
+      back.className = "header-back-link";
+      back.href = "#/";
+      back.textContent = "All collections";
       headerNav.appendChild(back);
     }
+
+    headerNav.appendChild(menu);
+  }
+
+  function createSectionsMenu(activeGroupId) {
+    var nav = document.createElement("nav");
+    nav.className = "sections-menu";
+    nav.setAttribute("aria-label", "Sections");
+
+    groups.forEach(function (group) {
+      var link = document.createElement("a");
+      link.className = "sections-menu__link";
+      link.href = "#/" + encodeURIComponent(group.id);
+      link.textContent = group.title;
+      if (activeGroupId === group.id) {
+        link.classList.add("is-active");
+      }
+      nav.appendChild(link);
+    });
+
+    return nav;
   }
 
   function renderHome() {

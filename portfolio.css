@@ -86,7 +86,10 @@ button:focus-visible {
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+  min-width: 0;
+  gap: 0.9rem;
 }
 
 .btn {
@@ -207,6 +210,58 @@ main {
   font-weight: 600;
   line-height: 1.2;
   padding-right: env(safe-area-inset-right);
+}
+
+.sections-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.65rem;
+  overflow-x: auto;
+  margin: 0 0 clamp(0.8rem, 2.5vw, 1.1rem);
+  padding: 0.15rem 0 0.35rem;
+  scrollbar-width: thin;
+}
+
+.sections-menu--header {
+  margin: 0;
+  padding: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  justify-content: flex-end;
+}
+
+.sections-menu__link {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 0.1rem 0;
+  color: var(--muted);
+  font-size: clamp(0.74rem, 2.2vw, 0.82rem);
+  font-weight: 400;
+  line-height: 1.2;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.sections-menu__link:hover {
+  color: var(--text);
+}
+
+.sections-menu__link.is-active {
+  color: var(--accent);
+  border-bottom-color: rgba(201, 169, 98, 0.75);
+}
+
+.header-back-link {
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: clamp(0.74rem, 2.2vw, 0.82rem);
+  line-height: 1.2;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.header-back-link:hover {
+  color: var(--text);
 }
 
 .thumb-grid {
