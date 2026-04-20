@@ -4,7 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Marcin&#039;s spot &#8211; Personal photography website featuring Marcin Jaruszewicz original images grouped into: studio fashion and portrait photography, nature and wildlife photography, travel photography, portrait photography of people, and photographs taken in Japan.</title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <script>
+      (function () {
+        var version = Date.now().toString();
+        var stylesheet = document.createElement("link");
+        stylesheet.rel = "stylesheet";
+        stylesheet.href = "portfolio.css?v=" + version;
+        document.head.appendChild(stylesheet);
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -33,7 +41,21 @@
       </div>
     </div>
 
-    <script src="gallery-data.js"></script>
-    <script src="portfolio.js"></script>
+    <script>
+      (function () {
+        var version = Date.now().toString();
+
+        function loadScript(src, onLoad) {
+          var script = document.createElement("script");
+          script.src = src + "?v=" + version;
+          script.onload = onLoad || null;
+          document.body.appendChild(script);
+        }
+
+        loadScript("gallery-data.js", function () {
+          loadScript("portfolio.js");
+        });
+      })();
+    </script>
   </body>
 </html>
