@@ -67,14 +67,6 @@
     var menu = createSectionsMenu(route.name === "group" ? route.id : null);
     menu.classList.add("sections-menu--header");
 
-    if (route.name === "group") {
-      var back = document.createElement("a");
-      back.className = "header-back-link";
-      back.href = "#/";
-      back.textContent = "All collections";
-      headerNav.appendChild(back);
-    }
-
     headerNav.appendChild(menu);
   }
 
