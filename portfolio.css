@@ -56,7 +56,8 @@ button:focus-visible {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  /* Above lightbox (z-index 100) so navigation stays visible over fullscreen photos. */
+  z-index: 110;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -342,6 +343,15 @@ main {
   display: none;
 }
 
+/* Full black only until the current photo has loaded (open or navigate). */
+.lightbox.lightbox--awaiting-photo .lightbox__top,
+.lightbox.lightbox--awaiting-photo .lightbox__nav,
+.lightbox.lightbox--awaiting-photo .lightbox__hint,
+.lightbox.lightbox--awaiting-photo .lightbox__watermark {
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .lightbox__stage {
   position: relative;
   width: 100vw;
@@ -353,16 +363,22 @@ main {
   overflow: hidden;
 }
 
+.lightbox__photo-wrap {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
 .lightbox__image {
-  max-width: calc(100vw - 2.5rem);
-  max-height: calc(100vh - 3.5rem);
+  max-width: 80vw;
+  max-height: 80vh;
   width: auto;
   height: auto;
   object-fit: contain;
   opacity: 1;
-  transition: opacity 0.25s ease;
   border-radius: 4px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65);
+  display: block;
 }
 
 .lightbox__image.is-loading {
@@ -457,7 +473,7 @@ main {
 .lightbox__watermark {
   position: absolute;
   left: 50%;
-  bottom: max(2.2rem, env(safe-area-inset-bottom));
+  bottom: 0.45rem;
   transform: translateX(-50%);
   margin: 0;
   padding: 0.28rem 0.52rem;

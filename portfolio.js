@@ -177,17 +177,27 @@
     return sortPhotos(g.photos);
   }
 
+  function revealLightboxPhoto() {
+    lightboxEl.classList.remove("lightbox--awaiting-photo");
+  }
+
   function openLightbox(groupId, index, sortedOverride) {
     var sorted = sortedOverride || getSortedPhotosForGroup(groupId);
     if (!sorted.length) return;
     lightboxState = { groupId: groupId, index: Math.max(0, Math.min(index, sorted.length - 1)) };
+    lightboxEl.classList.add("lightbox--awaiting-photo");
     lightboxEl.hidden = false;
     document.body.style.overflow = "hidden";
-    updateLightboxImage();
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(function () {
+        updateLightboxImage();
+      });
+    });
   }
 
   function closeLightbox() {
     lightboxState = null;
+    lightboxEl.classList.remove("lightbox--awaiting-photo");
     lightboxEl.hidden = true;
     lightboxImg.classList.remove("is-loading");
     lightboxImg.removeAttribute("src");
@@ -201,6 +211,7 @@
       closeLightbox();
       return;
     }
+    lightboxEl.classList.add("lightbox--awaiting-photo");
     var sorted = getSortedPhotosForGroup(lightboxState.groupId);
     var idx = lightboxState.index;
     var filename = sorted[idx];
@@ -209,14 +220,17 @@
     lightboxImg.removeAttribute("src");
     lightboxImg.onload = function () {
       lightboxImg.classList.remove("is-loading");
+      revealLightboxPhoto();
     };
     lightboxImg.onerror = function () {
       lightboxImg.classList.remove("is-loading");
+      revealLightboxPhoto();
     };
     lightboxImg.src = nextSrc;
     if (lightboxImg.complete) {
       window.requestAnimationFrame(function () {
         lightboxImg.classList.remove("is-loading");
+        revealLightboxPhoto();
       });
     }
     lightboxImg.alt = filename;
@@ -242,6 +256,7 @@
   }
 
   function render() {
+    closeLightbox();
     var route = parseRoute();
     renderHeader(route);
     if (route.name === "home") {
@@ -297,6 +312,17 @@
   });
 
   window.addEventListener("hashchange", render);
+
+  var siteHeader = document.querySelector(".site-header");
+  if (siteHeader) {
+    siteHeader.addEventListener("click", function (e) {
+      var t = e.target;
+      if (!(t instanceof Element)) return;
+      var link = t.closest("a[href^=\"#\"]");
+      if (!link) return;
+      closeLightbox();
+    });
+  }
 
   if (!groups.length) {
     root.innerHTML =
