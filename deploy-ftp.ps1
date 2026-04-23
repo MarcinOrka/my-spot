@@ -251,6 +251,10 @@ $files = @(Get-ChildItem -Path $projectRoot -Recurse -File | Where-Object {
         return $false
     }
 
+    if ($relative.StartsWith("monnomnom/")) {
+        return $false
+    }
+
     if ($excludeNames -contains $name) {
         return $false
     }
