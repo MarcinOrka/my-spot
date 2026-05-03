@@ -156,10 +156,10 @@ main {
 }
 
 .group-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--home-col-min), 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: clamp(0.85rem, 3vw, 1.25rem);
-  justify-items: stretch;
 }
 
 .home-footer {
@@ -175,7 +175,8 @@ main {
 .group-card {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex: 0 1 var(--home-col-min);
+  width: var(--home-col-min);
   max-width: 100%;
   border-radius: clamp(10px, 2vw, 14px);
   overflow: hidden;

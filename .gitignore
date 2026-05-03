@@ -2,4 +2,5 @@
 *.env
 !.env.example
 .deploy-state.json
+.portfolio-photo-counts
 

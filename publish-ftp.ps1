@@ -241,8 +241,10 @@ $excludeNames = @(
     ".env.example",
     "cyberfolks.env",
     ".gitignore",
+    ".portfolio-photo-counts",
     "deploy-ftp.ps1",
     "publish-ftp.ps1",
+    "photo-count-signature.mjs",
     [System.IO.Path]::GetFileName($statePath)
 )
 
