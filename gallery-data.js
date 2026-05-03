@@ -59,6 +59,7 @@ window.PORTFOLIO_GROUPS = [
       "people-002.jpg",
       "people-003.jpg",
       "people-004.jpg",
+      "people-005.jpg",
     ],
   },
   {
@@ -156,7 +157,6 @@ window.PORTFOLIO_GROUPS = [
       "world-040.jpg",
       "world-041.jpg",
       "world-042.jpg",
-      "world-043.jpg",
     ],
   },
   {
