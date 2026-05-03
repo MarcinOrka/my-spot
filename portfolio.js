@@ -159,7 +159,18 @@
       var footer = document.createElement("footer");
       footer.className = "home-footer";
       footer.setAttribute("aria-label", "Site last updated and copyright");
-      footer.textContent = "Last updated: " + lastUpdatedLabel + ", Copyright Marcin Jaruszewicz";
+      var footerPre = document.createElement("span");
+      footerPre.className = "home-footer__pre";
+      footerPre.textContent = "Last updated: ";
+      var footerDate = document.createElement("strong");
+      footerDate.className = "home-footer__date";
+      footerDate.textContent = lastUpdatedLabel;
+      var footerPost = document.createElement("span");
+      footerPost.className = "home-footer__post";
+      footerPost.textContent = ", Copyright Marcin Jaruszewicz";
+      footer.appendChild(footerPre);
+      footer.appendChild(footerDate);
+      footer.appendChild(footerPost);
       root.appendChild(footer);
     }
   }

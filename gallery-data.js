@@ -3,7 +3,7 @@
  * Naming convention: photos use <folder-slug>-NNN.jpg and logos use logo-<name>.jpg.
  */
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
-window.PORTFOLIO_LAST_UPDATED = "";
+window.PORTFOLIO_LAST_UPDATED = "2026-05-03";
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -153,6 +153,10 @@ window.PORTFOLIO_GROUPS = [
       "world-037.jpg",
       "world-038.jpg",
       "world-039.jpg",
+      "world-040.jpg",
+      "world-041.jpg",
+      "world-042.jpg",
+      "world-043.jpg",
     ],
   },
   {
