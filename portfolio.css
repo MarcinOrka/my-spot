@@ -162,6 +162,13 @@ main {
   gap: clamp(0.85rem, 3vw, 1.25rem);
 }
 
+/* Home catalog tiles: 60% of default icon size on narrow viewports (phones / small tablets). */
+@media (max-width: 767px) {
+  :root {
+    --home-col-min: min(calc(250px * 0.6), 60%);
+  }
+}
+
 .home-footer {
   margin-top: clamp(1.35rem, 4.5vw, 2.25rem);
   text-align: left;
