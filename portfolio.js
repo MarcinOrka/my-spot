@@ -158,7 +158,7 @@
     if (lastUpdatedLabel) {
       var footer = document.createElement("footer");
       footer.className = "home-footer";
-      footer.setAttribute("aria-label", "Site last updated and copyright");
+      footer.setAttribute("aria-label", "Site last updated and author credit");
       var footerPre = document.createElement("span");
       footerPre.className = "home-footer__pre";
       footerPre.textContent = "Last updated: ";
@@ -167,7 +167,7 @@
       footerDate.textContent = lastUpdatedLabel;
       var footerPost = document.createElement("span");
       footerPost.className = "home-footer__post";
-      footerPost.textContent = ", Copyright Marcin Jaruszewicz";
+      footerPost.textContent = " © Marcin Jaruszewicz";
       footer.appendChild(footerPre);
       footer.appendChild(footerDate);
       footer.appendChild(footerPost);
