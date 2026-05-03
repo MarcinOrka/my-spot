@@ -1,7 +1,9 @@
+# FTP upload (reads cyberfolks.env by default). Invoked by deploy.ps1; can be run alone.
+# By default only files whose SHA256 changed since the last run are uploaded (see .deploy-state.json). Use -Full for a complete upload.
 param(
     [switch]$WhatIf,
-    [switch]$ChangedOnly,
-    [string]$EnvFile = ".env",
+    [switch]$Full,
+    [string]$EnvFile = "cyberfolks.env",
     [string]$StateFile = ".deploy-state.json"
 )
 
@@ -13,7 +15,7 @@ $statePath = if ([System.IO.Path]::IsPathRooted($StateFile)) { $StateFile } else
 $stateRelativePath = if ($statePath.StartsWith($projectRoot)) { $statePath.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/") } else { "" }
 
 if (-not (Test-Path $envPath)) {
-    throw "Missing env file at '$envPath'. Create it from .env.example or pass -EnvFile."
+    throw "Missing env file at '$envPath'. Add cyberfolks.env in the project root or pass -EnvFile."
 }
 
 function Import-DotEnv {
@@ -58,7 +60,7 @@ function Require-EnvValue {
     )
 
     if (-not $Values.ContainsKey($Name) -or [string]::IsNullOrWhiteSpace($Values[$Name])) {
-        throw "Required variable '$Name' is missing in .env."
+        throw "Required variable '$Name' is missing in the deployment env file."
     }
 
     return $Values[$Name]
@@ -237,8 +239,10 @@ $createdDirs = New-Object "System.Collections.Generic.HashSet[string]"
 $excludeNames = @(
     ".env",
     ".env.example",
+    "cyberfolks.env",
     ".gitignore",
     "deploy-ftp.ps1",
+    "publish-ftp.ps1",
     [System.IO.Path]::GetFileName($statePath)
 )
 
@@ -281,7 +285,7 @@ if ($files.Count -eq 0) {
     throw "No files found to deploy after exclusions."
 }
 
-Write-Host "Mode: $(if ($ChangedOnly) { "changed-files-only" } else { "full" })"
+Write-Host "Mode: $(if (-not $Full) { "changed-files-only" } else { "full" })"
 Write-Host "Deploy target: ${protocol}://${hostName}:${port}/$remoteRoot"
 
 $currentHashes = @{}
@@ -291,7 +295,7 @@ foreach ($file in $files) {
 }
 
 $filesToUpload = @($files)
-if ($ChangedOnly) {
+if (-not $Full) {
     $previousHashes = Load-DeployState -Path $statePath
     if ($previousHashes.Count -gt 0) {
         $filesToUpload = @($files | Where-Object {

@@ -1,5 +1,6 @@
 :root {
   color-scheme: dark;
+  --font-heading: "Segoe UI", system-ui, -apple-system, sans-serif;
   --bg: #0c0c0d;
   --bg-elevated: #141416;
   --surface: #1a1a1e;
@@ -30,15 +31,22 @@ html {
   text-size-adjust: 100%;
 }
 
-html,
-body {
+html {
   margin: 0;
   min-height: 100%;
-  background: var(--bg);
+  background-color: #080809;
+  background-image:
+    radial-gradient(ellipse 100% 72% at 50% -18%, rgba(201, 169, 98, 0.09), transparent 52%),
+    radial-gradient(ellipse 75% 55% at 100% 100%, rgba(42, 40, 58, 0.38), transparent 48%),
+    linear-gradient(175deg, #141416 0%, var(--bg) 44%, #080809 100%);
   color: var(--text);
 }
 
 body {
+  margin: 0;
+  min-height: 100%;
+  background: transparent;
+  color: var(--text);
   line-height: 1.5;
 }
 
@@ -72,7 +80,8 @@ button:focus-visible {
 }
 
 .brand {
-  font-size: clamp(0.92rem, 2.8vw, 1.05rem);
+  font-family: var(--font-heading);
+  font-size: clamp(0.78rem, 2.2vw, 0.88rem);
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -132,7 +141,8 @@ main {
 
 .hero h1 {
   margin: 0 0 0.5rem;
-  font-size: clamp(1.45rem, 5vw, 2.35rem);
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 3.8vw, 1.75rem);
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.15;
@@ -150,6 +160,16 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(var(--home-col-min), 1fr));
   gap: clamp(0.85rem, 3vw, 1.25rem);
   justify-items: stretch;
+}
+
+.home-footer {
+  margin-top: clamp(1.35rem, 4.5vw, 2.25rem);
+  text-align: center;
+  color: rgba(242, 242, 244, 0.5);
+  font-size: clamp(0.5rem, 1.45vw, 0.6rem);
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  user-select: none;
 }
 
 .group-card {
@@ -170,6 +190,10 @@ main {
     transform: translateY(-3px);
     border-color: rgba(201, 169, 98, 0.35);
   }
+
+  .group-card:hover .group-card__image {
+    transform: scale(1.06);
+  }
 }
 
 .group-card__image {
@@ -180,6 +204,19 @@ main {
   display: block;
   flex-shrink: 0;
   background: #000;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .group-card__image {
+    transition: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .group-card:hover .group-card__image {
+      transform: none;
+    }
+  }
 }
 
 .group-card__body {
@@ -193,7 +230,8 @@ main {
 
 .group-card__title {
   margin: 0;
-  font-size: clamp(0.95rem, 2.6vw, 1.05rem);
+  font-family: var(--font-heading);
+  font-size: clamp(0.82rem, 2.2vw, 0.92rem);
   font-weight: 600;
   min-width: 0;
   flex: 1 1 8rem;
@@ -207,7 +245,8 @@ main {
 
 .page-title {
   margin: 0 0 clamp(0.85rem, 3vw, 1.25rem);
-  font-size: clamp(1.2rem, 4.2vw, 1.5rem);
+  font-family: var(--font-heading);
+  font-size: clamp(1.02rem, 3.4vw, 1.22rem);
   font-weight: 600;
   line-height: 1.2;
   padding-right: env(safe-area-inset-right);

@@ -89,6 +89,18 @@
     return nav;
   }
 
+  function formatPortfolioLastUpdatedGb(iso) {
+    if (!iso || typeof iso !== "string") return "";
+    var t = Date.parse(iso + "T00:00:00Z");
+    if (Number.isNaN(t)) return "";
+    return new Date(t).toLocaleDateString("en-GB", {
+      timeZone: "UTC",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  }
+
   function renderHome() {
     document.title = "Portfolio — Collections";
     var hero = document.createElement("div");
@@ -110,6 +122,13 @@
       var img = document.createElement("img");
       img.className = "group-card__image";
       img.src = g.logo;
+      img.onerror = function () {
+        if (img.dataset.logoFallback === "1") return;
+        img.dataset.logoFallback = "1";
+        if (sorted.length) {
+          img.src = photoUrl(g.folder, sorted[0]);
+        }
+      };
       img.alt = "";
       img.fetchPriority = "high";
       img.width = 250;
@@ -134,6 +153,15 @@
     root.innerHTML = "";
     root.appendChild(hero);
     root.appendChild(grid);
+
+    var lastUpdatedLabel = formatPortfolioLastUpdatedGb(window.PORTFOLIO_LAST_UPDATED);
+    if (lastUpdatedLabel) {
+      var footer = document.createElement("footer");
+      footer.className = "home-footer";
+      footer.setAttribute("aria-label", "Site last updated and copyright");
+      footer.textContent = "Last updated: " + lastUpdatedLabel + ", Copyright Marcin Jaruszewicz";
+      root.appendChild(footer);
+    }
   }
 
   function renderGroup(group) {

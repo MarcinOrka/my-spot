@@ -2,6 +2,9 @@
  * Static manifest of images per folder (browser cannot list directories).
  * Naming convention: photos use <folder-slug>-NNN.jpg and logos use logo-<name>.jpg.
  */
+/** ISO date (YYYY-MM-DD); set by deploy.ps1 before upload. Empty hides the home footer until deployed. */
+window.PORTFOLIO_LAST_UPDATED = "";
+
 window.PORTFOLIO_GROUPS = [
   {
     id: "Animals",
