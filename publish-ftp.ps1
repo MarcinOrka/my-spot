@@ -216,6 +216,46 @@ function Ensure-RemoteDirectory {
     }
 }
 
+function Send-FtpFileBytes {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Uri,
+        [Parameter(Mandatory = $true)]
+        [byte[]]$Content,
+        [Parameter(Mandatory = $true)]
+        [System.Net.NetworkCredential]$Credential,
+        [Parameter(Mandatory = $true)]
+        [bool]$UseSsl,
+        [int]$MaxAttempts = 4
+    )
+
+    for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+        try {
+            $request = New-FtpRequest -Uri $Uri -Method ([System.Net.WebRequestMethods+Ftp]::UploadFile) -Credential $Credential -UseSsl $UseSsl
+            $request.ContentLength = $Content.Length
+            $requestStream = $request.GetRequestStream()
+            try {
+                $requestStream.Write($Content, 0, $Content.Length)
+            }
+            finally {
+                $requestStream.Close()
+            }
+
+            $response = $request.GetResponse()
+            $response.Close()
+            return
+        }
+        catch {
+            if ($attempt -ge $MaxAttempts) {
+                throw
+            }
+            $delaySeconds = [Math]::Min(8, $attempt * 2)
+            Write-Host "Upload failed (attempt $attempt/$MaxAttempts), retrying in ${delaySeconds}s: $($_.Exception.Message)"
+            Start-Sleep -Seconds $delaySeconds
+        }
+    }
+}
+
 $config = Import-DotEnv -Path $envPath
 
 $hostName = Require-EnvValue -Values $config -Name "FTP_HOST"
@@ -245,6 +285,7 @@ $excludeNames = @(
     "deploy-ftp.ps1",
     "publish-ftp.ps1",
     "photo-count-signature.mjs",
+    "generate-thumbnails.ps1",
     [System.IO.Path]::GetFileName($statePath)
 )
 
@@ -297,12 +338,12 @@ foreach ($file in $files) {
 }
 
 $filesToUpload = @($files)
+$deployState = Load-DeployState -Path $statePath
 if (-not $Full) {
-    $previousHashes = Load-DeployState -Path $statePath
-    if ($previousHashes.Count -gt 0) {
+    if ($deployState.Count -gt 0) {
         $filesToUpload = @($files | Where-Object {
             $relativePath = $_.FullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
-            (-not $previousHashes.ContainsKey($relativePath)) -or ($previousHashes[$relativePath] -ne $currentHashes[$relativePath])
+            (-not $deployState.ContainsKey($relativePath)) -or ($deployState[$relativePath] -ne $currentHashes[$relativePath])
         })
     }
     else {
@@ -347,27 +388,24 @@ foreach ($file in $filesToUpload) {
 
     $encodedTarget = Encode-FtpPath $targetPath
     $uri = "${protocol}://${hostName}:${port}/${encodedTarget}"
-    $request = New-FtpRequest -Uri $uri -Method ([System.Net.WebRequestMethods+Ftp]::UploadFile) -Credential $credential -UseSsl $useSsl
-
     $content = [System.IO.File]::ReadAllBytes($file.FullName)
-    $request.ContentLength = $content.Length
-
-    $requestStream = $request.GetRequestStream()
-    $requestStream.Write($content, 0, $content.Length)
-    $requestStream.Close()
-
-    $response = $request.GetResponse()
-    $response.Close()
+    Send-FtpFileBytes -Uri $uri -Content $content -Credential $credential -UseSsl $useSsl
 
     $uploaded++
     Write-Host "Uploaded ($uploaded/$($filesToUpload.Count)): $relativePath"
+
+    $deployState[$relativePath] = $currentHashes[$relativePath]
+    Save-DeployState -Path $statePath -Files $deployState
 }
 
 if ($WhatIf) {
     Write-Host "Dry run complete."
 }
 else {
-    Save-DeployState -Path $statePath -Files $currentHashes
+    foreach ($relativePath in $currentHashes.Keys) {
+        $deployState[$relativePath] = $currentHashes[$relativePath]
+    }
+    Save-DeployState -Path $statePath -Files $deployState
     Write-Host "Deployment state updated at '$statePath'."
     Write-Host "Deployment complete. Uploaded $uploaded files."
 }

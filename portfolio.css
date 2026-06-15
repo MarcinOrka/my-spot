@@ -184,6 +184,19 @@ main {
   color: rgba(242, 242, 244, 0.68);
 }
 
+.home-footer__album-link {
+  color: rgba(242, 242, 244, 0.62);
+  text-decoration: none;
+  text-underline-offset: 0.12em;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .home-footer__album-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+}
+
 .group-card {
   display: flex;
   flex-direction: column;

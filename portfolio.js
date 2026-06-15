@@ -37,6 +37,10 @@
     return encFolder + "/" + encodedName;
   }
 
+  function thumbUrl(folder, filename) {
+    return photoUrl(folder, "thumbs/" + filename);
+  }
+
   function findGroup(id) {
     for (var i = 0; i < groups.length; i++) {
       if (groups[i].id === id) return groups[i];
@@ -111,7 +115,7 @@
     var grid = document.createElement("div");
     grid.className = "group-grid";
 
-    groups.forEach(function (g) {
+    groups.forEach(function (g, cardIndex) {
       var sorted = sortPhotos(g.photos);
       var count = sorted.length;
       var card = document.createElement("a");
@@ -130,7 +134,10 @@
         }
       };
       img.alt = "";
-      img.fetchPriority = "high";
+      if (cardIndex < 4) {
+        img.fetchPriority = "high";
+      }
+      img.decoding = "async";
       img.width = 250;
       img.height = 250;
 
@@ -170,6 +177,33 @@
       footerPost.textContent = " © Marcin Jaruszewicz";
       footer.appendChild(footerPre);
       footer.appendChild(footerDate);
+
+      var updatedAlbumIds = window.PORTFOLIO_LAST_UPDATED_ALBUMS;
+      if (Array.isArray(updatedAlbumIds) && updatedAlbumIds.length) {
+        var albumsSep = document.createElement("span");
+        albumsSep.className = "home-footer__albums-sep";
+        albumsSep.textContent = ": ";
+        footer.appendChild(albumsSep);
+
+        var albumsWrap = document.createElement("span");
+        albumsWrap.className = "home-footer__albums";
+        updatedAlbumIds.forEach(function (id, idx) {
+          if (idx > 0) {
+            var comma = document.createElement("span");
+            comma.className = "home-footer__albums-comma";
+            comma.textContent = ", ";
+            albumsWrap.appendChild(comma);
+          }
+          var group = findGroup(id);
+          var link = document.createElement("a");
+          link.className = "home-footer__album-link";
+          link.href = "#/" + encodeURIComponent(id);
+          link.textContent = group ? group.title : id;
+          albumsWrap.appendChild(link);
+        });
+        footer.appendChild(albumsWrap);
+      }
+
       footer.appendChild(footerPost);
       root.appendChild(footer);
     }
@@ -193,10 +227,14 @@
       tile.setAttribute("aria-label", "Open " + filename);
 
       var thumb = document.createElement("img");
-      thumb.src = photoUrl(group.folder, filename);
+      thumb.src = thumbUrl(group.folder, filename);
       thumb.alt = "";
-      thumb.fetchPriority = "high";
       thumb.decoding = "async";
+      if (index < 10) {
+        thumb.fetchPriority = "high";
+      } else {
+        thumb.loading = "lazy";
+      }
 
       tile.appendChild(thumb);
       tile.addEventListener("click", function () {

@@ -3,7 +3,9 @@
  * Naming convention: photos use <folder-slug>-NNN.jpg and logos use logo-<name>.jpg.
  */
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
-window.PORTFOLIO_LAST_UPDATED = "2026-05-03";
+window.PORTFOLIO_LAST_UPDATED = "2026-06-15";
+/** Group ids whose photo count changed on the date above; deploy.ps1 maintains this list. */
+window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Japan", "People"];
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -60,6 +62,18 @@ window.PORTFOLIO_GROUPS = [
       "people-003.jpg",
       "people-004.jpg",
       "people-005.jpg",
+      "people-006.jpg",
+      "people-007.jpg",
+      "people-008.jpg",
+      "people-009.jpg",
+      "people-010.jpg",
+      "people-011.jpg",
+      "people-012.jpg",
+      "people-013.jpg",
+      "people-014.jpg",
+      "people-015.jpg",
+      "people-016.jpg",
+      "people-017.jpg",
     ],
   },
   {
@@ -209,6 +223,34 @@ window.PORTFOLIO_GROUPS = [
       "japan-042.jpg",
       "japan-043.jpg",
       "japan-044.jpg",
+      "japan-045.jpg",
+      "japan-046.jpg",
+      "japan-047.jpg",
+      "japan-048.jpg",
+      "japan-049.jpg",
+      "japan-050.jpg",
+      "japan-051.jpg",
+      "japan-052.jpg",
+      "japan-053.jpg",
+      "japan-054.jpg",
+      "japan-055.jpg",
+      "japan-056.jpg",
+      "japan-057.jpg",
+      "japan-058.jpg",
+      "japan-059.jpg",
+      "japan-060.jpg",
+      "japan-061.jpg",
+      "japan-062.jpg",
+      "japan-063.jpg",
+      "japan-064.jpg",
+      "japan-065.jpg",
+      "japan-066.jpg",
+      "japan-067.jpg",
+      "japan-068.jpg",
+      "japan-069.jpg",
+      "japan-070.jpg",
+      "japan-071.jpg",
+      "japan-072.jpg",
     ],
   },
   {
