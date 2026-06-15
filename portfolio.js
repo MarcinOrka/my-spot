@@ -3,6 +3,8 @@
 
   /** @type {{ id: string, title: string, folder: string, logo: string, photos: string[] }[]} */
   var groups = window.PORTFOLIO_GROUPS || [];
+  var tribute = window.PORTFOLIO_TRIBUTE || null;
+  var tributeContent = window.PORTFOLIO_TRIBUTE_CONTENT || null;
 
   var root = document.getElementById("app-root");
   var lightboxEl = document.getElementById("lightbox");
@@ -48,12 +50,23 @@
     return null;
   }
 
+  function findSectionTitle(id) {
+    var group = findGroup(id);
+    if (group) return group.title;
+    if (tribute && id === tribute.id) return tribute.title;
+    return id;
+  }
+
   function parseRoute() {
     var hash = window.location.hash || "";
     var path = hash.replace(/^#\/?/, "").trim();
     if (!path) return { name: "home" };
     var parts = path.split("/").filter(Boolean);
-    if (parts.length === 1) return { name: "group", id: parts[0] };
+    if (parts.length === 1) {
+      var id = decodeURIComponent(parts[0]);
+      if (tribute && id === tribute.id) return { name: "tribute", id: id };
+      return { name: "group", id: id };
+    }
     return { name: "home" };
   }
 
@@ -68,13 +81,18 @@
   function renderHeader(route) {
     headerNav.innerHTML = "";
 
-    var menu = createSectionsMenu(route.name === "group" ? route.id : null);
+    var menu = createSectionsMenu(getActiveSectionId(route));
     menu.classList.add("sections-menu--header");
 
     headerNav.appendChild(menu);
   }
 
-  function createSectionsMenu(activeGroupId) {
+  function getActiveSectionId(route) {
+    if (route.name === "group" || route.name === "tribute") return route.id;
+    return null;
+  }
+
+  function createSectionsMenu(activeSectionId) {
     var nav = document.createElement("nav");
     nav.className = "sections-menu";
     nav.setAttribute("aria-label", "Sections");
@@ -84,11 +102,22 @@
       link.className = "sections-menu__link";
       link.href = "#/" + encodeURIComponent(group.id);
       link.textContent = group.title;
-      if (activeGroupId === group.id) {
+      if (activeSectionId === group.id) {
         link.classList.add("is-active");
       }
       nav.appendChild(link);
     });
+
+    if (tribute) {
+      var tributeLink = document.createElement("a");
+      tributeLink.className = "sections-menu__link";
+      tributeLink.href = "#/" + encodeURIComponent(tribute.id);
+      tributeLink.textContent = tribute.title;
+      if (activeSectionId === tribute.id) {
+        tributeLink.classList.add("is-active");
+      }
+      nav.appendChild(tributeLink);
+    }
 
     return nav;
   }
@@ -103,6 +132,131 @@
       month: "long",
       day: "numeric",
     });
+  }
+
+  function createTributeHomeCard() {
+    if (!tribute) return null;
+
+    var card = document.createElement("a");
+    card.className = "group-card";
+    card.href = "#/" + encodeURIComponent(tribute.id);
+    card.setAttribute("aria-label", tribute.title + ", " + (tribute.cardMeta || "photographers"));
+
+    var img = document.createElement("img");
+    img.className = "group-card__image";
+    img.src = tribute.thumbnail;
+    img.alt = "";
+    img.decoding = "async";
+    img.width = 250;
+    img.height = 250;
+
+    var body = document.createElement("div");
+    body.className = "group-card__body";
+    var title = document.createElement("h2");
+    title.className = "group-card__title";
+    title.textContent = tribute.title;
+    var meta = document.createElement("span");
+    meta.className = "group-card__meta";
+    meta.textContent = tribute.cardMeta || "Photographers";
+
+    body.appendChild(title);
+    body.appendChild(meta);
+    card.appendChild(img);
+    card.appendChild(body);
+    return card;
+  }
+
+  function renderTributeProfiles(data) {
+    var article = document.createElement("article");
+    article.className = "tribute-page";
+
+    data.sections.forEach(function (section, sectionIndex) {
+      var sectionEl = document.createElement("section");
+      sectionEl.className =
+        "tribute-section" +
+        (sectionIndex === 0 ? " tribute-section--mentors" : " tribute-section--inspirations");
+
+      var sectionHead = document.createElement("div");
+      sectionHead.className = "tribute-section__head";
+
+      var heading = document.createElement("h2");
+      heading.className = "tribute-section__title";
+      heading.textContent = section.title;
+      sectionHead.appendChild(heading);
+
+      sectionEl.appendChild(sectionHead);
+
+      var list = document.createElement("div");
+      list.className = "tribute-section__list";
+
+      section.entries.forEach(function (entry) {
+        var profile = document.createElement("article");
+        profile.className = "tribute-profile";
+
+        var header = document.createElement("header");
+        header.className = "tribute-profile__header";
+
+        var name = document.createElement("h3");
+        name.className = "tribute-profile__name";
+        name.textContent = entry.name;
+        header.appendChild(name);
+
+        profile.appendChild(header);
+
+        if (entry.paragraphs.length) {
+          var body = document.createElement("div");
+          body.className = "tribute-profile__body";
+          entry.paragraphs.forEach(function (paragraph) {
+            var p = document.createElement("p");
+            p.className = "tribute-profile__bio";
+            p.textContent = paragraph;
+            body.appendChild(p);
+          });
+          profile.appendChild(body);
+        }
+
+        if (entry.profileUrl) {
+          var footer = document.createElement("footer");
+          footer.className = "tribute-profile__footer";
+          var link = document.createElement("a");
+          link.className = "tribute-profile__link";
+          link.href = entry.profileUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          var linkLabel = entry.profileLabel || "profile";
+          link.textContent = linkLabel;
+          link.setAttribute("aria-label", (entry.profileLabel || "Profile link") + " for " + entry.name);
+          footer.appendChild(link);
+          profile.appendChild(footer);
+        }
+
+        list.appendChild(profile);
+      });
+
+      sectionEl.appendChild(list);
+      article.appendChild(sectionEl);
+    });
+
+    return article;
+  }
+
+  function renderTribute() {
+    if (!tribute || !tributeContent) {
+      root.innerHTML = "<p>Missing tribute content. Ensure <code>tribute-data.js</code> loads before <code>portfolio.js</code>.</p>";
+      return;
+    }
+
+    document.title = tribute.title + " — Portfolio";
+    root.innerHTML = "";
+
+    var hero = document.createElement("header");
+    hero.className = "tribute-hero";
+    var heroTitle = document.createElement("h1");
+    heroTitle.className = "tribute-hero__title";
+    heroTitle.textContent = tributeContent.title || tribute.title;
+    hero.appendChild(heroTitle);
+    root.appendChild(hero);
+    root.appendChild(renderTributeProfiles(tributeContent));
   }
 
   function renderHome() {
@@ -157,6 +311,11 @@
       grid.appendChild(card);
     });
 
+    var tributeCard = createTributeHomeCard();
+    if (tributeCard) {
+      grid.appendChild(tributeCard);
+    }
+
     root.innerHTML = "";
     root.appendChild(hero);
     root.appendChild(grid);
@@ -194,11 +353,10 @@
             comma.textContent = ", ";
             albumsWrap.appendChild(comma);
           }
-          var group = findGroup(id);
           var link = document.createElement("a");
           link.className = "home-footer__album-link";
           link.href = "#/" + encodeURIComponent(id);
-          link.textContent = group ? group.title : id;
+          link.textContent = findSectionTitle(id);
           albumsWrap.appendChild(link);
         });
         footer.appendChild(albumsWrap);
@@ -338,6 +496,10 @@
     renderHeader(route);
     if (route.name === "home") {
       renderHome();
+      return;
+    }
+    if (route.name === "tribute") {
+      renderTribute();
       return;
     }
     var group = findGroup(route.id);

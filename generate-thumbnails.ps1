@@ -1,8 +1,8 @@
 # Generates album thumbnails in {Album}/thumbs/ from gallery-data.js (same filenames as originals).
 param(
     [switch]$Force,
-    [int]$MaxEdge = 1200,
-    [int]$JpegQuality = 100,
+    [int]$MaxEdge = 512,
+    [int]$JpegQuality = 88,
     [string]$GalleryData = "gallery-data.js"
 )
 

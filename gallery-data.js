@@ -5,7 +5,7 @@
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
 window.PORTFOLIO_LAST_UPDATED = "2026-06-15";
 /** Group ids whose photo count changed on the date above; deploy.ps1 maintains this list. */
-window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Japan", "People"];
+window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Japan", "People", "Tribute"];
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -298,3 +298,12 @@ window.PORTFOLIO_GROUPS = [
     ],
   },
 ];
+
+/** Non-album page shown last on the home grid. */
+window.PORTFOLIO_TRIBUTE = {
+  id: "Tribute",
+  title: "Tribute to",
+  folder: "Tribute",
+  thumbnail: "Tribute/tribute.jpg",
+  cardMeta: "my Masters",
+};

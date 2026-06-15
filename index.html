@@ -60,7 +60,9 @@
         }
 
         loadScript("gallery-data.js", function () {
-          loadScript("portfolio.js");
+          loadScript("tribute-data.js", function () {
+            loadScript("portfolio.js");
+          });
         });
       })();
     </script>

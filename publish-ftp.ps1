@@ -310,6 +310,10 @@ $files = @(Get-ChildItem -Path $projectRoot -Recurse -File | Where-Object {
         return $false
     }
 
+    if ($relative -eq "Tribute/tribute.md") {
+        return $false
+    }
+
     return $true
 })
 
