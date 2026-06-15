@@ -19,7 +19,7 @@
   Recognized as a master of landscape photography, Woś’s work frequently ventured into the mystical and the transcendental. He pushed technical boundaries by exposing multiple negatives to create highly symbolic, unrepeatable, expressive images that dealt with themes of fragility, time, and the underlying beauty of nature. His work remains in the collections of major institutions like the Museum of Art in Łódź and the Centre for Contemporary Art in Warsaw.  
   [Stanisław Woś on Culture.pl](https://culture.pl/pl/tworca/stanislaw-j-wos)
 
-## **Photographers I like**
+## **Photographers who have inspired me**
 
 * Annie Leibovitz  
   American portrait photographer renowned for her intimate, dramatic portraits of celebrities, often featured in Rolling Stone and Vanity Fair.  

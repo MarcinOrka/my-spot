@@ -40,7 +40,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
       ]
     },
     {
-      "title": "Photographers I like",
+      "title": "Photographers who have inspired me",
       "entries": [
         {
           "name": "Annie Leibovitz",
