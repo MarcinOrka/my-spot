@@ -15,7 +15,7 @@
   --page-pad-bottom: clamp(2.5rem, 8vw, 4rem);
   --header-pad-x: clamp(0.75rem, 4vw, 1.5rem);
   --header-pad-y: clamp(0.65rem, 2.5vw, 1rem);
-  --home-col-min: min(250px, 100%);
+  --home-col-min: min(200px, 100%);
   --thumb-col-min: min(104px, 100%);
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
@@ -88,8 +88,16 @@ button:focus-visible {
   min-width: 0;
 }
 
-.brand span {
+.brand__owner {
   color: var(--muted);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.brand__portfolio {
+  margin-left: 1px;
+  color: var(--accent);
   font-weight: 400;
 }
 
@@ -135,48 +143,40 @@ main {
     max(var(--page-pad-x), env(safe-area-inset-left));
 }
 
-.hero {
-  margin-bottom: clamp(1.35rem, 5vw, 2.5rem);
-}
-
-.hero h1 {
-  margin: 0 0 0.5rem;
-  font-family: var(--font-heading);
-  font-size: clamp(1.15rem, 3.8vw, 1.75rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-}
-
-.hero p {
-  margin: 0;
-  color: var(--muted);
-  max-width: 40rem;
-  font-size: clamp(0.9rem, 2.8vw, 1rem);
-}
-
 .group-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: clamp(0.85rem, 3vw, 1.25rem);
+}
+
+.home-catalog {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
 }
 
 /* Home catalog tiles: 60% of default icon size on narrow viewports (phones / small tablets). */
 @media (max-width: 767px) {
   :root {
-    --home-col-min: min(calc(250px * 0.6), 60%);
+    --home-col-min: min(calc(200px * 0.6), 60%);
   }
 }
 
 .home-footer {
+  width: 100%;
   margin-top: clamp(1.35rem, 4.5vw, 2.25rem);
-  text-align: left;
+  text-align: center;
   color: rgba(242, 242, 244, 0.5);
   font-size: clamp(0.5rem, 1.45vw, 0.6rem);
   letter-spacing: 0.02em;
   line-height: 1.25;
   user-select: none;
+}
+
+.home-footer__line {
+  margin: 0;
+  white-space: nowrap;
 }
 
 .home-footer__date {
@@ -209,6 +209,16 @@ main {
   background: var(--bg-elevated);
   box-shadow: var(--shadow);
   transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.group-card--tribute {
+  border-color: rgba(201, 169, 98, 0.42);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .group-card--tribute:hover {
+    border-color: var(--accent);
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -647,8 +657,11 @@ main {
 
 .tribute-hero {
   position: relative;
+  display: flex;
+  align-items: stretch;
+  gap: clamp(0.85rem, 2.5vw, 1.25rem);
   margin: 0 0 clamp(1.5rem, 4.5vw, 2.35rem);
-  padding: clamp(1.1rem, 3.2vw, 1.55rem) clamp(1rem, 3vw, 1.45rem);
+  padding: 0;
   border: 1px solid rgba(201, 169, 98, 0.22);
   border-radius: clamp(12px, 2.2vw, 16px);
   background:
@@ -675,9 +688,43 @@ main {
   text-transform: uppercase;
 }
 
+.tribute-hero__content {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  padding: clamp(1.1rem, 3.2vw, 1.55rem) clamp(1rem, 3vw, 1.45rem);
+}
+
+.tribute-hero__text {
+  width: 100%;
+}
+
+.tribute-hero__signature {
+  margin: calc(clamp(0.55rem, 1.8vw, 0.75rem) + 1em) 0 0;
+  text-align: right;
+  font-style: italic;
+  font-size: clamp(0.65rem, 1.75vw, 0.74rem);
+  color: var(--accent);
+  line-height: 1.3;
+}
+
+.tribute-hero__media {
+  flex: 0 0 clamp(4.75rem, 21vw, 8rem);
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.tribute-hero__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .tribute-hero__title {
   margin: 0;
-  max-width: 34rem;
   font-family: var(--font-heading);
   font-size: clamp(1.05rem, 3.4vw, 1.55rem);
   font-weight: 600;

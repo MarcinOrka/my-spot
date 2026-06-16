@@ -108,17 +108,6 @@
       nav.appendChild(link);
     });
 
-    if (tribute) {
-      var tributeLink = document.createElement("a");
-      tributeLink.className = "sections-menu__link";
-      tributeLink.href = "#/" + encodeURIComponent(tribute.id);
-      tributeLink.textContent = tribute.title;
-      if (activeSectionId === tribute.id) {
-        tributeLink.classList.add("is-active");
-      }
-      nav.appendChild(tributeLink);
-    }
-
     return nav;
   }
 
@@ -138,7 +127,7 @@
     if (!tribute) return null;
 
     var card = document.createElement("a");
-    card.className = "group-card";
+    card.className = "group-card group-card--tribute";
     card.href = "#/" + encodeURIComponent(tribute.id);
     card.setAttribute("aria-label", tribute.title + ", " + (tribute.cardMeta || "photographers"));
 
@@ -147,8 +136,8 @@
     img.src = tribute.thumbnail;
     img.alt = "";
     img.decoding = "async";
-    img.width = 250;
-    img.height = 250;
+    img.width = 200;
+    img.height = 200;
 
     var body = document.createElement("div");
     body.className = "group-card__body";
@@ -251,20 +240,47 @@
 
     var hero = document.createElement("header");
     hero.className = "tribute-hero";
+
+    var heroContent = document.createElement("div");
+    heroContent.className = "tribute-hero__content";
+
+    var heroText = document.createElement("div");
+    heroText.className = "tribute-hero__text";
+
     var heroTitle = document.createElement("h1");
     heroTitle.className = "tribute-hero__title";
     heroTitle.textContent = tributeContent.title || tribute.title;
-    hero.appendChild(heroTitle);
+    heroText.appendChild(heroTitle);
+
+    var heroSignature = document.createElement("p");
+    heroSignature.className = "tribute-hero__signature";
+    heroSignature.textContent = "Marcin Jaruszewicz";
+    heroText.appendChild(heroSignature);
+
+    heroContent.appendChild(heroText);
+    hero.appendChild(heroContent);
+
+    if (tribute.heroImage) {
+      var heroMedia = document.createElement("div");
+      heroMedia.className = "tribute-hero__media";
+      var heroPhoto = document.createElement("img");
+      heroPhoto.className = "tribute-hero__photo";
+      heroPhoto.src = tribute.heroImage;
+      heroPhoto.alt = "";
+      heroPhoto.decoding = "async";
+      heroMedia.appendChild(heroPhoto);
+      hero.appendChild(heroMedia);
+    }
+
     root.appendChild(hero);
     root.appendChild(renderTributeProfiles(tributeContent));
   }
 
   function renderHome() {
     document.title = "Portfolio — Collections";
-    var hero = document.createElement("div");
-    hero.className = "hero";
-    hero.innerHTML =
-      "<h1>Marcin Jaruszewicz's Photography</h1><p>Welcome to my photography portfolio. I'm happy you are here! Enjoy!</p>";
+
+    var catalog = document.createElement("div");
+    catalog.className = "home-catalog";
 
     var grid = document.createElement("div");
     grid.className = "group-grid";
@@ -292,8 +308,8 @@
         img.fetchPriority = "high";
       }
       img.decoding = "async";
-      img.width = 250;
-      img.height = 250;
+      img.width = 200;
+      img.height = 200;
 
       var body = document.createElement("div");
       body.className = "group-card__body";
@@ -317,32 +333,31 @@
     }
 
     root.innerHTML = "";
-    root.appendChild(hero);
-    root.appendChild(grid);
+    catalog.appendChild(grid);
 
     var lastUpdatedLabel = formatPortfolioLastUpdatedGb(window.PORTFOLIO_LAST_UPDATED);
     if (lastUpdatedLabel) {
       var footer = document.createElement("footer");
       footer.className = "home-footer";
-      footer.setAttribute("aria-label", "Site last updated and author credit");
+      footer.setAttribute("aria-label", "Site last updated and recently changed albums");
+      var footerLine = document.createElement("p");
+      footerLine.className = "home-footer__line";
+
       var footerPre = document.createElement("span");
       footerPre.className = "home-footer__pre";
       footerPre.textContent = "Last updated: ";
       var footerDate = document.createElement("strong");
       footerDate.className = "home-footer__date";
       footerDate.textContent = lastUpdatedLabel;
-      var footerPost = document.createElement("span");
-      footerPost.className = "home-footer__post";
-      footerPost.textContent = " © Marcin Jaruszewicz";
-      footer.appendChild(footerPre);
-      footer.appendChild(footerDate);
+      footerLine.appendChild(footerPre);
+      footerLine.appendChild(footerDate);
 
       var updatedAlbumIds = window.PORTFOLIO_LAST_UPDATED_ALBUMS;
       if (Array.isArray(updatedAlbumIds) && updatedAlbumIds.length) {
         var albumsSep = document.createElement("span");
         albumsSep.className = "home-footer__albums-sep";
         albumsSep.textContent = ": ";
-        footer.appendChild(albumsSep);
+        footerLine.appendChild(albumsSep);
 
         var albumsWrap = document.createElement("span");
         albumsWrap.className = "home-footer__albums";
@@ -359,12 +374,15 @@
           link.textContent = findSectionTitle(id);
           albumsWrap.appendChild(link);
         });
-        footer.appendChild(albumsWrap);
+        footerLine.appendChild(albumsWrap);
       }
 
-      footer.appendChild(footerPost);
-      root.appendChild(footer);
+      footer.appendChild(footerLine);
+
+      catalog.appendChild(footer);
     }
+
+    root.appendChild(catalog);
   }
 
   function renderGroup(group) {
