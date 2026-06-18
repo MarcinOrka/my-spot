@@ -258,11 +258,6 @@
     heroTitle.textContent = tributeContent.title || tribute.title;
     heroText.appendChild(heroTitle);
 
-    var heroSignature = document.createElement("p");
-    heroSignature.className = "tribute-hero__signature";
-    heroSignature.textContent = "Marcin Jaruszewicz";
-    heroText.appendChild(heroSignature);
-
     heroContent.appendChild(heroText);
     hero.appendChild(heroContent);
 

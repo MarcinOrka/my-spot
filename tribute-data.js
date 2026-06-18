@@ -18,6 +18,10 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
             {
               "label": "Marian Schmidt's portfolio",
               "url": "https://culture.pl/pl/galeria/marian-schmidt-fotografia-humanistyczna-galeria"
+            },
+            {
+              "label": "Interview",
+              "url": "https://fototapeta.art.pl/ft20-2schmidt.html"
             }
           ]
         },
@@ -34,6 +38,10 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
             {
               "label": "Tadeusz Rolke's Archives in Artmuseum",
               "url": "https://archiwum.artmuseum.pl/pl/archiwum/archiwum-tadeusza-rolke"
+            },
+            {
+              "label": "Interview",
+              "url": "https://fototapeta.art.pl/2001/trolke.php"
             }
           ]
         },
@@ -44,7 +52,11 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
           ],
           "profileLinks": [
             {
-              "label": "Lorne Liesenfeld on Fototapeta",
+              "label": "About Lorne Liesenfeld and his book",
+              "url": "https://fototapeta.art.pl/2015/lcl.php"
+            },
+            {
+              "label": "Interview",
               "url": "https://fototapeta.art.pl/2023/lrn.php"
             }
           ]
@@ -55,6 +67,10 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
             "Stanisław Woś (1951–2011) was a distinguished Polish photographer, painter, draughtsman, and a prominent lecturer at both the Warsaw School of Photography and the Nikon Academy. Born in Jeżowe, he graduated from the State College of Fine Arts (PWSSP) in Gdańsk. Woś was a monumental figure in the Polish photographic landscape of the 1990s, notably founding and leading the \"PAcamera\" club in Suwałki, which became one of the most influential photographic galleries and artistic centers in the country. Recognized as a master of landscape photography, Woś frequently ventured into the mystical and the transcendental in his work. He pushed technical boundaries by exposing multiple negatives to create highly symbolic, unrepeatable, and expressive images dealing with themes of fragility, time, and the underlying beauty of nature. His work remains in the collections of major institutions like the Museum of Art in Łódź and the Centre for Contemporary Art in Warsaw."
           ],
           "profileLinks": [
+            {
+              "label": "Stanisław Woś's short biography",
+              "url": "https://www.szerokikadr.pl/fotograf-miesiaca/stanislaw-wos"
+            },
             {
               "label": "Stanisław Woś on Culture.pl",
               "url": "https://culture.pl/pl/tworca/stanislaw-j-wos"

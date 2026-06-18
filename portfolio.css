@@ -700,15 +700,6 @@ main {
   width: 100%;
 }
 
-.tribute-hero__signature {
-  margin: calc(clamp(0.55rem, 1.8vw, 0.75rem) + 1em) 0 0;
-  text-align: right;
-  font-style: italic;
-  font-size: clamp(0.65rem, 1.75vw, 0.74rem);
-  color: var(--accent);
-  line-height: 1.3;
-}
-
 .tribute-hero__media {
   flex: 0 0 clamp(4.75rem, 21vw, 8rem);
   align-self: stretch;

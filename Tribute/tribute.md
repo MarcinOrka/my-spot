@@ -7,18 +7,22 @@
   Throughout his career, Schmidt worked as an assistant producer in New York, shot documentaries in Saudi Arabia, and joined the prestigious Rapho photo agency in Paris, aligning with the traditions of humanist reportage photography. Later in life, he transitioned toward a more abstract style of still-life imagery that he termed "photopainting." In Poland, he dedicated much of his time to education, teaching at the Academy of Fine Arts in Poznań and ZPAF, before founding WSFoto in 2000, where he taught expressive photography and the phenomenology of the image.  
   [Marian Schmidt Foundation Biography](https://marianschmidt.org/biography/) 
   [Marian Schmidt's portfolio](https://culture.pl/pl/galeria/marian-schmidt-fotografia-humanistyczna-galeria) 
+  [Interview](https://fototapeta.art.pl/ft20-2schmidt.html)
 * Tadeusz Rolke  
   Tadeusz Rolke (born 1929) is widely regarded as a classic master of Polish photojournalism. Born in Warsaw, he was a member of the Grey Ranks during the occupation and survived the Warsaw Uprising serving as a liaison. His early interest in photography was fueled by wartime illustrated magazines, and he took his earliest surviving photographs in 1944. Although his studies were interrupted by political imprisonment during the Stalinist era in 1951, Rolke returned to photography upon his release, working in photo-technical laboratories before becoming a staff photographer for magazines such as *Stolica*, *Polska*, and *Świat*.  
   Rolke spent the 1970s living in Germany, collaborating with prominent international publications like *Stern*, *Die Zeit*, and *Der Spiegel*, and creating renowned series such as "Fischmarkt." Drawn back to Poland by the Solidarity movement in the 1980s, he extensively documented the country's social and political transformations, capturing everything from the ruins of postwar Warsaw to the vibrant, shifting realities of the 1989 democratic transition.  
   [Tadeusz Rolke on Culture.pl](https://culture.pl/en/artist/tadeusz-rolke) 
   [Tadeusz Rolke's Archives in Artmuseum](https://archiwum.artmuseum.pl/pl/archiwum/archiwum-tadeusza-rolke) 
+  [Interview](https://fototapeta.art.pl/2001/trolke.php)
 * Lorne Liesenfeld  
   Lorne Liesenfeld (born 1960) is a photographer, educator, and author closely associated with the Warsaw School of Photography and Graphic Design. Born in Hamilton, Ontario, Canada, to German immigrant parents, Liesenfeld's background is deeply multicultural. He is well-known in the Polish photography community as an active lecturer and workshop facilitator.  
-  He is the author of the 2015 publication *"Cicha obecność fotografii"* (The Silent Presence of Photography) and has been a frequent collaborator on major photographic exhibitions and educational programs, including the Fotofestiwal in Łódź. His teachings often focus on the subtle, expressive qualities of the photographic medium.  
-  [Lorne Liesenfeld on Fototapeta](https://fototapeta.art.pl/2023/lrn.php)  
+  He is the author of the 2015 publication *"Cicha obecność fotografii"* (The Silent Presence of Photography) and has been a frequent collaborator on major photographic exhibitions and educational programs, including the Fotofestiwal in Łódź. His teachings often focus on the subtle, expressive qualities of the photographic medium.
+  [About Lorne Liesenfeld and his book](https://fototapeta.art.pl/2015/lcl.php)
+  [Interview](https://fototapeta.art.pl/2023/lrn.php)    
 * Stanisław Woś  
   Stanisław Woś (1951–2011) was a distinguished Polish photographer, painter, draughtsman, and a prominent lecturer at both the Warsaw School of Photography and the Nikon Academy. Born in Jeżowe, he graduated from the State College of Fine Arts (PWSSP) in Gdańsk. Woś was a monumental figure in the Polish photographic landscape of the 1990s, notably founding and leading the "PAcamera" club in Suwałki, which became one of the most influential photographic galleries and artistic centers in the country.  
   Recognized as a master of landscape photography, Woś frequently ventured into the mystical and the transcendental in his work. He pushed technical boundaries by exposing multiple negatives to create highly symbolic, unrepeatable, and expressive images dealing with themes of fragility, time, and the underlying beauty of nature. His work remains in the collections of major institutions like the Museum of Art in Łódź and the Centre for Contemporary Art in Warsaw.  
+  [Stanisław Woś's short biography](https://www.szerokikadr.pl/fotograf-miesiaca/stanislaw-wos)
   [Stanisław Woś on Culture.pl](https://culture.pl/pl/tworca/stanislaw-j-wos)
   [Stanisław Woś on Artinfo](https://artinfo.pl/artysci/stanislaw-j-wos/archiwum)
 
