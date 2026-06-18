@@ -14,6 +14,25 @@ function strip(text) {
     .trim();
 }
 
+function escapeHtml(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function formatParagraph(text) {
+  let out = escapeHtml(
+    String(text || "")
+      .replace(/\\\./g, ".")
+      .replace(/\\\)/g, ")")
+  );
+  out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  out = out.replace(/\*([^*]+)\*/g, "<strong>$1</strong>");
+  return out.trim();
+}
+
 function parseProfileLink(line) {
   const trimmed = line.trim();
   let match = trimmed.match(/^Profile Link:\s*\[([^\]]+)\]\((.+)\)\s*$/i);
@@ -39,7 +58,7 @@ function flushParagraph() {
   if (!currentEntry || !buffer.length) return;
   const paragraph = buffer.join(" ").replace(/\s+/g, " ").trim();
   if (paragraph) {
-    currentEntry.paragraphs.push(strip(paragraph));
+    currentEntry.paragraphs.push(formatParagraph(paragraph));
   }
   buffer = [];
 }

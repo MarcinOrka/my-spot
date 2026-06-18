@@ -8,7 +8,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Marian Schmidt",
           "paragraphs": [
-            "Marian Schmidt (1945–2018) was a Polish artist, photographer, mathematician, and the co-founder and director of the Warsaw School of Photography and Graphic Design. Born in Żyrardów, Poland, his family emigrated shortly after World War II. He spent his childhood in Caracas, Venezuela, where he first began taking photographs at the age of twelve. Although he initially studied engineering and earned a Ph.D. in mathematics from Brandeis University in the United States, his passion for the visual arts eventually led him to a full-time career in photography and film. Throughout his career, Schmidt worked as an assistant producer in New York, shot documentaries in Saudi Arabia, and joined the prestigious Rapho photo agency in Paris, aligning with the traditions of humanist reportage photography. Later in life, he transitioned toward a more abstract style of still-life imagery that he termed \"photopainting.\" In Poland, he dedicated much of his time to education, teaching at the Academy of Fine Arts in Poznań and ZPAF, before founding WSFoto in 2000, where he taught expressive photography and the phenomenology of the image."
+            "Marian Schmidt (1945–2018) was a Polish artist, photographer, mathematician, and the co-founder and director of the Warsaw School of Photography and Graphic Design. Born in Żyrardów, Poland, his family emigrated shortly after World War II. He spent his childhood in Caracas, Venezuela, where he first began taking photographs at the age of twelve. Although he initially studied engineering and earned a Ph.D. in mathematics from Brandeis University in the United States, his passion for the visual arts eventually led him to a full-time career in photography and film. Throughout his career, Schmidt worked as an assistant producer in New York, shot documentaries in Saudi Arabia, and joined the prestigious Rapho photo agency in Paris, aligning with the traditions of humanist reportage photography. Later in life, he transitioned toward a more abstract style of still-life imagery that he termed &quot;photopainting.&quot; In Poland, he dedicated much of his time to education, teaching at the <strong>Academy of Fine Arts</strong> in Poznań and <strong>ZPAF</strong>, before founding <strong>WSFoto</strong> in 2000, where he taught expressive photography and the phenomenology of the image."
           ],
           "profileLinks": [
             {
@@ -28,7 +28,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Tadeusz Rolke",
           "paragraphs": [
-            "Tadeusz Rolke (born 1929) is widely regarded as a classic master of Polish photojournalism. Born in Warsaw, he was a member of the Grey Ranks during the occupation and survived the Warsaw Uprising serving as a liaison. His early interest in photography was fueled by wartime illustrated magazines, and he took his earliest surviving photographs in 1944. Although his studies were interrupted by political imprisonment during the Stalinist era in 1951, Rolke returned to photography upon his release, working in photo-technical laboratories before becoming a staff photographer for magazines such as *Stolica*, *Polska*, and *Świat*. Rolke spent the 1970s living in Germany, collaborating with prominent international publications like *Stern*, *Die Zeit*, and *Der Spiegel*, and creating renowned series such as \"Fischmarkt.\" Drawn back to Poland by the Solidarity movement in the 1980s, he extensively documented the country's social and political transformations, capturing everything from the ruins of postwar Warsaw to the vibrant, shifting realities of the 1989 democratic transition."
+            "Tadeusz Rolke (born 1929) is widely regarded as a classic master of Polish photojournalism. Born in Warsaw, he was a member of the Grey Ranks during the occupation and survived the Warsaw Uprising serving as a liaison. His early interest in photography was fueled by wartime illustrated magazines, and he took his earliest surviving photographs in 1944. Although his studies were interrupted by political imprisonment during the Stalinist era in 1951, Rolke returned to photography upon his release, working in photo-technical laboratories before becoming a staff photographer for magazines such as <strong>Stolica</strong>, <strong>Polska</strong>, and <strong>Świat</strong>. Rolke spent the 1970s living in Germany, collaborating with prominent international publications like <strong>Stern</strong>, <strong>Die Zeit</strong>, and <strong>Der Spiegel</strong>, and creating renowned series such as &quot;Fischmarkt.&quot; Drawn back to Poland by the Solidarity movement in the 1980s, he extensively documented the country's social and political transformations, capturing everything from the ruins of postwar Warsaw to the vibrant, shifting realities of the 1989 democratic transition."
           ],
           "profileLinks": [
             {
@@ -48,7 +48,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Lorne Liesenfeld",
           "paragraphs": [
-            "Lorne Liesenfeld (born 1960) is a photographer, educator, and author closely associated with the Warsaw School of Photography and Graphic Design. Born in Hamilton, Ontario, Canada, to German immigrant parents, Liesenfeld's background is deeply multicultural. He is well-known in the Polish photography community as an active lecturer and workshop facilitator. He is the author of the 2015 publication *\"Cicha obecność fotografii\"* (The Silent Presence of Photography) and has been a frequent collaborator on major photographic exhibitions and educational programs, including the Fotofestiwal in Łódź. His teachings often focus on the subtle, expressive qualities of the photographic medium."
+            "Lorne Liesenfeld (born 1960) is a photographer, educator, and author closely associated with the Warsaw School of Photography and Graphic Design. Born in Hamilton, Ontario, Canada, to German immigrant parents, Liesenfeld's background is deeply multicultural. He is well-known in the Polish photography community as an active lecturer and workshop facilitator. He is the author of the 2015 publication <strong>&quot;Cicha obecność fotografii&quot;</strong> (The Silent Presence of Photography) and has been a frequent collaborator on major photographic exhibitions and educational programs, including the Fotofestiwal in Łódź. His teachings often focus on the subtle, expressive qualities of the photographic medium. Liesenfeld's own photographic practice perfectly mirrors the philosophy outlined in his teachings and writings. His work is characterized by a deeply contemplative and minimalist aesthetic that invites the viewer to pause and reflect. Rather than chasing dramatic, high-contrast events or traditional &quot;decisive moments,&quot; Liesenfeld's lens seeks out the quiet, often overlooked aspects of the world."
           ],
           "profileLinks": [
             {
@@ -64,7 +64,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Stanisław Woś",
           "paragraphs": [
-            "Stanisław Woś (1951–2011) was a distinguished Polish photographer, painter, draughtsman, and a prominent lecturer at both the Warsaw School of Photography and the Nikon Academy. Born in Jeżowe, he graduated from the State College of Fine Arts (PWSSP) in Gdańsk. Woś was a monumental figure in the Polish photographic landscape of the 1990s, notably founding and leading the \"PAcamera\" club in Suwałki, which became one of the most influential photographic galleries and artistic centers in the country. Recognized as a master of landscape photography, Woś frequently ventured into the mystical and the transcendental in his work. He pushed technical boundaries by exposing multiple negatives to create highly symbolic, unrepeatable, and expressive images dealing with themes of fragility, time, and the underlying beauty of nature. His work remains in the collections of major institutions like the Museum of Art in Łódź and the Centre for Contemporary Art in Warsaw."
+            "Stanisław Woś (1951–2011) was a distinguished Polish photographer, painter, draughtsman, and a prominent lecturer at both the Warsaw School of Photography and the Nikon Academy. Born in Jeżowe, he graduated from the State College of Fine Arts (PWSSP) in Gdańsk. Woś was a monumental figure in the Polish photographic landscape of the 1990s, notably founding and leading the <strong>&quot;PAcamera&quot;</strong> club in Suwałki, which became one of the most influential photographic galleries and artistic centers in the country. Recognized as a master of landscape photography, Woś frequently ventured into the mystical and the transcendental in his work. He pushed technical boundaries by exposing multiple negatives to create highly symbolic, unrepeatable, and expressive images dealing with themes of fragility, time, and the underlying beauty of nature. His work remains in the collections of major institutions like the <strong>Museum of Art</strong> in Łódź and the <strong>Centre for Contemporary Art</strong> in Warsaw."
           ],
           "profileLinks": [
             {
@@ -121,7 +121,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Alfred Stieglitz",
           "paragraphs": [
-            "A key figure in America's acceptance of photography as a serious art form, who promoted both Pictorialism and \"straight\" modern photography."
+            "A key figure in America's acceptance of photography as a serious art form, who promoted both Pictorialism and &quot;straight&quot; modern photography."
           ],
           "profileLinks": [
             {
@@ -221,7 +221,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Cornell Capa",
           "paragraphs": [
-            "A passionate \"concerned photographer\" who used his camera to educate and advocate for social change, and the founding director of the International Center of Photography (ICP)."
+            "A passionate &quot;concerned photographer&quot; who used his camera to educate and advocate for social change, and the founding director of the International Center of Photography (ICP)."
           ],
           "profileLinks": [
             {
@@ -321,7 +321,7 @@ window.PORTFOLIO_TRIBUTE_CONTENT = {
         {
           "name": "Henri Cartier-Bresson",
           "paragraphs": [
-            "A French humanist photographer and early adopter of 35mm film, universally considered the master of candid photography and the pioneer of \"the decisive moment.\""
+            "A French humanist photographer and early adopter of 35mm film, universally considered the master of candid photography and the pioneer of &quot;the decisive moment.&quot;"
           ],
           "profileLinks": [
             {

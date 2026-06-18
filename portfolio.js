@@ -198,7 +198,7 @@
           entry.paragraphs.forEach(function (paragraph) {
             var p = document.createElement("p");
             p.className = "tribute-profile__bio";
-            p.textContent = paragraph;
+            p.innerHTML = paragraph;
             body.appendChild(p);
           });
           profile.appendChild(body);

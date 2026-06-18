@@ -828,6 +828,11 @@ main {
   line-height: 1.62;
 }
 
+.tribute-profile__bio strong {
+  font-weight: 600;
+  color: rgba(242, 242, 244, 0.96);
+}
+
 .tribute-profile__bio:last-child {
   margin-bottom: 0;
 }
