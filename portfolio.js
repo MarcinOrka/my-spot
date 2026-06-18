@@ -204,18 +204,24 @@
           profile.appendChild(body);
         }
 
-        if (entry.profileUrl) {
+        var profileLinks = entry.profileLinks;
+        if (!profileLinks && entry.profileUrl) {
+          profileLinks = [{ label: entry.profileLabel, url: entry.profileUrl }];
+        }
+        if (profileLinks && profileLinks.length) {
           var footer = document.createElement("footer");
           footer.className = "tribute-profile__footer";
-          var link = document.createElement("a");
-          link.className = "tribute-profile__link";
-          link.href = entry.profileUrl;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          var linkLabel = entry.profileLabel || "profile";
-          link.textContent = linkLabel;
-          link.setAttribute("aria-label", (entry.profileLabel || "Profile link") + " for " + entry.name);
-          footer.appendChild(link);
+          profileLinks.forEach(function (profileLink) {
+            var link = document.createElement("a");
+            link.className = "tribute-profile__link";
+            link.href = profileLink.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            var linkLabel = profileLink.label || "profile";
+            link.textContent = linkLabel;
+            link.setAttribute("aria-label", (profileLink.label || "Profile link") + " for " + entry.name);
+            footer.appendChild(link);
+          });
           profile.appendChild(footer);
         }
 

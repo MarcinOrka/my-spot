@@ -47,12 +47,11 @@ function flushParagraph() {
 function flushEntry() {
   flushParagraph();
   if (!currentEntry || !currentSection) return;
-  if (currentEntry.profileUrl) {
+  if (currentEntry.profileLinks.length) {
     currentSection.entries.push({
       name: currentEntry.name,
       paragraphs: currentEntry.paragraphs,
-      profileLabel: currentEntry.profileLabel,
-      profileUrl: currentEntry.profileUrl,
+      profileLinks: currentEntry.profileLinks,
     });
   }
   currentEntry = null;
@@ -80,16 +79,17 @@ for (const rawLine of lines) {
     currentEntry = {
       name: strip(line.replace(/^\*\s+/, "")),
       paragraphs: [],
-      profileLabel: null,
-      profileUrl: null,
+      profileLinks: [],
     };
     continue;
   }
   const profile = parseProfileLink(line);
   if (profile && currentEntry) {
     flushParagraph();
-    currentEntry.profileLabel = profile.label;
-    currentEntry.profileUrl = profile.url;
+    currentEntry.profileLinks.push({
+      label: profile.label,
+      url: profile.url,
+    });
     continue;
   }
   if (currentEntry) {
