@@ -5,7 +5,7 @@
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
 window.PORTFOLIO_LAST_UPDATED = "2026-06-20";
 /** Group ids whose photo count changed on the date above; deploy.ps1 maintains this list. */
-window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["World"];
+window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Furry Friends", "World"];
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -175,6 +175,7 @@ window.PORTFOLIO_GROUPS = [
       "world-044.jpg",
       "world-045.jpg",
       "world-046.jpg",
+      "world-047.jpg",
     ],
   },
   {
@@ -301,6 +302,28 @@ window.PORTFOLIO_GROUPS = [
           "nefri-014.jpg",
           "nefri-015.jpg",
           "nefri-016.jpg",
+        ],
+      },
+      {
+        title: "Rest of the Pack",
+        folder: "Rest of the Pack",
+        photos: [
+          "rest-of-the-pack-001.jpg",
+          "rest-of-the-pack-002.jpg",
+          "rest-of-the-pack-003.jpg",
+          "rest-of-the-pack-004.jpg",
+          "rest-of-the-pack-005.jpg",
+          "rest-of-the-pack-006.jpg",
+          "rest-of-the-pack-007.jpg",
+          "rest-of-the-pack-008.jpg",
+          "rest-of-the-pack-009.jpg",
+          "rest-of-the-pack-010.jpg",
+          "rest-of-the-pack-011.jpg",
+          "rest-of-the-pack-012.jpg",
+          "rest-of-the-pack-013.jpg",
+          "rest-of-the-pack-014.jpg",
+          "rest-of-the-pack-015.jpg",
+          "rest-of-the-pack-016.jpg",
         ],
       },
     ],

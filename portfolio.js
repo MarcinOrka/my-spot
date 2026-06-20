@@ -9,8 +9,6 @@
   var root = document.getElementById("app-root");
   var lightboxEl = document.getElementById("lightbox");
   var lightboxImg = document.getElementById("lightbox-image");
-  var lightboxCaption = document.getElementById("lightbox-caption");
-  var btnClose = document.getElementById("lightbox-close");
   var btnPlay = document.getElementById("lightbox-play");
   var btnFastPlay = document.getElementById("lightbox-fast-play");
   var btnPrev = document.getElementById("lightbox-prev");
@@ -25,6 +23,12 @@
   var slideshowMode = null;
   var SLIDESHOW_MS = 5000;
   var SLIDESHOW_FAST_MS = 3000;
+  var SLIDESHOW_PLAY_LABEL = ">>";
+  var SLIDESHOW_FAST_PLAY_LABEL = ">>>";
+  var SLIDESHOW_PAUSE_LABEL = "‖";
+  var TOOLTIP_MS = 3000;
+  /** @type {WeakMap<Element, number>} */
+  var tooltipTimers = new WeakMap();
 
   function naturalCompare(a, b) {
     return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
@@ -492,22 +496,16 @@
     lightboxEl.classList.remove("lightbox--awaiting-photo");
   }
 
-  function syncLightboxTopOffset() {
-    var header = document.querySelector(".site-header");
-    var offset = header ? header.offsetHeight : 56;
-    document.documentElement.style.setProperty("--lightbox-top-offset", offset + "px");
-  }
-
   function resetSlideshowButtons() {
     if (btnPlay) {
       btnPlay.classList.remove("is-playing");
-      btnPlay.textContent = "Play";
-      btnPlay.setAttribute("aria-label", "Play slideshow");
+      btnPlay.textContent = SLIDESHOW_PLAY_LABEL;
+      btnPlay.setAttribute("aria-label", "Play");
     }
     if (btnFastPlay) {
       btnFastPlay.classList.remove("is-playing");
-      btnFastPlay.textContent = "Fast play";
-      btnFastPlay.setAttribute("aria-label", "Fast play slideshow");
+      btnFastPlay.textContent = SLIDESHOW_FAST_PLAY_LABEL;
+      btnFastPlay.setAttribute("aria-label", "Fast play");
     }
   }
 
@@ -534,14 +532,13 @@
   function startSlideshow(mode) {
     var intervalMs = mode === "fast-play" ? SLIDESHOW_FAST_MS : SLIDESHOW_MS;
     var activeBtn = mode === "fast-play" ? btnFastPlay : btnPlay;
-    var pauseLabel =
-      mode === "fast-play" ? "Pause fast play slideshow" : "Pause slideshow";
+    var pauseLabel = mode === "fast-play" ? "Pause fast play" : "Pause";
 
     if (!lightboxState || !activeBtn || activeBtn.disabled) return;
     stopSlideshow();
     slideshowMode = mode;
     activeBtn.classList.add("is-playing");
-    activeBtn.textContent = "Pause";
+    activeBtn.textContent = SLIDESHOW_PAUSE_LABEL;
     activeBtn.setAttribute("aria-label", pauseLabel);
     slideshowTimer = setInterval(function () {
       if (!lightboxState) {
@@ -573,7 +570,6 @@
     lightboxEl.classList.add("lightbox--awaiting-photo");
     lightboxEl.hidden = false;
     document.body.classList.add("lightbox-open");
-    syncLightboxTopOffset();
     document.body.style.overflow = "hidden";
     window.requestAnimationFrame(function () {
       window.requestAnimationFrame(function () {
@@ -584,6 +580,9 @@
 
   function closeLightbox() {
     stopSlideshow();
+    lightboxEl.querySelectorAll(".lightbox__play[data-tooltip]").forEach(function (btn) {
+      hideTooltip(btn);
+    });
     lightboxState = null;
     lightboxEl.classList.remove("lightbox--awaiting-photo");
     lightboxEl.hidden = true;
@@ -623,7 +622,6 @@
       });
     }
     lightboxImg.alt = filename;
-    lightboxCaption.textContent = g.title + " · " + (idx + 1) + " / " + sorted.length;
     btnPrev.disabled = idx <= 0;
     btnNext.disabled = idx >= sorted.length - 1;
     updateSlideshowControls();
@@ -668,7 +666,47 @@
     renderGroup(group);
   }
 
-  btnClose.addEventListener("click", closeLightbox);
+  function hideTooltip(btn) {
+    var timer = tooltipTimers.get(btn);
+    if (timer) {
+      clearTimeout(timer);
+      tooltipTimers.delete(btn);
+    }
+    btn.classList.remove("is-tooltip-visible");
+  }
+
+  function showTooltip(btn) {
+    if (btn.disabled) return;
+    hideTooltip(btn);
+    btn.classList.add("is-tooltip-visible");
+    tooltipTimers.set(
+      btn,
+      window.setTimeout(function () {
+        btn.classList.remove("is-tooltip-visible");
+        tooltipTimers.delete(btn);
+      }, TOOLTIP_MS),
+    );
+  }
+
+  function bindTooltipTimers() {
+    lightboxEl.querySelectorAll(".lightbox__play[data-tooltip]").forEach(function (btn) {
+      btn.addEventListener("mouseenter", function () {
+        showTooltip(btn);
+      });
+      btn.addEventListener("focus", function () {
+        showTooltip(btn);
+      });
+      btn.addEventListener("mouseleave", function () {
+        hideTooltip(btn);
+      });
+      btn.addEventListener("blur", function () {
+        hideTooltip(btn);
+      });
+    });
+  }
+
+  bindTooltipTimers();
+
   if (btnPlay) {
     btnPlay.addEventListener("click", function () {
       toggleSlideshow("play");
@@ -719,14 +757,6 @@
   });
 
   window.addEventListener("hashchange", render);
-
-  window.addEventListener("resize", function () {
-    if (!lightboxEl.hidden) {
-      syncLightboxTopOffset();
-    }
-  });
-
-  syncLightboxTopOffset();
 
   var siteHeader = document.querySelector(".site-header");
   if (siteHeader) {

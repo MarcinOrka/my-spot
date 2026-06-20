@@ -124,11 +124,42 @@ foreach ($group in $groups) {
     $folder = $group.folder
     if ([string]::IsNullOrWhiteSpace($folder)) { continue }
 
+    $photoEntries = @()
     foreach ($filename in @($group.photos)) {
         if ([string]::IsNullOrWhiteSpace($filename)) { continue }
+        $photoEntries += [PSCustomObject]@{
+            RelativePath = $filename
+        }
+    }
+    foreach ($section in @($group.sections)) {
+        $sectionFolder = $section.folder
+        foreach ($filename in @($section.photos)) {
+            if ([string]::IsNullOrWhiteSpace($filename)) { continue }
+            $relativePath = if ([string]::IsNullOrWhiteSpace($sectionFolder)) {
+                $filename
+            }
+            else {
+                Join-Path $sectionFolder $filename
+            }
+            $photoEntries += [PSCustomObject]@{
+                RelativePath = $relativePath
+            }
+        }
+    }
 
-        $sourcePath = Join-Path $projectRoot (Join-Path $folder $filename)
-        $thumbPath = Join-Path $projectRoot (Join-Path $folder (Join-Path "thumbs" $filename))
+    foreach ($entry in $photoEntries) {
+        $filename = $entry.RelativePath -replace "\\", "/"
+        $sourcePath = Join-Path $projectRoot (Join-Path $folder ($filename -replace "/", "\"))
+
+        $lastSlash = $filename.LastIndexOf("/")
+        if ($lastSlash -ge 0) {
+            $subDir = $filename.Substring(0, $lastSlash)
+            $thumbName = $filename.Substring($lastSlash + 1)
+            $thumbPath = Join-Path $projectRoot (Join-Path $folder (Join-Path $subDir (Join-Path "thumbs" $thumbName)))
+        }
+        else {
+            $thumbPath = Join-Path $projectRoot (Join-Path $folder (Join-Path "thumbs" $filename))
+        }
 
         if (-not (Test-Path $sourcePath)) {
             Write-Warning "Missing source: $folder/$filename"

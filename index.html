@@ -28,30 +28,50 @@
 
     <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Full screen photo">
       <div id="lightbox-stage" class="lightbox__stage">
-        <div class="lightbox__top">
-          <div id="lightbox-caption" class="lightbox__caption"></div>
-          <div class="lightbox__controls">
-            <button type="button" id="lightbox-play" class="lightbox__play" aria-label="Play slideshow">
-              Play
-            </button>
-            <button type="button" id="lightbox-fast-play" class="lightbox__play" aria-label="Fast play slideshow">
-              Fast play
-            </button>
-            <button type="button" id="lightbox-close" class="lightbox__close" aria-label="Close">
-              ×
-            </button>
-          </div>
+        <div class="lightbox__prev-stack">
+          <button
+            type="button"
+            id="lightbox-prev"
+            class="lightbox__play"
+            aria-label="Previous"
+            data-tooltip="Previous"
+          >
+            &lt;
+          </button>
         </div>
-        <button type="button" id="lightbox-prev" class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">
-          ‹
-        </button>
         <div class="lightbox__photo-wrap">
           <img id="lightbox-image" class="lightbox__image" alt="" />
           <p class="lightbox__watermark" aria-hidden="true">© Marcin Jaruszewicz</p>
         </div>
-        <button type="button" id="lightbox-next" class="lightbox__nav lightbox__nav--next" aria-label="Next photo">
-          ›
-        </button>
+        <div class="lightbox__next-stack">
+          <button
+            type="button"
+            id="lightbox-next"
+            class="lightbox__play"
+            aria-label="Next"
+            data-tooltip="Next"
+          >
+            &gt;
+          </button>
+          <button
+            type="button"
+            id="lightbox-play"
+            class="lightbox__play"
+            aria-label="Play"
+            data-tooltip="Play"
+          >
+            &gt;&gt;
+          </button>
+          <button
+            type="button"
+            id="lightbox-fast-play"
+            class="lightbox__play"
+            aria-label="Fast play"
+            data-tooltip="Fast play"
+          >
+            &gt;&gt;&gt;
+          </button>
+        </div>
         <p class="lightbox__hint">Arrow keys · Click outside to close</p>
       </div>
     </div>
