@@ -288,6 +288,23 @@ main {
   padding-right: env(safe-area-inset-right);
 }
 
+.album-section {
+  margin-bottom: clamp(1.25rem, 4vw, 2rem);
+}
+
+.album-section:last-child {
+  margin-bottom: 0;
+}
+
+.album-section__title {
+  margin: 0 0 clamp(0.65rem, 2.5vw, 0.9rem);
+  font-family: var(--font-heading);
+  font-size: clamp(0.92rem, 2.8vw, 1.05rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--accent);
+}
+
 .sections-menu {
   display: flex;
   flex-wrap: nowrap;
@@ -462,14 +479,60 @@ main {
 
 .lightbox__top {
   position: absolute;
-  top: 0;
+  top: var(--lightbox-top-offset, 3.5rem);
   left: 0;
   right: 0;
+  z-index: 5;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 0.75rem;
-  padding: 0.25rem 0.25rem 0.5rem;
+  padding: 0.35rem max(0.25rem, env(safe-area-inset-right)) 0.5rem
+    max(0.25rem, env(safe-area-inset-left));
+}
+
+.lightbox__controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  max-width: min(100%, 14rem);
+}
+
+.lightbox__play {
+  border: 1px solid var(--border);
+  background: rgba(20, 20, 22, 0.85);
+  color: var(--muted);
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0 0.65rem;
+  border-radius: 999px;
+  font-size: clamp(0.74rem, 2.2vw, 0.82rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.lightbox__play:hover:not(:disabled) {
+  background: var(--surface);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: var(--text);
+}
+
+.lightbox__play.is-playing {
+  border-color: rgba(201, 169, 98, 0.55);
+  color: var(--accent);
+  background: rgba(201, 169, 98, 0.12);
+}
+
+.lightbox__play:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .lightbox__caption {
@@ -478,7 +541,7 @@ main {
   padding: 0.35rem 0.65rem;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.45);
-  max-width: min(100%, calc(100vw - 5.5rem));
+  max-width: min(100%, calc(100vw - 13rem));
   min-width: 0;
   white-space: nowrap;
   overflow: hidden;
@@ -489,14 +552,26 @@ main {
   .lightbox__caption {
     white-space: normal;
     line-height: 1.35;
-    max-width: calc(100% - 3.25rem);
+    max-width: calc(100% - 11.5rem);
+  }
+
+  .lightbox__play {
+    padding: 0 0.45rem;
+    font-size: 0.62rem;
+    min-width: 2.15rem;
+    height: 2.25rem;
+  }
+
+  .lightbox__close {
+    width: 2.25rem;
+    height: 2.25rem;
   }
 }
 
 .lightbox__close {
   border: 1px solid var(--border);
   background: rgba(20, 20, 22, 0.85);
-  color: var(--text);
+  color: var(--muted);
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 999px;
@@ -509,6 +584,8 @@ main {
 
 .lightbox__close:hover {
   background: var(--surface);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: var(--text);
 }
 
 .lightbox__nav {

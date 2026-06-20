@@ -3,9 +3,9 @@
  * Naming convention: photos use <folder-slug>-NNN.jpg and logos use logo-<name>.jpg.
  */
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
-window.PORTFOLIO_LAST_UPDATED = "2026-06-15";
+window.PORTFOLIO_LAST_UPDATED = "2026-06-20";
 /** Group ids whose photo count changed on the date above; deploy.ps1 maintains this list. */
-window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["People", "Japan", "Tribute"];
+window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Furry Friends"];
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -254,47 +254,51 @@ window.PORTFOLIO_GROUPS = [
     ],
   },
   {
-    id: "Nefri",
-    title: "Nefri",
-    folder: "Nefri",
-    logo: "Logos/logo-nefri.jpg",
-    photos: [
-      "nefri-001.jpg",
-      "nefri-002.jpg",
-      "nefri-003.jpg",
-      "nefri-004.jpg",
-      "nefri-005.jpg",
-      "nefri-006.jpg",
-      "nefri-007.jpg",
-      "nefri-008.jpg",
-      "nefri-009.jpg",
-      "nefri-010.jpg",
-      "nefri-011.jpg",
-      "nefri-012.jpg",
-      "nefri-013.jpg",
-      "nefri-014.jpg",
-      "nefri-015.jpg",
-      "nefri-016.jpg",
-    ],
-  },
-  {
-    id: "Diuna",
-    title: "Diuna",
-    folder: "Diuna",
-    logo: "Logos/logo-diuna.jpg",
-    photos: [
-      "diuna-001.jpg",
-      "diuna-002.jpg",
-      "diuna-003.jpg",
-      "diuna-004.jpg",
-      "diuna-005.jpg",
-      "diuna-006.jpg",
-      "diuna-007.jpg",
-      "diuna-008.jpg",
-      "diuna-009.jpg",
-      "diuna-010.jpg",
-      "diuna-011.jpg",
-      "diuna-012.jpg",
+    id: "Furry Friends",
+    title: "Furry Friends",
+    folder: "Furry Friends",
+    logo: "Logos/logo-furry-friends.jpg",
+    sections: [
+      {
+        title: "Diuna",
+        folder: "Diuna",
+        photos: [
+          "diuna-001.jpg",
+          "diuna-002.jpg",
+          "diuna-003.jpg",
+          "diuna-004.jpg",
+          "diuna-005.jpg",
+          "diuna-006.jpg",
+          "diuna-007.jpg",
+          "diuna-008.jpg",
+          "diuna-009.jpg",
+          "diuna-010.jpg",
+          "diuna-011.jpg",
+          "diuna-012.jpg",
+        ],
+      },
+      {
+        title: "Nefri",
+        folder: "Nefri",
+        photos: [
+          "nefri-001.jpg",
+          "nefri-002.jpg",
+          "nefri-003.jpg",
+          "nefri-004.jpg",
+          "nefri-005.jpg",
+          "nefri-006.jpg",
+          "nefri-007.jpg",
+          "nefri-008.jpg",
+          "nefri-009.jpg",
+          "nefri-010.jpg",
+          "nefri-011.jpg",
+          "nefri-012.jpg",
+          "nefri-013.jpg",
+          "nefri-014.jpg",
+          "nefri-015.jpg",
+          "nefri-016.jpg",
+        ],
+      },
     ],
   },
 ];

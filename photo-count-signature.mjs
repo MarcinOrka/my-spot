@@ -15,8 +15,18 @@ if (!Array.isArray(groups)) {
   console.error("PORTFOLIO_GROUPS missing or invalid");
   process.exit(2);
 }
+function countGroupPhotos(g) {
+  if (Array.isArray(g.sections) && g.sections.length) {
+    return g.sections.reduce(
+      (total, section) => total + (Array.isArray(section.photos) ? section.photos.length : 0),
+      0,
+    );
+  }
+  return Array.isArray(g.photos) ? g.photos.length : 0;
+}
+
 const sig = [...groups]
-  .map((g) => `${g.id}:${Array.isArray(g.photos) ? g.photos.length : 0}`)
+  .map((g) => `${g.id}:${countGroupPhotos(g)}`)
   .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }))
   .join("|");
 process.stdout.write(sig);
