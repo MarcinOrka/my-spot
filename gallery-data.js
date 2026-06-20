@@ -5,7 +5,7 @@
 /** ISO date (YYYY-MM-DD); deploy.ps1 sets this only when any album's photo count in this file changes. Empty hides the home footer. */
 window.PORTFOLIO_LAST_UPDATED = "2026-06-20";
 /** Group ids whose photo count changed on the date above; deploy.ps1 maintains this list. */
-window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["Furry Friends"];
+window.PORTFOLIO_LAST_UPDATED_ALBUMS = ["World"];
 
 window.PORTFOLIO_GROUPS = [
   {
@@ -171,6 +171,10 @@ window.PORTFOLIO_GROUPS = [
       "world-040.jpg",
       "world-041.jpg",
       "world-042.jpg",
+      "world-043.jpg",
+      "world-044.jpg",
+      "world-045.jpg",
+      "world-046.jpg",
     ],
   },
   {
