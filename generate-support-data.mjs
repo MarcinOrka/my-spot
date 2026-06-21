@@ -137,6 +137,16 @@ function parseMarkdownFile(filePath) {
   return { title, blocks };
 }
 
+function findSectionLogo(mdFileName) {
+  const base = mdFileName.replace(/\.md$/i, "");
+  for (const ext of [".png", ".svg", ".jpg", ".jpeg", ".webp"]) {
+    if (fs.existsSync(path.join(sourceDir, `${base}_logo${ext}`))) {
+      return `Call for support/${base}_logo${ext}`;
+    }
+  }
+  return null;
+}
+
 const mdFiles = fs
   .readdirSync(sourceDir)
   .filter((name) => name.toLowerCase().endsWith(".md"))
@@ -147,7 +157,12 @@ if (!mdFiles.length) {
   process.exit(2);
 }
 
-const sections = mdFiles.map((name) => parseMarkdownFile(path.join(sourceDir, name)));
+const sections = mdFiles.map((name) => {
+  const parsed = parseMarkdownFile(path.join(sourceDir, name));
+  const logo = findSectionLogo(name);
+  if (logo) parsed.logo = logo;
+  return parsed;
+});
 const introSection = sections[0] || { title: "", blocks: [] };
 const pageTitle = introSection.title || "Call for support";
 

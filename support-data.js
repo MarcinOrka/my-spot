@@ -17,6 +17,7 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
   "sections": [
     {
       "title": "Gajusz Foundation - Awakening Hope When It Is Fast Asleep",
+      "logo": "Call for support/1 - gajusz_foundation_logo.png",
       "blocks": [
         {
           "type": "paragraph",
@@ -135,6 +136,7 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
     },
     {
       "title": "Polish Humanitarian Action (PAH) - Empowering People in Crises",
+      "logo": "Call for support/2 - pah_description_logo.svg",
       "blocks": [
         {
           "type": "paragraph",
@@ -229,6 +231,7 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
     },
     {
       "title": "Rocky Kanaka - Giving Shelter Dogs a Second Chance",
+      "logo": "Call for support/3 - rocky_kanaka_logo.jpg",
       "blocks": [
         {
           "type": "paragraph",
@@ -323,6 +326,7 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
     },
     {
       "title": "DanDanTheFireman - Saving Rider Lives Through Education",
+      "logo": "Call for support/4 - dandanthefireman_logo.jpg",
       "blocks": [
         {
           "type": "paragraph",

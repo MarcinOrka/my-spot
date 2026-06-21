@@ -143,13 +143,6 @@ main {
     max(var(--page-pad-x), env(safe-area-inset-left));
 }
 
-body.page-support main {
-  max-width: none;
-  width: 100%;
-  padding-left: max(10vw, env(safe-area-inset-left));
-  padding-right: max(10vw, env(safe-area-inset-right));
-}
-
 body.page-support .tribute-hero,
 body.page-support .tribute-page,
 body.page-support .tribute-section {
@@ -224,6 +217,35 @@ body.page-support .support-intro .tribute-profile__bio {
 
 body.page-support .support-intro .tribute-profile__bio:last-child {
   margin-bottom: 0;
+}
+
+body.page-support .support-section__logo {
+  flex-shrink: 0;
+  display: block;
+  width: auto;
+  height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center right;
+}
+
+body.page-support .support-section__logo-link {
+  flex-shrink: 0;
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 6px;
+  transition: opacity 0.15s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.page-support .support-section__logo-link:hover {
+    opacity: 0.85;
+  }
+}
+
+body.page-support .support-section__logo-link:focus-visible {
+  outline: 2px solid #e0c989;
+  outline-offset: 2px;
 }
 
 .group-grid {

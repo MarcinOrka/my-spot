@@ -451,6 +451,17 @@
     return intro;
   }
 
+  function getSupportSectionLink(section) {
+    if (!section.blocks) return null;
+    for (var i = 0; i < section.blocks.length; i++) {
+      var block = section.blocks[i];
+      if (block.type === "links" && block.links && block.links.length) {
+        return block.links[0];
+      }
+    }
+    return null;
+  }
+
   function renderSupportSections(data) {
     var article = document.createElement("article");
     article.className = "tribute-page";
@@ -463,14 +474,39 @@
         (sectionIndex % 2 === 0 ? " tribute-section--mentors" : " tribute-section--inspirations");
 
       var showSectionHead = sectionIndex > 0 || section.title !== data.pageTitle;
-      if (showSectionHead && section.title) {
+      if ((showSectionHead && section.title) || section.logo) {
         var sectionHead = document.createElement("div");
         sectionHead.className = "tribute-section__head";
 
-        var heading = document.createElement("h2");
-        heading.className = "tribute-section__title";
-        heading.textContent = section.title;
-        sectionHead.appendChild(heading);
+        if (showSectionHead && section.title) {
+          var heading = document.createElement("h2");
+          heading.className = "tribute-section__title";
+          heading.textContent = section.title;
+          sectionHead.appendChild(heading);
+        }
+
+        if (section.logo) {
+          var sectionLink = getSupportSectionLink(section);
+          var sectionLogo = document.createElement("img");
+          sectionLogo.className = "support-section__logo";
+          sectionLogo.src = section.logo;
+          sectionLogo.alt = "";
+          sectionLogo.decoding = "async";
+
+          if (sectionLink) {
+            var logoLink = document.createElement("a");
+            logoLink.className = "support-section__logo-link";
+            logoLink.href = sectionLink.url;
+            logoLink.target = "_blank";
+            logoLink.rel = "noopener noreferrer";
+            logoLink.setAttribute("aria-label", sectionLink.label);
+            logoLink.appendChild(sectionLogo);
+            sectionHead.appendChild(logoLink);
+          } else {
+            sectionHead.appendChild(sectionLogo);
+          }
+        }
+
         sectionEl.appendChild(sectionHead);
       }
 
