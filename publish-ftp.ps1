@@ -289,6 +289,7 @@ $excludeNames = @(
     "generate-thumbnails.ps1",
     "generate-tribute-data.mjs",
     "generate-support-data.mjs",
+    "md-utils.mjs",
     [System.IO.Path]::GetFileName($statePath)
 )
 

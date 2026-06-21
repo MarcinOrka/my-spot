@@ -20,7 +20,7 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
       "blocks": [
         {
           "type": "paragraph",
-          "html": "&quot;Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep.&quot;"
+          "html": "<strong>&quot;Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep.&quot;</strong>"
         },
         {
           "type": "paragraph",

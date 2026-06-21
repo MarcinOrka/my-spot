@@ -4,10 +4,12 @@
  *
  * Usage: node generate-support-data.mjs
  * Then commit support-data.js and deploy when ready.
+ * The page is static — support-data.js is loaded as a plain <script>; the .md sources are never uploaded.
  */
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { escapeHtml } from "./md-utils.mjs";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const sourceDir = path.join(root, "Call for support");
@@ -22,14 +24,6 @@ function strip(text) {
     .trim();
 }
 
-function escapeHtml(text) {
-  return String(text || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
 function formatInline(text) {
   let out = escapeHtml(
     String(text || "")
@@ -39,7 +33,10 @@ function formatInline(text) {
   );
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/\*([^*]+)\*/g, "<strong>$1</strong>");
-  out = out.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  out = out.replace(
+    /\[([^\]]+)\]\(([^)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
   return out.trim();
 }
 

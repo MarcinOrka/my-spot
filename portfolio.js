@@ -21,6 +21,8 @@
 
   /** @type {{ groupId: string, index: number } | null} */
   var lightboxState = null;
+  /** @type {Element | null} Element focused before the lightbox opened, restored on close. */
+  var lightboxReturnFocus = null;
   var slideshowTimer = null;
   var slideshowMode = null;
   var SLIDESHOW_MS = 5000;
@@ -61,7 +63,14 @@
     return photoUrl(folder, "thumbs/" + relativePath);
   }
 
+  /** @type {Object<string, string[]>} */
+  var groupPhotosCache = Object.create(null);
+
   function getGroupPhotos(group) {
+    var cached = groupPhotosCache[group.id];
+    if (cached) return cached;
+
+    var result;
     if (group.sections && group.sections.length) {
       var all = [];
       group.sections.forEach(function (section) {
@@ -70,9 +79,13 @@
           all.push(prefix + filename);
         });
       });
-      return all;
+      result = all;
+    } else {
+      result = sortPhotos(group.photos || []);
     }
-    return sortPhotos(group.photos || []);
+
+    groupPhotosCache[group.id] = result;
+    return result;
   }
 
   function createThumbTile(group, relativePath, index, allPhotos) {
@@ -145,8 +158,7 @@
   }
 
   function getActiveSectionId(route) {
-    if (route.name === "group" || route.name === "tribute") return route.id;
-    return null;
+    return route.name === "group" ? route.id : null;
   }
 
   function createSectionsMenu(activeSectionId) {
@@ -680,6 +692,11 @@
     root.innerHTML = "";
     root.appendChild(title);
 
+    var indexByPath = Object.create(null);
+    allPhotos.forEach(function (relativePath, i) {
+      indexByPath[relativePath] = i;
+    });
+
     if (group.sections && group.sections.length) {
       group.sections.forEach(function (section) {
         var sectionEl = document.createElement("section");
@@ -696,7 +713,7 @@
         var prefix = section.folder ? section.folder + "/" : "";
         sortPhotos(section.photos).forEach(function (filename) {
           var relativePath = prefix + filename;
-          var index = allPhotos.indexOf(relativePath);
+          var index = indexByPath[relativePath];
           grid.appendChild(createThumbTile(group, relativePath, index, allPhotos));
         });
 
@@ -792,10 +809,29 @@
     }
   }
 
+  function getLightboxFocusable() {
+    return Array.prototype.slice
+      .call(lightboxEl.querySelectorAll(".lightbox__play"))
+      .filter(function (btn) {
+        return !btn.disabled && !btn.hidden;
+      });
+  }
+
+  function focusFirstLightboxControl() {
+    var focusable = getLightboxFocusable();
+    if (focusable.length) {
+      focusable[0].focus();
+    } else {
+      lightboxStage.setAttribute("tabindex", "-1");
+      lightboxStage.focus();
+    }
+  }
+
   function openLightbox(groupId, index, sortedOverride) {
     stopSlideshow();
     var sorted = sortedOverride || getSortedPhotosForGroup(groupId);
     if (!sorted.length) return;
+    lightboxReturnFocus = document.activeElement;
     lightboxState = { groupId: groupId, index: Math.max(0, Math.min(index, sorted.length - 1)) };
     lightboxEl.classList.add("lightbox--awaiting-photo");
     lightboxEl.hidden = false;
@@ -804,11 +840,13 @@
     window.requestAnimationFrame(function () {
       window.requestAnimationFrame(function () {
         updateLightboxImage();
+        focusFirstLightboxControl();
       });
     });
   }
 
   function closeLightbox() {
+    var wasOpen = !lightboxEl.hidden;
     stopSlideshow();
     lightboxEl.querySelectorAll(".lightbox__play[data-tooltip]").forEach(function (btn) {
       hideTooltip(btn);
@@ -820,6 +858,10 @@
     lightboxImg.classList.remove("is-loading");
     lightboxImg.removeAttribute("src");
     document.body.style.overflow = "";
+    if (wasOpen && lightboxReturnFocus && typeof lightboxReturnFocus.focus === "function") {
+      lightboxReturnFocus.focus();
+    }
+    lightboxReturnFocus = null;
   }
 
   function updateLightboxImage() {
@@ -992,6 +1034,25 @@
     } else if (e.key === "ArrowRight") {
       e.preventDefault();
       stepLightbox(1);
+    } else if (e.key === "Tab") {
+      var focusable = getLightboxFocusable();
+      if (!focusable.length) {
+        e.preventDefault();
+        return;
+      }
+      var firstEl = focusable[0];
+      var lastEl = focusable[focusable.length - 1];
+      var active = document.activeElement;
+      if (!lightboxEl.contains(active)) {
+        e.preventDefault();
+        firstEl.focus();
+      } else if (e.shiftKey && active === firstEl) {
+        e.preventDefault();
+        lastEl.focus();
+      } else if (!e.shiftKey && active === lastEl) {
+        e.preventDefault();
+        firstEl.focus();
+      }
     }
   });
 

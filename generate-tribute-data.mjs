@@ -1,6 +1,15 @@
+/**
+ * Builds static tribute-data.js from Tribute/tribute.md.
+ * Manual step only — deploy.ps1 does NOT run this script.
+ *
+ * Usage: node generate-tribute-data.mjs
+ * Then commit tribute-data.js and deploy when ready.
+ * The page is static — tribute-data.js is loaded as a plain <script>; tribute.md is never uploaded.
+ */
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { escapeHtml } from "./md-utils.mjs";
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const sourcePath = path.join(root, "Tribute", "tribute.md");
@@ -12,14 +21,6 @@ function strip(text) {
     .replace(/\\\./g, ".")
     .replace(/\\\)/g, ")")
     .trim();
-}
-
-function escapeHtml(text) {
-  return String(text || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
 }
 
 function formatParagraph(text) {
