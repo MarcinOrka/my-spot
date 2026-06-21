@@ -428,6 +428,17 @@
     return data.sections;
   }
 
+  function renderSupportIntro(blocks) {
+    if (!blocks.length) return null;
+
+    var intro = document.createElement("div");
+    intro.className = "support-intro";
+    blocks.forEach(function (block) {
+      appendSupportBlock(intro, block);
+    });
+    return intro;
+  }
+
   function renderSupportSections(data) {
     var article = document.createElement("article");
     article.className = "tribute-page";
@@ -519,17 +530,6 @@
     heroTitle.textContent = supportContent.pageTitle || support.title;
     heroText.appendChild(heroTitle);
 
-    var introBlocks = getSupportIntroBlocks(supportContent);
-    if (introBlocks.length) {
-      hero.classList.add("tribute-hero--with-intro");
-      var heroIntro = document.createElement("div");
-      heroIntro.className = "tribute-hero__intro";
-      introBlocks.forEach(function (block) {
-        appendSupportBlock(heroIntro, block);
-      });
-      heroText.appendChild(heroIntro);
-    }
-
     heroContent.appendChild(heroText);
     hero.appendChild(heroContent);
 
@@ -546,6 +546,12 @@
     }
 
     root.appendChild(hero);
+
+    var introEl = renderSupportIntro(getSupportIntroBlocks(supportContent));
+    if (introEl) {
+      root.appendChild(introEl);
+    }
+
     root.appendChild(renderSupportSections(supportContent));
   }
 

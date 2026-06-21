@@ -210,22 +210,19 @@ body.page-support .tribute-profile__link:focus-visible {
   outline-offset: 2px;
 }
 
-body.page-support .tribute-hero--with-intro .tribute-hero__content {
-  align-items: flex-start;
+body.page-support .support-intro {
+  width: 100%;
+  margin: 0 0 clamp(1.5rem, 4.5vw, 2.35rem);
 }
 
-body.page-support .tribute-hero__intro {
-  margin-top: clamp(0.65rem, 2vw, 0.9rem);
-}
-
-body.page-support .tribute-hero__intro .tribute-profile__bio {
+body.page-support .support-intro .tribute-profile__bio {
   margin-bottom: 0.55rem;
   color: rgba(242, 242, 244, 0.84);
   font-size: clamp(0.78rem, 2.1vw, 0.88rem);
   line-height: 1.62;
 }
 
-body.page-support .tribute-hero__intro .tribute-profile__bio:last-child {
+body.page-support .support-intro .tribute-profile__bio:last-child {
   margin-bottom: 0;
 }
 
