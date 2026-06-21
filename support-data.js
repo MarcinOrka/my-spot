@@ -20,6 +20,10 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
       "blocks": [
         {
           "type": "paragraph",
+          "html": "&quot;Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep.&quot;"
+        },
+        {
+          "type": "paragraph",
           "html": "<strong>The Gajusz Foundation (Fundacja Gajusz)</strong> is one of the most well-known and highly respected public benefit organizations in Łódź, dedicated to supporting chronically and terminally ill children and their families. The organization has been active since 1998, providing professional medical and psychological help where the medical hope for a cure ends, and the need for a dignified life full of love and safety begins."
         },
         {
@@ -105,10 +109,6 @@ window.PORTFOLIO_SUPPORT_CONTENT = {
             "<strong>Protecting Childhood:</strong> Through its unique facilities and dedicated staff, the foundation ensures that severe illness does not rob children of their right to play, warmth, and love.",
             "<strong>Decades of Trust:</strong> With over 25 years of experience, the foundation effectively manages complex interventions, providing essential help to around 1,000 families annually."
           ]
-        },
-        {
-          "type": "paragraph",
-          "html": "&quot;Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep.&quot;"
         },
         {
           "type": "h2",

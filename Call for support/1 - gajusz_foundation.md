@@ -1,5 +1,8 @@
 # Gajusz Foundation - Awakening Hope When It Is Fast Asleep
 
+*"Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep."*
+
+
 **The Gajusz Foundation (Fundacja Gajusz)** is one of the most well-known and highly respected public benefit organizations in Łódź, dedicated to supporting chronically and terminally ill children and their families. The organization has been active since 1998, providing professional medical and psychological help where the medical hope for a cure ends, and the need for a dignified life full of love and safety begins.
 
 ## The Story Behind the Foundation
@@ -44,13 +47,9 @@ Volunteers and specialists from the foundation also support patients in children
 * **Protecting Childhood:** Through its unique facilities and dedicated staff, the foundation ensures that severe illness does not rob children of their right to play, warmth, and love.
 * **Decades of Trust:** With over 25 years of experience, the foundation effectively manages complex interventions, providing essential help to around 1,000 families annually.
 
-"Where hope ends, the Gajusz Foundation begins. Professionally and expertly, we awaken hope when it is fast asleep."
-
 ## Give Back - Join the Mission
 
 Supporting the Gajusz Foundation helps provide specialized care and comfort to vulnerable children. Whether it is funding medical equipment, providing emotional support, or fulfilling a sick child's dream, every contribution brings light to their darkest moments. For those fortunate enough to have more, supporting this foundation is a profound way to share love and give back to those facing the hardest battles.
-
-
 
 **Learn more and donate:**
 [**gajusz.org.pl**](https://gajusz.org.pl/)
