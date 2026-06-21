@@ -3,6 +3,7 @@
 param(
     [switch]$WhatIf,
     [switch]$Full,
+    [string[]]$ForcePaths = @(),
     [string]$EnvFile = "cyberfolks.env",
     [string]$StateFile = ".deploy-state.json"
 )
@@ -286,6 +287,8 @@ $excludeNames = @(
     "publish-ftp.ps1",
     "photo-count-signature.mjs",
     "generate-thumbnails.ps1",
+    "generate-tribute-data.mjs",
+    "generate-support-data.mjs",
     [System.IO.Path]::GetFileName($statePath)
 )
 
@@ -311,6 +314,10 @@ $files = @(Get-ChildItem -Path $projectRoot -Recurse -File | Where-Object {
     }
 
     if ($relative -eq "Tribute/tribute.md") {
+        return $false
+    }
+
+    if ($relative -like "Call for support/*.md") {
         return $false
     }
 
@@ -343,11 +350,15 @@ foreach ($file in $files) {
 
 $filesToUpload = @($files)
 $deployState = Load-DeployState -Path $statePath
+$forceSet = @{}
+foreach ($p in $ForcePaths) {
+    $forceSet[($p -replace "\\", "/").TrimStart("/")] = $true
+}
 if (-not $Full) {
     if ($deployState.Count -gt 0) {
         $filesToUpload = @($files | Where-Object {
             $relativePath = $_.FullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
-            (-not $deployState.ContainsKey($relativePath)) -or ($deployState[$relativePath] -ne $currentHashes[$relativePath])
+            $forceSet.ContainsKey($relativePath) -or (-not $deployState.ContainsKey($relativePath)) -or ($deployState[$relativePath] -ne $currentHashes[$relativePath])
         })
     }
     else {

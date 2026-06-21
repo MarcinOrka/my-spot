@@ -1,8 +1,10 @@
 # Run this script to deploy (updates "Last updated" in gallery-data.js only when any album's photo count changes, then uploads via publish-ftp.ps1 using cyberfolks.env).
+# Does not regenerate tribute-data.js or support-data.js — run those generators manually when markdown changes.
 # FTP step uploads only changed files by default (SHA256 vs .deploy-state.json). Use -Full to upload the entire site.
 param(
     [switch]$WhatIf,
     [switch]$Full,
+    [string[]]$ForcePaths = @(),
     [string]$EnvFile = "cyberfolks.env",
     [string]$StateFile = ".deploy-state.json"
 )
@@ -125,5 +127,8 @@ if ($WhatIf) {
 }
 if ($Full) {
     $ftpParams.Full = $true
+}
+if ($ForcePaths.Count -gt 0) {
+    $ftpParams.ForcePaths = $ForcePaths
 }
 & $ftpScript @ftpParams

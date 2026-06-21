@@ -330,12 +330,21 @@ window.PORTFOLIO_GROUPS = [
   },
 ];
 
-/** Non-album page shown last on the home grid. */
+/** Non-album page on the home grid. Content lives in support-data.js (static; regenerate manually). */
+window.PORTFOLIO_SUPPORT = {
+  id: "Call for support",
+  title: "Call for support",
+  folder: "Call for support",
+  thumbnail: "Call for support/call for support-logo.jpg",
+  heroImage: "Call for support/mj.jpg",
+  cardMeta: "Give Back",
+};
+
 window.PORTFOLIO_TRIBUTE = {
   id: "Tribute",
   title: "Tribute to",
   folder: "Tribute",
-  thumbnail: "Tribute/tribute.jpg",
+  thumbnail: "Tribute/tribute-logo.jpg",
   heroImage: "Tribute/mj.jpg",
   cardMeta: "my Masters",
 };

@@ -89,7 +89,9 @@
 
         loadScript("gallery-data.js", function () {
           loadScript("tribute-data.js", function () {
-            loadScript("portfolio.js");
+            loadScript("support-data.js", function () {
+              loadScript("portfolio.js");
+            });
           });
         });
       })();

@@ -5,6 +5,8 @@
   var groups = window.PORTFOLIO_GROUPS || [];
   var tribute = window.PORTFOLIO_TRIBUTE || null;
   var tributeContent = window.PORTFOLIO_TRIBUTE_CONTENT || null;
+  var support = window.PORTFOLIO_SUPPORT || null;
+  var supportContent = window.PORTFOLIO_SUPPORT_CONTENT || null;
 
   var root = document.getElementById("app-root");
   var lightboxEl = document.getElementById("lightbox");
@@ -107,6 +109,7 @@
     var group = findGroup(id);
     if (group) return group.title;
     if (tribute && id === tribute.id) return tribute.title;
+    if (support && id === support.id) return support.title;
     return id;
   }
 
@@ -118,6 +121,7 @@
     if (parts.length === 1) {
       var id = decodeURIComponent(parts[0]);
       if (tribute && id === tribute.id) return { name: "tribute", id: id };
+      if (support && id === support.id) return { name: "support", id: id };
       return { name: "group", id: id };
     }
     return { name: "home" };
@@ -174,6 +178,38 @@
       month: "long",
       day: "numeric",
     });
+  }
+
+  function createSupportHomeCard() {
+    if (!support) return null;
+
+    var card = document.createElement("a");
+    card.className = "group-card group-card--support";
+    card.href = "#/" + encodeURIComponent(support.id);
+    card.setAttribute("aria-label", support.title + ", " + (support.cardMeta || "support"));
+
+    var img = document.createElement("img");
+    img.className = "group-card__image";
+    img.src = support.thumbnail;
+    img.alt = "";
+    img.decoding = "async";
+    img.width = 200;
+    img.height = 200;
+
+    var body = document.createElement("div");
+    body.className = "group-card__body";
+    var title = document.createElement("h2");
+    title.className = "group-card__title";
+    title.textContent = support.title;
+    var meta = document.createElement("span");
+    meta.className = "group-card__meta";
+    meta.textContent = support.cardMeta || "Give Back";
+
+    body.appendChild(title);
+    body.appendChild(meta);
+    card.appendChild(img);
+    card.appendChild(body);
+    return card;
   }
 
   function createTributeHomeCard() {
@@ -330,6 +366,189 @@
     root.appendChild(renderTributeProfiles(tributeContent));
   }
 
+  function appendSupportBlock(container, block) {
+    if (block.type === "paragraph") {
+      var paragraph = document.createElement("p");
+      paragraph.className = "tribute-profile__bio";
+      paragraph.innerHTML = block.html;
+      container.appendChild(paragraph);
+      return;
+    }
+    if (block.type === "h2") {
+      var h2 = document.createElement("h3");
+      h2.className = "tribute-profile__name tribute-profile__name--sub";
+      h2.innerHTML = block.html;
+      container.appendChild(h2);
+      return;
+    }
+    if (block.type === "h3") {
+      var h3 = document.createElement("h4");
+      h3.className = "tribute-profile__name tribute-profile__name--sub-sm";
+      h3.innerHTML = block.html;
+      container.appendChild(h3);
+      return;
+    }
+    if (block.type === "blockquote") {
+      var quote = document.createElement("blockquote");
+      quote.className = "tribute-profile__bio tribute-profile__bio--quote";
+      quote.innerHTML = block.html;
+      container.appendChild(quote);
+      return;
+    }
+    if (block.type === "list") {
+      var list = document.createElement("ul");
+      list.className = "tribute-profile__list";
+      block.items.forEach(function (item) {
+        var li = document.createElement("li");
+        li.className = "tribute-profile__list-item";
+        li.innerHTML = item;
+        list.appendChild(li);
+      });
+      container.appendChild(list);
+    }
+  }
+
+  function getSupportIntroBlocks(data) {
+    if (data.introBlocks && data.introBlocks.length) {
+      return data.introBlocks;
+    }
+    if (data.sections.length && data.sections[0].title === data.pageTitle) {
+      return data.sections[0].blocks;
+    }
+    return [];
+  }
+
+  function getSupportContentSections(data) {
+    if (data.introBlocks && data.introBlocks.length) {
+      return data.sections;
+    }
+    if (data.sections.length && data.sections[0].title === data.pageTitle) {
+      return data.sections.slice(1);
+    }
+    return data.sections;
+  }
+
+  function renderSupportSections(data) {
+    var article = document.createElement("article");
+    article.className = "tribute-page";
+    var sections = getSupportContentSections(data);
+
+    sections.forEach(function (section, sectionIndex) {
+      var sectionEl = document.createElement("section");
+      sectionEl.className =
+        "tribute-section" +
+        (sectionIndex % 2 === 0 ? " tribute-section--mentors" : " tribute-section--inspirations");
+
+      var showSectionHead = sectionIndex > 0 || section.title !== data.pageTitle;
+      if (showSectionHead && section.title) {
+        var sectionHead = document.createElement("div");
+        sectionHead.className = "tribute-section__head";
+
+        var heading = document.createElement("h2");
+        heading.className = "tribute-section__title";
+        heading.textContent = section.title;
+        sectionHead.appendChild(heading);
+        sectionEl.appendChild(sectionHead);
+      }
+
+      var list = document.createElement("div");
+      list.className = "tribute-section__list tribute-section__list--single";
+
+      var profile = document.createElement("article");
+      profile.className = "tribute-profile";
+
+      var body = document.createElement("div");
+      body.className = "tribute-profile__body";
+      var footer = null;
+
+      section.blocks.forEach(function (block) {
+        if (block.type === "links") {
+          if (!footer) {
+            footer = document.createElement("footer");
+            footer.className = "tribute-profile__footer";
+          }
+          block.links.forEach(function (link) {
+            var anchor = document.createElement("a");
+            anchor.className = "tribute-profile__link";
+            anchor.href = link.url;
+            anchor.target = "_blank";
+            anchor.rel = "noopener noreferrer";
+            anchor.textContent = link.label;
+            anchor.setAttribute("aria-label", link.label);
+            footer.appendChild(anchor);
+          });
+          return;
+        }
+        appendSupportBlock(body, block);
+      });
+
+      profile.appendChild(body);
+      if (footer) {
+        profile.appendChild(footer);
+      }
+
+      list.appendChild(profile);
+      sectionEl.appendChild(list);
+      article.appendChild(sectionEl);
+    });
+
+    return article;
+  }
+
+  function renderSupport() {
+    if (!support || !supportContent) {
+      root.innerHTML =
+        "<p class=\"tribute-status tribute-status--error\">Missing Call for support content. Ensure <code>support-data.js</code> loads before <code>portfolio.js</code>.</p>";
+      return;
+    }
+
+    document.title = support.title + " — Portfolio";
+    root.innerHTML = "";
+
+    var hero = document.createElement("header");
+    hero.className = "tribute-hero";
+
+    var heroContent = document.createElement("div");
+    heroContent.className = "tribute-hero__content";
+
+    var heroText = document.createElement("div");
+    heroText.className = "tribute-hero__text";
+
+    var heroTitle = document.createElement("h1");
+    heroTitle.className = "tribute-hero__title";
+    heroTitle.textContent = supportContent.pageTitle || support.title;
+    heroText.appendChild(heroTitle);
+
+    var introBlocks = getSupportIntroBlocks(supportContent);
+    if (introBlocks.length) {
+      hero.classList.add("tribute-hero--with-intro");
+      var heroIntro = document.createElement("div");
+      heroIntro.className = "tribute-hero__intro";
+      introBlocks.forEach(function (block) {
+        appendSupportBlock(heroIntro, block);
+      });
+      heroText.appendChild(heroIntro);
+    }
+
+    heroContent.appendChild(heroText);
+    hero.appendChild(heroContent);
+
+    if (support.heroImage) {
+      var heroMedia = document.createElement("div");
+      heroMedia.className = "tribute-hero__media";
+      var heroPhoto = document.createElement("img");
+      heroPhoto.className = "tribute-hero__photo";
+      heroPhoto.src = support.heroImage;
+      heroPhoto.alt = "";
+      heroPhoto.decoding = "async";
+      heroMedia.appendChild(heroPhoto);
+      hero.appendChild(heroMedia);
+    }
+
+    root.appendChild(hero);
+    root.appendChild(renderSupportSections(supportContent));
+  }
+
   function renderHome() {
     document.title = "Portfolio — Collections";
 
@@ -384,6 +603,11 @@
     var tributeCard = createTributeHomeCard();
     if (tributeCard) {
       grid.appendChild(tributeCard);
+    }
+
+    var supportCard = createSupportHomeCard();
+    if (supportCard) {
+      grid.appendChild(supportCard);
     }
 
     root.innerHTML = "";
@@ -646,9 +870,14 @@
     );
   }
 
+  function setPageClass(route) {
+    document.body.classList.toggle("page-support", route.name === "support");
+  }
+
   function render() {
     closeLightbox();
     var route = parseRoute();
+    setPageClass(route);
     renderHeader(route);
     if (route.name === "home") {
       renderHome();
@@ -656,6 +885,10 @@
     }
     if (route.name === "tribute") {
       renderTribute();
+      return;
+    }
+    if (route.name === "support") {
+      renderSupport();
       return;
     }
     var group = findGroup(route.id);
