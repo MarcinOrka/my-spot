@@ -956,6 +956,7 @@
 
   function setPageClass(route) {
     document.body.classList.toggle("page-support", route.name === "support");
+    document.body.classList.toggle("page-tribute", route.name === "tribute");
   }
 
   function render() {
