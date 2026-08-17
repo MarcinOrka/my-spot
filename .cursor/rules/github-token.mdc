@@ -1,0 +1,12 @@
+---
+description: Always use the saved GitHub CLI token for GitHub operations
+alwaysApply: true
+---
+
+# GitHub authentication
+
+For every GitHub operation (`git push`/`pull`/`fetch`, `gh`, PRs, issues, API), use the saved GitHub CLI token already in the Windows keyring (`gh auth status`, account MarcinOrka).
+
+- Prefer `gh` for GitHub tasks.
+- For `git` against github.com, authenticate with that token, e.g. `git -c credential.helper= -c credential.helper="!gh auth git-credential"`.
+- Do not prompt for a new login, do not skip auth, and do not use a different token or anonymous access when this one works.
