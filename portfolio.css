@@ -74,9 +74,8 @@ button:focus-visible {
   padding: var(--header-pad-y) max(var(--header-pad-x), env(safe-area-inset-right))
     var(--header-pad-y) max(var(--header-pad-x), env(safe-area-inset-left));
   padding-top: max(var(--header-pad-y), env(safe-area-inset-top));
-  background: linear-gradient(180deg, rgba(12, 12, 13, 0.96), rgba(12, 12, 13, 0.88));
+  background: linear-gradient(180deg, rgba(12, 12, 13, 0.96), rgba(12, 12, 13, 0.92));
   border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(10px);
 }
 
 .brand {
@@ -505,6 +504,8 @@ body.page-support .support-section__logo-link:focus-visible {
   overflow: hidden;
   cursor: pointer;
   background: #000;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 180px;
   aspect-ratio: 1;
 }
 

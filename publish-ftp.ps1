@@ -1,4 +1,5 @@
 # FTP upload (reads cyberfolks.env by default). Invoked by deploy.ps1; can be run alone.
+# Uploads only runtime site files (HTML/CSS/JS plus photo/logo assets). Source, tools, and secrets stay local.
 # By default only files whose SHA256 changed since the last run are uploaded (see .deploy-state.json). Use -Full for a complete upload.
 param(
     [switch]$WhatIf,
@@ -277,52 +278,76 @@ $remoteRoot = ($remoteRoot -replace "\\", "/").Trim("/")
 $credential = New-Object System.Net.NetworkCredential($userName, $password)
 $createdDirs = New-Object "System.Collections.Generic.HashSet[string]"
 
-$excludeNames = @(
-    ".env",
-    ".env.example",
-    "cyberfolks.env",
-    ".gitignore",
-    ".portfolio-photo-counts",
-    "deploy-ftp.ps1",
-    "publish-ftp.ps1",
-    "photo-count-signature.mjs",
-    "generate-thumbnails.ps1",
-    "generate-tribute-data.mjs",
-    "generate-support-data.mjs",
-    "md-utils.mjs",
-    [System.IO.Path]::GetFileName($statePath)
+# Pages and scripts the browser loads. Everything else (markdown sources, deploy
+# tools, env files, Books/, git) stays off the server.
+$siteRootFiles = @(
+    "index.html",
+    "library.html",
+    "portfolio.css",
+    "portfolio.js",
+    "gallery-data.js",
+    "tribute-data.js",
+    "support-data.js",
+    "favicon.ico",
+    "robots.txt",
+    ".htaccess"
 )
 
+$siteAssetDirs = @(
+    "Animals",
+    "People",
+    "Studio",
+    "World",
+    "Japan",
+    "Furry Friends",
+    "Logos",
+    "Tribute",
+    "Call for support"
+)
+
+$siteAssetExtensions = @(
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".gif",
+    ".webp",
+    ".svg",
+    ".ico"
+)
+
+function Test-SiteDeployFile {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Relative,
+        [Parameter(Mandatory = $true)]
+        [string]$Name
+    )
+
+    if ($Relative.StartsWith(".git/") -or $Relative.StartsWith(".git\")) {
+        return $false
+    }
+
+    if ($siteRootFiles -contains $Relative) {
+        return $true
+    }
+
+    $ext = [System.IO.Path]::GetExtension($Name).ToLowerInvariant()
+    if ($siteAssetExtensions -notcontains $ext) {
+        return $false
+    }
+
+    foreach ($dir in $siteAssetDirs) {
+        if ($Relative -eq $dir -or $Relative.StartsWith("$dir/")) {
+            return $true
+        }
+    }
+
+    return $false
+}
+
 $files = @(Get-ChildItem -Path $projectRoot -Recurse -File | Where-Object {
-    $fullName = $_.FullName
-    $relative = $fullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
-    $name = $_.Name
-
-    if ($relative.StartsWith(".git/") -or $relative.StartsWith(".git\")) {
-        return $false
-    }
-
-    if ($relative.StartsWith("monnomnom/")) {
-        return $false
-    }
-
-    if ($excludeNames -contains $name) {
-        return $false
-    }
-
-    if ($name -like "*.env") {
-        return $false
-    }
-
-    if ($relative -eq "Tribute/tribute.md") {
-        return $false
-    }
-
-    if ($relative -like "Call for support/*.md") {
-        return $false
-    }
-
-    return $true
+    $relative = $_.FullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
+    Test-SiteDeployFile -Relative $relative -Name $_.Name
 })
 
 if ($files.Count -eq 0) {
@@ -342,6 +367,10 @@ if ($files.Count -eq 0) {
 
 Write-Host "Mode: $(if (-not $Full) { "changed-files-only" } else { "full" })"
 Write-Host "Deploy target: ${protocol}://${hostName}:${port}/$remoteRoot"
+$rootDeployed = @($files | Where-Object { $_.DirectoryName -eq $projectRoot } | ForEach-Object { $_.Name } | Sort-Object)
+if ($rootDeployed.Count -gt 0) {
+    Write-Host "Root site files: $($rootDeployed -join ', ')"
+}
 
 $currentHashes = @{}
 foreach ($file in $files) {
@@ -411,7 +440,9 @@ foreach ($file in $filesToUpload) {
     Write-Host "Uploaded ($uploaded/$($filesToUpload.Count)): $relativePath"
 
     $deployState[$relativePath] = $currentHashes[$relativePath]
-    Save-DeployState -Path $statePath -Files $deployState
+    if (($uploaded % 25) -eq 0) {
+        Save-DeployState -Path $statePath -Files $deployState
+    }
 }
 
 if ($WhatIf) {

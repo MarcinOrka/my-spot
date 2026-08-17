@@ -31,6 +31,7 @@
   var SLIDESHOW_FAST_PLAY_LABEL = ">>>";
   var SLIDESHOW_PAUSE_LABEL = "‖";
   var TOOLTIP_MS = 3000;
+  var lightboxPrefetch = new Image();
   /** @type {WeakMap<Element, number>} */
   var tooltipTimers = new WeakMap();
 
@@ -88,10 +89,11 @@
     return result;
   }
 
-  function createThumbTile(group, relativePath, index, allPhotos) {
+  function createThumbTile(group, relativePath, index) {
     var tile = document.createElement("button");
     tile.type = "button";
     tile.className = "thumb-tile";
+    tile.dataset.index = String(index);
     tile.setAttribute("aria-label", "Open " + relativePath.split("/").pop());
 
     var thumb = document.createElement("img");
@@ -105,10 +107,15 @@
     }
 
     tile.appendChild(thumb);
-    tile.addEventListener("click", function () {
-      openLightbox(group.id, index, allPhotos);
-    });
     return tile;
+  }
+
+  function bindThumbGrid(grid, group, allPhotos) {
+    grid.addEventListener("click", function (event) {
+      var tile = event.target.closest(".thumb-tile");
+      if (!tile || !grid.contains(tile)) return;
+      openLightbox(group.id, Number(tile.dataset.index), allPhotos);
+    });
   }
 
   function findGroup(id) {
@@ -633,6 +640,8 @@
       img.alt = "";
       if (cardIndex < 4) {
         img.fetchPriority = "high";
+      } else {
+        img.loading = "lazy";
       }
       img.decoding = "async";
       img.width = 200;
@@ -734,6 +743,7 @@
     });
 
     if (group.sections && group.sections.length) {
+      var photoOffset = 0;
       group.sections.forEach(function (section) {
         var sectionEl = document.createElement("section");
         sectionEl.className = "album-section";
@@ -745,13 +755,15 @@
 
         var grid = document.createElement("div");
         grid.className = "thumb-grid";
-
-        var prefix = section.folder ? section.folder + "/" : "";
-        sortPhotos(section.photos).forEach(function (filename) {
-          var relativePath = prefix + filename;
-          var index = indexByPath[relativePath];
-          grid.appendChild(createThumbTile(group, relativePath, index, allPhotos));
-        });
+        var fragment = document.createDocumentFragment();
+        var sectionCount = section.photos.length;
+        for (var i = 0; i < sectionCount; i++) {
+          var relativePath = allPhotos[photoOffset + i];
+          fragment.appendChild(createThumbTile(group, relativePath, indexByPath[relativePath]));
+        }
+        photoOffset += sectionCount;
+        grid.appendChild(fragment);
+        bindThumbGrid(grid, group, allPhotos);
 
         sectionEl.appendChild(grid);
         root.appendChild(sectionEl);
@@ -761,11 +773,14 @@
 
     var grid = document.createElement("div");
     grid.className = "thumb-grid";
+    var fragment = document.createDocumentFragment();
 
     allPhotos.forEach(function (filename, index) {
-      grid.appendChild(createThumbTile(group, filename, index, allPhotos));
+      fragment.appendChild(createThumbTile(group, filename, index));
     });
 
+    grid.appendChild(fragment);
+    bindThumbGrid(grid, group, allPhotos);
     root.appendChild(grid);
   }
 
@@ -913,7 +928,6 @@
     var filename = sorted[idx];
     var nextSrc = photoUrl(g.folder, filename);
     lightboxImg.classList.add("is-loading");
-    lightboxImg.removeAttribute("src");
     lightboxImg.onload = function () {
       lightboxImg.classList.remove("is-loading");
       revealLightboxPhoto();
@@ -932,6 +946,9 @@
     lightboxImg.alt = filename;
     btnPrev.disabled = idx <= 0;
     btnNext.disabled = idx >= sorted.length - 1;
+    if (idx + 1 < sorted.length) {
+      lightboxPrefetch.src = photoUrl(g.folder, sorted[idx + 1]);
+    }
     updateSlideshowControls();
   }
 
