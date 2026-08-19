@@ -3367,9 +3367,9 @@ Posortowane alfabetycznie według nazwiska autora, potem tytułu.
 
 - **Autor:** Max Tegmark
 - **Język:** polski
-- **Przeczytana:** nie
+- **Przeczytana:** tak
 - **Ocena LubimyCzytac.pl:** 7,1/10
-- **Ocena:** brak
+- **Ocena:** 3/5
 - **Opis:** Max Erik Tegmark (ur. 5 maja 1967 w Sztokholmie) – szwedzko-amerykański fizyk, kosmolog i badacz sztucznej inteligencji. Profesor w Massachusetts Institute of Technology. Dyrektor naukowy w Instytucie Podstawowych Problemów (Foundational Questions Institute), niezależnej organizacji non-profit, dystrybuującej środki na badania z dziedziny fizyki i kosmologii, a także prezes Instytutu Przyszłości Życia (Future of Life Institute), organizacji stawiającej sobie za cel łagodzenie globalnych zagrożeń dla ludzkości, w szczególności związanych z rozwojem sztucznej inteligencji.
 
 ### Walden, czyli życie w lesie

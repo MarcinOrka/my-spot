@@ -431,6 +431,7 @@ body.page-support .support-section__logo-link:focus-visible {
   padding: 0;
   flex: 1 1 auto;
   min-width: 0;
+  align-items: center;
   justify-content: flex-end;
 }
 

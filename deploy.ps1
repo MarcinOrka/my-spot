@@ -1,5 +1,5 @@
 # Run this script to deploy (updates "Last updated" in gallery-data.js only when any album's photo count changes, then uploads via publish-ftp.ps1 using cyberfolks.env).
-# FTP uploads only runtime site files (see the allowlist in publish-ftp.ps1). Source markdown, Books/, and deploy tools stay local.
+# FTP uploads only runtime site files (see the allowlist in publish-ftp.ps1). Source markdown, Books/, Music/, and deploy tools stay local.
 # Does not regenerate tribute-data.js or support-data.js — run those generators manually when markdown changes.
 # FTP step uploads only changed files by default (SHA256 vs .deploy-state.json). Use -Full to upload the entire site.
 param(

@@ -279,10 +279,11 @@ $credential = New-Object System.Net.NetworkCredential($userName, $password)
 $createdDirs = New-Object "System.Collections.Generic.HashSet[string]"
 
 # Pages and scripts the browser loads. Everything else (markdown sources, deploy
-# tools, env files, Books/, git) stays off the server.
+# tools, env files, Books/, Music/, git) stays off the server.
 $siteRootFiles = @(
     "index.html",
-    "library.html",
+    "books.html",
+    "music.html",
     "portfolio.css",
     "portfolio.js",
     "gallery-data.js",
@@ -327,6 +328,14 @@ function Test-SiteDeployFile {
         return $false
     }
 
+    if ($Relative -eq "Books" -or $Relative.StartsWith("Books/") -or $Relative.StartsWith("Books\")) {
+        return $false
+    }
+
+    if ($Relative -eq "Music" -or $Relative.StartsWith("Music/") -or $Relative.StartsWith("Music\")) {
+        return $false
+    }
+
     if ($siteRootFiles -contains $Relative) {
         return $true
     }
@@ -345,10 +354,29 @@ function Test-SiteDeployFile {
     return $false
 }
 
-$files = @(Get-ChildItem -Path $projectRoot -Recurse -File | Where-Object {
-    $relative = $_.FullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
-    Test-SiteDeployFile -Relative $relative -Name $_.Name
-})
+$files = New-Object System.Collections.Generic.List[System.IO.FileInfo]
+
+foreach ($name in $siteRootFiles) {
+    $path = Join-Path $projectRoot $name
+    if (Test-Path -LiteralPath $path -PathType Leaf) {
+        [void]$files.Add((Get-Item -LiteralPath $path))
+    }
+}
+
+foreach ($dir in $siteAssetDirs) {
+    $path = Join-Path $projectRoot $dir
+    if (-not (Test-Path -LiteralPath $path -PathType Container)) {
+        continue
+    }
+    Get-ChildItem -LiteralPath $path -Recurse -File | ForEach-Object {
+        $relative = $_.FullName.Substring($projectRoot.Length).TrimStart("\").Replace("\", "/")
+        if (Test-SiteDeployFile -Relative $relative -Name $_.Name) {
+            [void]$files.Add($_)
+        }
+    }
+}
+
+$files = @($files)
 
 if ($files.Count -eq 0) {
     throw "No files found to deploy."

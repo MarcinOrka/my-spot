@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="description" content="Prywatny katalog biblioteki: 416 tytułów, filtr według autora, tytułu, przeczytania i ocen." />
+    <meta name="description" content="Prywatny katalog biblioteki: 416 tytułów, filtr według autora, przeczytania i ocen, wyszukiwanie po wszystkich polach." />
     <title>Biblioteka</title>
-    <link rel="stylesheet" href="portfolio.css?v=20260817a" />
+    <link rel="stylesheet" href="portfolio.css?v=20260820a" />
     <style>
 
 body.page-library main {
@@ -471,11 +471,8 @@ body.page-library main {
         <option value="Marcin Żukowski">Marcin Żukowski</option>
           </select>
         </label>
-        <label class="library-toolbar__search" for="author-search">Szukaj autora
-          <input id="author-search" type="search" placeholder="np. King, Lem, Tokarczuk" autocomplete="off" />
-        </label>
-        <label class="library-toolbar__search" for="title-search">Szukaj tytułu
-          <input id="title-search" type="search" placeholder="np. Fundacja, Ogrody Księżyca" autocomplete="off" />
+        <label class="library-toolbar__search" for="catalog-search">Szukaj
+          <input id="catalog-search" type="search" placeholder="autor, tytuł, język, ocena, opis…" autocomplete="off" />
         </label>
         <label class="library-toolbar__compact" for="read-filter">Przeczytana
           <select id="read-filter">
@@ -2775,10 +2772,10 @@ body.page-library main {
         <p class="library-card__meta library-card__meta--status"><span><strong>Przeczytana:</strong> nie</span><span><strong>Ocena LubimyCzytac.pl:</strong> 8,2/10</span><span><strong>Ocena:</strong> brak</span></p>
         <p>Popularnonaukowa książka kosmologa Maxa Tegmarka z 2014 roku. Autor łączy przegląd współczesnej astrofizyki i teorii kwantowej z hipotezą matematycznego wszechświata: tezą, że rzeczywistość fizyczna jest strukturą matematyczną. Tegmark argumentuje, że ta perspektywa zmienia sposób, w jaki fizycy powinni zadawać pytania o naturę rzeczywistości i wieloświat.</p>
       </article>
-      <article class="library-card" data-authors="[&quot;Max Tegmark&quot;]" data-read="nie" data-lc="7,1/10" data-rating="brak">
+      <article class="library-card" data-authors="[&quot;Max Tegmark&quot;]" data-read="tak" data-lc="7,1/10" data-rating="3/5">
         <h2>Życie 3.0. Człowiek w erze sztucznej inteligencji</h2>
         <p class="library-card__meta"><span><strong>Autor:</strong> Max Tegmark</span><span><strong>Język:</strong> polski</span></p>
-        <p class="library-card__meta library-card__meta--status"><span><strong>Przeczytana:</strong> nie</span><span><strong>Ocena LubimyCzytac.pl:</strong> 7,1/10</span><span><strong>Ocena:</strong> brak</span></p>
+        <p class="library-card__meta library-card__meta--status"><span><strong>Przeczytana:</strong> tak</span><span><strong>Ocena LubimyCzytac.pl:</strong> 7,1/10</span><span><strong>Ocena:</strong> 3/5</span></p>
         <p>Max Erik Tegmark (ur. 5 maja 1967 w Sztokholmie) – szwedzko-amerykański fizyk, kosmolog i badacz sztucznej inteligencji. Profesor w Massachusetts Institute of Technology. Dyrektor naukowy w Instytucie Podstawowych Problemów (Foundational Questions Institute), niezależnej organizacji non-profit, dystrybuującej środki na badania z dziedziny fizyki i kosmologii, a także prezes Instytutu Przyszłości Życia (Future of Life Institute), organizacji stawiającej sobie za cel łagodzenie globalnych zagrożeń dla ludzkości, w szczególności związanych z rozwojem sztucznej inteligencji.</p>
       </article>
       <article class="library-card" data-authors="[&quot;Henry David Thoreau&quot;]" data-read="nie" data-lc="7,4/10" data-rating="brak">
@@ -3039,8 +3036,7 @@ body.page-library main {
     <script>
 (function () {
   var authorSelect = document.getElementById("author-filter");
-  var search = document.getElementById("author-search");
-  var titleSearch = document.getElementById("title-search");
+  var search = document.getElementById("catalog-search");
   var readSelect = document.getElementById("read-filter");
   var lcSelect = document.getElementById("lc-filter");
   var ratingSelect = document.getElementById("rating-filter");
@@ -3067,11 +3063,16 @@ body.page-library main {
     } catch (e) {
       authors = [];
     }
+    var title = (card.querySelector("h2") || {}).textContent || "";
+    var paras = [];
+    var pNodes = card.querySelectorAll("p");
+    for (var p = 0; p < pNodes.length; p++) paras.push(pNodes[p].textContent || "");
     index.push({
       card: card,
       authors: authors,
-      authorsFold: fold(authors.join(" ")),
-      titleFold: fold((card.querySelector("h2") || {}).textContent || ""),
+      haystack: fold(
+        [title, authors.join(" "), card.getAttribute("data-read") || "", card.getAttribute("data-lc") || "", card.getAttribute("data-rating") || "", paras.join(" ")].join(" ")
+      ),
       read: card.getAttribute("data-read") || "",
       lc: card.getAttribute("data-lc") || "",
       rating: card.getAttribute("data-rating") || "",
@@ -3099,7 +3100,6 @@ body.page-library main {
   function apply() {
     var chosen = authorSelect.value;
     var q = fold(search.value.trim());
-    var titleQ = fold(titleSearch.value.trim());
     var read = readSelect.value;
     var lc = lcSelect.value;
     var rating = ratingSelect.value;
@@ -3109,8 +3109,7 @@ body.page-library main {
       var item = index[i];
       var show =
         (!chosen || item.authors.indexOf(chosen) !== -1) &&
-        (!q || item.authorsFold.indexOf(q) !== -1) &&
-        (!titleQ || item.titleFold.indexOf(titleQ) !== -1) &&
+        (!q || item.haystack.indexOf(q) !== -1) &&
         (!read || item.read === read) &&
         (!lc || item.lc === lc) &&
         (!rating || item.rating === rating);
@@ -3140,10 +3139,6 @@ body.page-library main {
   lcSelect.addEventListener("change", apply);
   ratingSelect.addEventListener("change", apply);
   search.addEventListener("input", function () {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(apply, 80);
-  });
-  titleSearch.addEventListener("input", function () {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(apply, 80);
   });
