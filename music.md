@@ -1,6 +1,6 @@
 # Muzyka
 
-Unikalne utwory MP3 z katalogu `Music` (8366 pozycji). Duplikaty tej samej piosenki (ten sam autor, album i tytuł) są scalone w jeden wpis.
+Unikalne utwory MP3 z katalogu `Music` (7941 pozycji). Duplikaty tej samej piosenki (ten sam autor, album i tytuł) są scalone w jeden wpis.
 
 Pola: **autor**, **album**, **gatunek**, **utwór**, **ulubione**.
 Autor, album i tytuł pochodzą z metadanych plików (oryginalny język tagów). Gatunek jest atrybutem albumu, ustalonym na podstawie publicznych źródeł (iTunes), w oryginalnym języku źródła.
@@ -736,7 +736,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Amazing
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Angel
 
@@ -752,11 +752,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Crazy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Cryin'
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Deuces are Wild
 
@@ -768,7 +768,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dream On
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dude (Looks Like A Lady)
 
@@ -784,7 +784,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Don't Want To Miss a Thing
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jaded
 
@@ -792,7 +792,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Janie's Got A Gun
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Just Push Play
 
@@ -808,7 +808,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Livin' on the Edge
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love In An Elevator
 
@@ -844,7 +844,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Walk This Way
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Walk This Way (Performed by Run D.M.C.)
 
@@ -902,7 +902,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ten Swiat
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### To Jedno
 
@@ -1049,1712 +1049,6 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 - **Gatunek:** Pop
 
 #### Love Resurrection
-
-- **Ulubione:** nie
-
-## All Best
-
-### All Best
-
-- **Gatunek:** Alternative
-
-#### 100 Hits of the '80S - (Feels Like) Heaven
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Down Under
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Eye of the Tiger
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Nothing's Gonna Stop Us Now
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Rock and Roll Is King
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - The Final Countdown (Single Version)
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Wake Me Up Before You Go-Go
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - Walk This Way
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - You Got It
-
-- **Ulubione:** nie
-
-#### 100 Hits of the '80S - You're My Heart, You're My Soul (Original No. 1 Mix '84)
-
-- **Ulubione:** nie
-
-#### Aerosmith - Amazing
-
-- **Ulubione:** nie
-
-#### Aerosmith - Crazy
-
-- **Ulubione:** nie
-
-#### Aerosmith - Cryin'
-
-- **Ulubione:** nie
-
-#### Aerosmith - Dream On
-
-- **Ulubione:** nie
-
-#### Aerosmith - I Don't Want To Miss a Thing
-
-- **Ulubione:** nie
-
-#### Aerosmith - Janie's Got A Gun
-
-- **Ulubione:** nie
-
-#### Aerosmith - Livin' on the Edge
-
-- **Ulubione:** nie
-
-#### Aga Zaryan - Ten Swiat
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Blowin' In The Wind
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Don't Think Twice, It's All Right
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Forever Young
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Just Like A Woman
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Like A Rolling Stone
-
-- **Ulubione:** nie
-
-#### Bob Dylan - Mr. Tambourine Man
-
-- **Ulubione:** nie
-
-#### Bob Marley - Africa Unite
-
-- **Ulubione:** nie
-
-#### Bob Marley - Could You Be Loved (12 mix)
-
-- **Ulubione:** nie
-
-#### Bob Marley - Get Up Stand Up
-
-- **Ulubione:** nie
-
-#### Bob Marley - I Shot The Sheriff (Live)
-
-- **Ulubione:** nie
-
-#### Bob Marley - Iron Lion Zion
-
-- **Ulubione:** nie
-
-#### Bob Marley - Judge Not
-
-- **Ulubione:** nie
-
-#### Bob Marley - Keep On Moving (London Version)
-
-- **Ulubione:** nie
-
-#### Bob Marley - No Woman No Cry (Live At The Roxy)
-
-- **Ulubione:** nie
-
-#### Bob Marley - One Love
-
-- **Ulubione:** nie
-
-#### Bob Marley - One Love , People Get Ready (Original)
-
-- **Ulubione:** nie
-
-#### Bob Marley - Rat Race
-
-- **Ulubione:** nie
-
-#### Bob Marley - Trenchtown Rock
-
-- **Ulubione:** nie
-
-#### Bob Marley - War
-
-- **Ulubione:** nie
-
-#### Cindy Blackman Santana - Black Pearl (feat. Santana & Vernon Reid)
-
-- **Ulubione:** nie
-
-#### Cindy Blackman Santana - Imagine (feat. Santana)
-
-- **Ulubione:** nie
-
-#### Cindy Blackman Santana - Mother Earth
-
-- **Ulubione:** nie
-
-#### Cindy Blackman Santana - We Came to Play (feat. John McLaughlin)
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Czas jak rzeka
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Dziwny jest ten swiat
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Obok nas
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Plonaca stodola
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Pod Papugami
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Sen o Warszawie
-
-- **Ulubione:** nie
-
-#### Czeslaw Niemen - Sukces
-
-- **Ulubione:** nie
-
-#### Dire Straits - Brothers in arms
-
-- **Ulubione:** nie
-
-#### Dire Straits - Walk of life
-
-- **Ulubione:** nie
-
-#### Dzem - Dzień w którym pękło niebo
-
-- **Ulubione:** nie
-
-#### Dzem - Naiwne pytania
-
-- **Ulubione:** nie
-
-#### Dzem - Skazany na bluesa
-
-- **Ulubione:** nie
-
-#### Dzem - Whisky
-
-- **Ulubione:** nie
-
-#### Dzem - Zapal świeczkę
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Ballada dla Potegowej
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Jest juz za pozno, nie jest za pozno
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Na blekicie jest polana
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Nie Brooklinski most
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Nie ma szczesliwych milosci
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Nie rozdziobia nas kruki i wrony - live
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Opadly mgly, wstaje nowy dzien
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Piosenka, ktorej nie mozna przestac spiewac
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Tobie albo zawieja w Michigan
-
-- **Ulubione:** nie
-
-#### Edward Stachura - Wedrowka zycie jest czlowieka
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Are You Lonesome Tonight
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Blue Suede Shoes
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Can't Help Falling In Love
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Don't Be Cruel
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Heartbreak Hotel
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Hound Dog
-
-- **Ulubione:** nie
-
-#### Elvis Presley - I Got A Woman
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Jailhouse Rock
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Love Me Tender
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Return To Sender
-
-- **Ulubione:** nie
-
-#### Elvis Presley - Tutti Frutti
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - Ain't No Sunshine
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - Autumn Leaves
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - Fields Of Gold
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - Imagine
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - People Get Ready
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - Time After Time
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - True Colors
-
-- **Ulubione:** nie
-
-#### Eva Cassidy - What A Wonderful World
-
-- **Ulubione:** nie
-
-#### Freddie Mercury & Montserrat Caballé - Barcelona
-
-- **Ulubione:** nie
-
-#### Freddie Mercury & Montserrat Caballé - Guide Me Home
-
-- **Ulubione:** nie
-
-#### Freddie Mercury & Montserrat Caballé - How Can I Go On
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - In My Defence
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - Living On My Own
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - Mr. Bad Guy
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - My Love Is Dangerous
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - The Great Pretender
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - There Must Be More To Life Than This
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - Time
-
-- **Ulubione:** nie
-
-#### Freddie Mercury - Your Kind Of Lover
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Polonez A-dur op. 40
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Polonez es-moll op. 26
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Sonata b-moll op.35 - Finale. Presto
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Sonata b-moll op.35 - Grave. Doppio movimento
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Sonata b-moll op.35 - Marche funebre. Lento
-
-- **Ulubione:** nie
-
-#### Fryderyk Chopin - Sonata b-moll op.35 - Scherzo
-
-- **Ulubione:** nie
-
-#### Imany - I've Gotta Go
-
-- **Ulubione:** nie
-
-#### Imany - Shape Of A Broken Heart
-
-- **Ulubione:** nie
-
-#### Imany - Slow Down
-
-- **Ulubione:** nie
-
-#### Imany - Take Care
-
-- **Ulubione:** nie
-
-#### Imany - You Will Never Know
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Ambasadorowie (wg obrazu Hansa Holbeina Ml.)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Autoportret Witkacego (Witkacy)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Bajka o Glupim Jasiu
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Bob Dylan
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Czerwony autobus (Linke)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Epitafium dla W.Wysockiego
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Kanapka z czlowiekiem (Linke)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Lekcja historii klasycznej
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Mury
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Nasza Klasa
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Nie lubie
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - O krok
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Oblawa
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Osly i ludzie (Goya)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Pamietnik znaleziony w starych nutach
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Pan Wolodyjowski (wg Henryka Sienkiewicza)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Przypowiesc o slepcach (wg obrazu Pietera Bruegla St.)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Rejtan, czyli raport ambasadora (Matejko)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Rublow (wg filmu Andrieja Tarkowskiego)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Sen Katarzyny II
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Wieszanie zdrajcow (Norblin)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Zatruta studnia (Malczewski)
-
-- **Ulubione:** nie
-
-#### Jacek Kaczmarski - Zrodlo (Wawoz)
-
-- **Ulubione:** nie
-
-#### James Brown - Get up (i feel like being a) sex machine(live)
-
-- **Ulubione:** nie
-
-#### James Brown - Return to me
-
-- **Ulubione:** nie
-
-#### James Brown - She looks all types a' good
-
-- **Ulubione:** nie
-
-#### Jimi Hendrix - Fire
-
-- **Ulubione:** nie
-
-#### Jimi Hendrix - Hey Joe
-
-- **Ulubione:** nie
-
-#### Jimi Hendrix - Hound Dog
-
-- **Ulubione:** nie
-
-#### Jimi Hendrix - Jammin' [BBC Sessions]
-
-- **Ulubione:** nie
-
-#### Jimi Hendrix - Purple Haze [BBC Sessions]
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Could You Be Loved
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Cry Me A River (Live)
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Don't Let The Sun Go Down On Me
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Feelin' Alright
-
-- **Ulubione:** nie
-
-#### Joe Cocker - First We Take Manhattan
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Have a Little Faith In Me
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Night Calls
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Sorry Seems To Be The Hardest Word
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Summer In The City
-
-- **Ulubione:** nie
-
-#### Joe Cocker - Unchain My Heart
-
-- **Ulubione:** nie
-
-#### Joe Cocker - When The Night Comes
-
-- **Ulubione:** nie
-
-#### Joe Cocker - With A Little Help From My Friends
-
-- **Ulubione:** nie
-
-#### Joe Cocker - You Are So Beautiful
-
-- **Ulubione:** nie
-
-#### John Lee Hooker - Boom Boom
-
-- **Ulubione:** nie
-
-#### John Lee Hooker - I'm bad like Jesse James
-
-- **Ulubione:** nie
-
-#### John Lee Hooker - My Baby Don't Love Me
-
-- **Ulubione:** nie
-
-#### John Lennon - Beautiful Boy (Darling Boy)
-
-- **Ulubione:** nie
-
-#### John Lennon - Happy Xmas (War Is Over)
-
-- **Ulubione:** nie
-
-#### John Lennon - Imagine
-
-- **Ulubione:** nie
-
-#### John Lennon - Jealous Guy
-
-- **Ulubione:** nie
-
-#### Kazik - 12 Groszy
-
-- **Ulubione:** nie
-
-#### Kazik - Maciek, ja tylko zartowalem
-
-- **Ulubione:** nie
-
-#### Kazik - Sztos
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Boskie buenos
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Eksplozja
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Kocham cie kochanie moje
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Kreon
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Lipstick on the glass
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Lucciola
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - Szal niebieskich cial
-
-- **Ulubione:** nie
-
-#### Kora & Maanam - To tylko tango
-
-- **Ulubione:** nie
-
-#### Kult - Arahja
-
-- **Ulubione:** nie
-
-#### Kult - Baranek
-
-- **Ulubione:** nie
-
-#### Kult - Brooklynska Rada Zydow
-
-- **Ulubione:** nie
-
-#### Kult - Celina
-
-- **Ulubione:** nie
-
-#### Kult - Czarne Slonca
-
-- **Ulubione:** nie
-
-#### Kult - Gdy nie ma dzieci
-
-- **Ulubione:** nie
-
-#### Kult - Inzynierowie z Petrobudowy
-
-- **Ulubione:** nie
-
-#### Kult - Jezdzcy
-
-- **Ulubione:** nie
-
-#### Kult - Knajpa mordercow
-
-- **Ulubione:** nie
-
-#### Kult - Komu bije dzwon czyli piosenka o Szczocie
-
-- **Ulubione:** nie
-
-#### Kult - Krolowa zycia
-
-- **Ulubione:** nie
-
-#### Kult - Krutkie kazanie na temat jazdy na maxa
-
-- **Ulubione:** nie
-
-#### Kult - Lewe lewe loff
-
-- **Ulubione:** nie
-
-#### Kult - Mieszkam w Polsce
-
-- **Ulubione:** nie
-
-#### Kult - Pasażer
-
-- **Ulubione:** nie
-
-#### Kult - Ręce do góry
-
-- **Ulubione:** nie
-
-#### Kult - Zegarmistrz swiatla
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - All my love
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Babe I'm Gonna Leave You
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Communication Breakdown
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Dazed And Confused
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Good Times Bad Times
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Immigrant Song
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Nobody's fault but mine
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Since I've Been Loving You
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Stairway To Heaven
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - The song remains the same
-
-- **Ulubione:** nie
-
-#### Led Zeppelin - Whole Lotta Love
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - Ain´t no cure for love
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - Closing time
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - Dance Me To The End Of Love
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - Everybody Knows
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - First we take Manhattan
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - Hallelujah
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - I'm Your Man
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - In my secret life
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - The future
-
-- **Ulubione:** nie
-
-#### Leonard Cohen - You Want It Darker
-
-- **Ulubione:** nie
-
-#### Lou Reed - Perfect Day
-
-- **Ulubione:** nie
-
-#### Lou Reed - Walk On The Wild Side
-
-- **Ulubione:** nie
-
-#### Louis Armstrong - A fine romance
-
-- **Ulubione:** nie
-
-#### Louis Armstrong - Dream a litle dream of me
-
-- **Ulubione:** nie
-
-#### Louis Armstrong - La vie en rose
-
-- **Ulubione:** nie
-
-#### Louis Armstrong - What a wonderfull world
-
-- **Ulubione:** nie
-
-#### Louis Armstrong - When the saints go marchin' in
-
-- **Ulubione:** nie
-
-#### Maanam - Aniol
-
-- **Ulubione:** nie
-
-#### Maanam - Krakowski Spleen
-
-- **Ulubione:** nie
-
-#### Maanam - Po prostu badz
-
-- **Ulubione:** nie
-
-#### Maanam - Ta noc do innych jest niepodobna
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - James Bond
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Mikrofon
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Nigdy wiecej
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Pan Malenczuk
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Recydywa i ja
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Swobodne spadanie
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Ten co wcześniej
-
-- **Ulubione:** nie
-
-#### Maciej Malenczuk - Twist Again
-
-- **Ulubione:** nie
-
-#### Making Mirrors - Somebody That I Used to Know
-
-- **Ulubione:** nie
-
-#### Marek Grechuta - Dni, ktorych nie znamy
-
-- **Ulubione:** nie
-
-#### Miami Vice - In The Air Tonight
-
-- **Ulubione:** nie
-
-#### Miami Vice - Smuggler's Blues
-
-- **Ulubione:** nie
-
-#### Miami Vice - The Original Miami Vice Theme
-
-- **Ulubione:** nie
-
-#### Michael Jackson - Bad (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - Beat It (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - Billie Jean (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - Dirty Diana (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - I Just Can't Stop Loving You (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - Smooth Criminal (Album Version)
-
-- **Ulubione:** nie
-
-#### Michael Jackson - You Are Not Alone (Radio Edit)
-
-- **Ulubione:** nie
-
-#### Paktofonika - Jestem Bogiem
-
-- **Ulubione:** nie
-
-#### Perfect - Ale wkolo jest wesolo
-
-- **Ulubione:** nie
-
-#### Perfect - Autobiografia
-
-- **Ulubione:** nie
-
-#### Perfect - Chcemy byc soba
-
-- **Ulubione:** nie
-
-#### Perfect - Idz precz
-
-- **Ulubione:** nie
-
-#### Perfect - Niepokonani
-
-- **Ulubione:** nie
-
-#### Perfect - Niewiele Ci moge dac
-
-- **Ulubione:** nie
-
-#### Perfect - Wyspa, drzewo, zamek
-
-- **Ulubione:** nie
-
-#### Procol Harum - Whiter Shade of Pale
-
-- **Ulubione:** nie
-
-#### Pure 80s - (I've Had) The Time Of My Life - Bill Medley & Jennifer Warnes
-
-- **Ulubione:** nie
-
-#### Pure 80s - Africa - Toto
-
-- **Ulubione:** nie
-
-#### Pure 80s - Danger Zone - Kenny Loggins
-
-- **Ulubione:** nie
-
-#### Pure 80s - Don't Answer Me - The Alan Parsons Projekt
-
-- **Ulubione:** nie
-
-#### Pure 80s - Down Under - Men At Work
-
-- **Ulubione:** nie
-
-#### Pure 80s - Eye Of The Tiger - Survivor
-
-- **Ulubione:** nie
-
-#### Pure 80s - Ghostbusters - Ray Parker Jr.
-
-- **Ulubione:** nie
-
-#### Pure 80s - Hol On Tight - Electric Light Orchestra
-
-- **Ulubione:** nie
-
-#### Pure 80s - The Final Countdown - Europe
-
-- **Ulubione:** nie
-
-#### Pure 80s - The Power Of Love - Jennifer Rush
-
-- **Ulubione:** nie
-
-#### Pure 80s - Time After Time - Cyndi Lauper
-
-- **Ulubione:** nie
-
-#### Pure 80s - Walk This Way - Run-DMC
-
-- **Ulubione:** nie
-
-#### Pure 80s - We Built This City - Starship
-
-- **Ulubione:** nie
-
-#### Queen - A Kind Of Magic
-
-- **Ulubione:** nie
-
-#### Queen - A Winter's Tale
-
-- **Ulubione:** nie
-
-#### Queen - Back Chat
-
-- **Ulubione:** nie
-
-#### Queen - Body Language
-
-- **Ulubione:** nie
-
-#### Queen - Bohemian Rhapsody
-
-- **Ulubione:** nie
-
-#### Queen - Breakthru
-
-- **Ulubione:** nie
-
-#### Queen - Brighton Rock
-
-- **Ulubione:** nie
-
-#### Queen - Crazy Little Thing Call Love
-
-- **Ulubione:** nie
-
-#### Queen - Delilah
-
-- **Ulubione:** nie
-
-#### Queen - Don't Stop Me Now
-
-- **Ulubione:** nie
-
-#### Queen - Don't Try So Hard
-
-- **Ulubione:** nie
-
-#### Queen - Don't Try Suicide
-
-- **Ulubione:** nie
-
-#### Queen - Flick Of The Wrist
-
-- **Ulubione:** nie
-
-#### Queen - Forever
-
-- **Ulubione:** nie
-
-#### Queen - Heaven For Everyone
-
-- **Ulubione:** nie
-
-#### Queen - I Want It All
-
-- **Ulubione:** nie
-
-#### Queen - I Want To Break Free
-
-- **Ulubione:** nie
-
-#### Queen - I Was Born To Love You
-
-- **Ulubione:** nie
-
-#### Queen - I'm Going Slightly Mad
-
-- **Ulubione:** nie
-
-#### Queen - In The Lap Of The Gods ... Revisited
-
-- **Ulubione:** nie
-
-#### Queen - Innuendo
-
-- **Ulubione:** nie
-
-#### Queen - It's A Beautiful Day
-
-- **Ulubione:** nie
-
-#### Queen - It's A Beautiful Day (reprise)
-
-- **Ulubione:** nie
-
-#### Queen - It's A Hard Life
-
-- **Ulubione:** nie
-
-#### Queen - Jealousy
-
-- **Ulubione:** nie
-
-#### Queen - Jesus
-
-- **Ulubione:** nie
-
-#### Queen - Keep Yourself Alive
-
-- **Ulubione:** nie
-
-#### Queen - Let Me Entertain You
-
-- **Ulubione:** nie
-
-#### Queen - Let Me Live
-
-- **Ulubione:** nie
-
-#### Queen - Liar
-
-- **Ulubione:** nie
-
-#### Queen - Lily Of The Valley
-
-- **Ulubione:** nie
-
-#### Queen - Love of My Life
-
-- **Ulubione:** nie
-
-#### Queen - Made In Heaven
-
-- **Ulubione:** nie
-
-#### Queen - Mother Love
-
-- **Ulubione:** nie
-
-#### Queen - My Fairy King
-
-- **Ulubione:** nie
-
-#### Queen - My Life Has Been Saved
-
-- **Ulubione:** nie
-
-#### Queen - Nevermore
-
-- **Ulubione:** nie
-
-#### Queen - Now I'm Here
-
-- **Ulubione:** nie
-
-#### Queen - One Vision
-
-- **Ulubione:** nie
-
-#### Queen - One Year Of Love
-
-- **Ulubione:** nie
-
-#### Queen - Radio Ga Ga
-
-- **Ulubione:** nie
-
-#### Queen - Rain Must Fall
-
-- **Ulubione:** nie
-
-#### Queen - Ride The Wild Wind
-
-- **Ulubione:** nie
-
-#### Queen - Save Me
-
-- **Ulubione:** nie
-
-#### Queen - Scandal
-
-- **Ulubione:** nie
-
-#### Queen - Somebody To Love
-
-- **Ulubione:** nie
-
-#### Queen - Spread Your Wings
-
-- **Ulubione:** nie
-
-#### Queen - Tenement Funster
-
-- **Ulubione:** nie
-
-#### Queen - The Invisible Man
-
-- **Ulubione:** nie
-
-#### Queen - The Miracle
-
-- **Ulubione:** nie
-
-#### Queen - The Prophet's Song
-
-- **Ulubione:** nie
-
-#### Queen - The Show Must Go On
-
-- **Ulubione:** nie
-
-#### Queen - These Are The Days Of Our Lives
-
-- **Ulubione:** nie
-
-#### Queen - Too Much Love Will Kill You
-
-- **Ulubione:** nie
-
-#### Queen - Under Pressure (+ David Bowie)
-
-- **Ulubione:** nie
-
-#### Queen - Was It All Worth It
-
-- **Ulubione:** nie
-
-#### Queen - We Are The Champions
-
-- **Ulubione:** nie
-
-#### Queen - We Will Rock You
-
-- **Ulubione:** nie
-
-#### Queen - Who Wants To Live Forever
-
-- **Ulubione:** nie
-
-#### Queen - You And I
-
-- **Ulubione:** nie
-
-#### Queen - You Don't Fool Me
-
-- **Ulubione:** nie
-
-#### Queen - You Take My Breath Away
-
-- **Ulubione:** nie
-
-#### Rag N Bone - Human
-
-- **Ulubione:** nie
-
-#### Rag N Bone - Skin
-
-- **Ulubione:** nie
-
-#### Ray Charles - Baby It's Cold Outside
-
-- **Ulubione:** nie
-
-#### Ray Charles - Blues Before Sunrise
-
-- **Ulubione:** nie
-
-#### Ray Charles - Born To Lose
-
-- **Ulubione:** nie
-
-#### Ray Charles - Busted
-
-- **Ulubione:** nie
-
-#### Ray Charles - Cincinnati Kid
-
-- **Ulubione:** nie
-
-#### Ray Charles - Come Rain Or Come Shine
-
-- **Ulubione:** nie
-
-#### Ray Charles - Crying Time
-
-- **Ulubione:** nie
-
-#### Ray Charles - Don't Let The Sun Catch You Crying
-
-- **Ulubione:** nie
-
-#### Ray Charles - Fever
-
-- **Ulubione:** nie
-
-#### Ray Charles - Georgia On My Mind
-
-- **Ulubione:** nie
-
-#### Ray Charles - Hallelujah I Love Her So
-
-- **Ulubione:** nie
-
-#### Ray Charles - Here We Go Again
-
-- **Ulubione:** nie
-
-#### Ray Charles - Hit The Road Jack
-
-- **Ulubione:** nie
-
-#### Ray Charles - I Can't Stop Loving You
-
-- **Ulubione:** nie
-
-#### Ray Charles - I Don't Need No Doctor
-
-- **Ulubione:** nie
-
-#### Ray Charles - Imagine
-
-- **Ulubione:** nie
-
-#### Ray Charles - It Should've Been Me
-
-- **Ulubione:** nie
-
-#### Ray Charles - It Was A Very Good Year
-
-- **Ulubione:** nie
-
-#### Ray Charles - I've Got A Woman
-
-- **Ulubione:** nie
-
-#### Ray Charles - Leave My Woman Alone
-
-- **Ulubione:** nie
-
-#### Ray Charles - Mess Around
-
-- **Ulubione:** nie
-
-#### Ray Charles - Over The Rainbow
-
-- **Ulubione:** nie
-
-#### Ray Charles - Sorry Seems To Be The Hardest Word
-
-- **Ulubione:** nie
-
-#### Ray Charles - Take These Chains From My Heart
-
-- **Ulubione:** nie
-
-#### Ray Charles - This Little Girl Of Mine
-
-- **Ulubione:** nie
-
-#### Ray Charles - Unchain My Heart
-
-- **Ulubione:** nie
-
-#### Ray Charles - What'd I Say (Parts 1 & 2)
-
-- **Ulubione:** nie
-
-#### Ray Charles - Yesterday
-
-- **Ulubione:** nie
-
-#### Ray Charles - You Don't Know Me
-
-- **Ulubione:** nie
-
-#### Rolling Stones - (I Can't Get No) Satisfaction
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Angie
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Anybody Seen My Baby
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Brown Sugar
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Don't Stop
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Get Off Of My Cloud
-
-- **Ulubione:** nie
-
-#### Rolling Stones - It's Only Rock 'n' Roll
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Jumpin' Jack Flash
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Love Is Strong
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Paint It, Black
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Under My Thumb
-
-- **Ulubione:** nie
-
-#### Rolling Stones - Wild Horses
-
-- **Ulubione:** nie
-
-#### Rolling Stones - You Can't Always Get What You Want
-
-- **Ulubione:** nie
-
-#### Simon Garfunkel - The Sounds Of Silence
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Allegro ma non troppo
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Kiedy jestes taka bliska
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Koniugacje
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Like a Rolling Stone
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Nie ma drugiej takiej
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Tango Memento Vitae
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Tolerancja Na mily Bog
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Uciekaj moje serce
-
-- **Ulubione:** nie
-
-#### Stanisław Soyka - Wychowanie
-
-- **Ulubione:** nie
-
-#### Sting - Englishman in New York
-
-- **Ulubione:** nie
-
-#### Sting - Fields of Gold
-
-- **Ulubione:** nie
-
-#### Sting - Love Is the Seventh Wave
-
-- **Ulubione:** nie
-
-#### Sting - Message in a Bottle  [live]
-
-- **Ulubione:** nie
-
-#### The Doors - Alabama Song
-
-- **Ulubione:** nie
-
-#### The Doors - Break On Through
-
-- **Ulubione:** nie
-
-#### The Doors - Light My Fire
-
-- **Ulubione:** nie
-
-#### The Doors - Love Me Two Times
-
-- **Ulubione:** nie
-
-#### The Doors - My Eyes Have Seen You
-
-- **Ulubione:** nie
-
-#### The Doors - No Me Moleste Mosquito
-
-- **Ulubione:** nie
-
-#### The Doors - People Are Strange
-
-- **Ulubione:** nie
-
-#### The Doors - Riders On The Storm
-
-- **Ulubione:** nie
-
-#### The Doors - Strange Days
-
-- **Ulubione:** nie
-
-#### The Doors - The End
-
-- **Ulubione:** nie
-
-#### The Doors - When The Music's Over
-
-- **Ulubione:** nie
-
-#### The Doors - You're Lost Little Girl
-
-- **Ulubione:** nie
-
-#### Tina Turner - Addicted To Love (Live)
-
-- **Ulubione:** nie
-
-#### Tina Turner - Can't Stop Thinking of You
-
-- **Ulubione:** nie
-
-#### Tina Turner - Goldeneye
-
-- **Ulubione:** nie
-
-#### Tina Turner - In Your Wildest Dreams
-
-- **Ulubione:** nie
-
-#### Tina Turner - On Silent Wings
-
-- **Ulubione:** nie
-
-#### Tina Turner - Private Dancer
-
-- **Ulubione:** nie
-
-#### Tina Turner - The Best
-
-- **Ulubione:** nie
-
-#### Tina Turner - Tonight
-
-- **Ulubione:** nie
-
-#### Tina Turner - Typical Male
-
-- **Ulubione:** nie
-
-#### Tina Turner - We Don't Need Another Hero
-
-- **Ulubione:** nie
-
-#### TLove - 1996
-
-- **Ulubione:** nie
-
-#### TLove - Bog
-
-- **Ulubione:** nie
-
-#### TLove - Dzikosc serca
-
-- **Ulubione:** nie
-
-#### TLove - Karuzela a'capella
-
-- **Ulubione:** nie
-
-#### TLove - King
-
-- **Ulubione:** nie
-
-#### TLove - To wychowanie
-
-- **Ulubione:** nie
-
-#### TLove - Warszawa
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Boombastic
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Call Me
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Everybody Needs Somebody
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Footloose
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Get Ready for This
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Here Comes the Hotstappers
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - I Just Died in Your Arms
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Ice Ice Baby
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Kingdton Town
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Push the Feeling on
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Small Twon Boy
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Sushine Reggae
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Swing the Mood
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - The Model
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Twist & Shout
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Voyage Voyage
-
-- **Ulubione:** nie
-
-#### Top 40 Dance Chart - Wouldn't it Be Good
 
 - **Ulubione:** nie
 
@@ -7938,7 +6232,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Czeslaw Niemen  - Dziwny jest ten swiat
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Klan - Epidemia euforii
 
@@ -7962,7 +6256,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Perfect - Chcemy byc soba
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Perfect - Duzo nas
 
@@ -8502,7 +6796,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Blowin' In The Wind
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Can You Please Crawl Out Your Window
 
@@ -8510,7 +6804,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Think Twice, It's All Right
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Shall Be Released
 
@@ -8538,7 +6832,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Just Like A Woman
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Knockin' On Heaven's Door
 
@@ -8550,7 +6844,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Like A Rolling Stone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Maggie's Farm
 
@@ -8558,7 +6852,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mr. Tambourine Man
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Positively 4th Street
 
@@ -8606,7 +6900,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Forever Young
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Gotta Serve Somebody
 
@@ -8760,7 +7054,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Could You Be Loved (12" Mix)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Could You Be Loved (Album Version)
 
@@ -8780,7 +7074,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Get Up, Stand Up
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Shot The Sheriff (Album Version)
 
@@ -8872,7 +7166,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Africa Unite
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Babylon System
 
@@ -8912,7 +7206,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Could You Be Loved (12" mix)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Craven Choke Puppy
 
@@ -8948,7 +7242,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Get Up Stand Up
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Give Thanks and Praise
 
@@ -8972,7 +7266,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Shot The Sheriff (Live)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm Hurting Inside (alt. remix)
 
@@ -8984,7 +7278,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Iron Lion Zion
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Is This Love (Horns Mix)
 
@@ -9004,11 +7298,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Judge Not
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keep On Moving (London Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Lick Samba
 
@@ -9044,7 +7338,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### No Woman No Cry (Live At The Roxy)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Cup Of Coffee
 
@@ -9060,7 +7354,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One Love , People Get Ready (Original)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Love - People Get Ready (12" Mix)
 
@@ -9080,7 +7374,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Rat Race
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Real Situation
 
@@ -9164,7 +7458,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### War
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who The Cap Fit
 
@@ -9412,7 +7706,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wings of a Dove
 
@@ -9492,7 +7786,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Trenchtown Rock
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who Is Mr Brown
 
@@ -9984,7 +8278,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Black Pearl (feat. Santana & Vernon Reid)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Change is in Your Hands (feat. Vernon Reid)
 
@@ -10012,7 +8306,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Imagine (feat. Santana)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Miles Away
 
@@ -10020,7 +8314,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mother Earth
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### She's Got It Goin' On
 
@@ -10044,7 +8338,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Came to Play (feat. John McLaughlin)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Don't Wanna Breaka My Heart (feat. Santana)
 
@@ -10472,7 +8766,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Czas jak rzeka
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Czy mnie jeszcze pamietasz
 
@@ -10508,15 +8802,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Obok nas
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Plonaca stodola
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Pod Papugami
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Pokoj
 
@@ -10532,7 +8826,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sen o Warszawie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Stoje w oknie
 
@@ -10540,7 +8834,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sukces
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wiem, ze nie wrocisz
 
@@ -10820,7 +9114,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Brothers in arms
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Money for nothing
 
@@ -10844,7 +9138,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Walk of life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Why worry
 
@@ -10890,7 +9184,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dzień w którym pękło niebo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mała aleja róż
 
@@ -10898,7 +9192,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Naiwne pytania
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie jesteś taki jak dawniej
 
@@ -10914,11 +9208,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Skazany na bluesa
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Whisky
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wokół sami lunatycy
 
@@ -10926,7 +9220,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Zapal świeczkę
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Earth, Wind & Fire
 
@@ -11002,7 +9296,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ballada dla Potegowej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ballada dla Zapowietrzonego
 
@@ -11026,7 +9320,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jest juz za pozno, nie jest za pozno
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Marinetta
 
@@ -11034,19 +9328,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Na blekicie jest polana
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie Brooklinski most
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie ma szczesliwych milosci
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie rozdziobia nas kruki i wrony - live
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nowy dekalog
 
@@ -11062,7 +9356,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Opadly mgly, wstaje nowy dzien
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Parasol
 
@@ -11070,11 +9364,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Piosenka, ktorej nie mozna przestac spiewac
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tobie albo zawieja w Michigan
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Urodziny
 
@@ -11086,7 +9380,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Wedrowka zycie jest czlowieka
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Piosenki prawie wszystkie
 
@@ -11098,7 +9392,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ballada Dla Potegowej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ballada Dla Rafala Urbana
 
@@ -11146,11 +9440,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Na Blekicie Jest Polana
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie Brooklinski Most
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie Rozdziabia Nas Kruki
 
@@ -11188,7 +9482,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Rock and Roll Is King
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Elvis Presley
 
@@ -11302,7 +9596,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Are You Lonesome Tonight?
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Burning Love
 
@@ -11310,7 +9604,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Can't Help Falling In Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crying In The Chapel
 
@@ -11322,7 +9616,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Be Cruel
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Good Luck Charm
 
@@ -11334,11 +9628,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Heartbreak Hotel
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hound Dog
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In The Ghetto
 
@@ -11350,11 +9644,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jailhouse Rock
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Me Tender
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Night
 
@@ -11362,7 +9656,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Return To Sender
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### She's Not You
 
@@ -11406,15 +9700,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Blue Suede Shoes
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heartbreak Hotel
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Got A Woman
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Love You Because
 
@@ -11470,7 +9764,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tutti Frutti
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Elvis Rock
 
@@ -11486,7 +9780,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Blue Suede Shoes
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dixieland Rock
 
@@ -11494,7 +9788,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Be Cruel
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Got A Lot O' Lovin' To Do!
 
@@ -11506,11 +9800,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Heartbreak Hotel
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hound Dog
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Got Stung
 
@@ -11522,7 +9816,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jailhouse Rock
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### King Creole
 
@@ -11550,7 +9844,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tutti Frutti
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wear My Ring Around Your Neck
 
@@ -11564,7 +9858,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Final Countdown (Single Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Eva Cassidy
 
@@ -11578,11 +9872,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ain't No Sunshine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Autumn Leaves
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Baby I Love You
 
@@ -11618,7 +9912,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Fields Of Gold
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Fine and Mellow
 
@@ -11654,7 +9948,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### People Get Ready
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Route 66
 
@@ -11686,7 +9980,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Time After Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Waly Waly
 
@@ -11710,7 +10004,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ain't No Sunshine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Anniversary Song
 
@@ -11718,7 +10012,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Autumn Leaves
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Danny Boy
 
@@ -11730,7 +10024,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Fields Of Gold
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Can Only Be Me
 
@@ -11742,7 +10036,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Imagine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It Doesn't Matter Anymore
 
@@ -11758,7 +10052,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### People Get Ready
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Songbird
 
@@ -11770,11 +10064,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Time After Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### True Colors
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wade In The Water
 
@@ -11782,7 +10076,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### What A Wonderful World
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Take My Breath Away
 
@@ -11836,7 +10130,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### (Feels Like) Heaven
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Five Star
 
@@ -12706,7 +11000,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Living On My Own
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Me Like There's No Tomorrow
 
@@ -12722,19 +11016,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mr. Bad Guy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### My Love Is Dangerous
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### There Must Be More To Life Than This
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Your Kind Of Lover
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### The Freddie Mercury Album
 
@@ -12754,7 +11048,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In My Defence
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Let's Turn It On
 
@@ -12762,7 +11056,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Living On My Own
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Kills
 
@@ -12770,19 +11064,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mr. Bad Guy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Great Pretender
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Your Kind Of Lover
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Very Best Of Freddie Mercury Solo 1
 
@@ -12846,7 +11140,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mr. Bad Guy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Golden Boy (feat. Montserrat Caballe)
 
@@ -12862,11 +11156,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### There Must Be More To Life Than This
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Very Best Of Freddie Mercury Solo 2
 
@@ -12940,7 +11234,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Barcelona
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ensueno
 
@@ -12948,11 +11242,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Guide Me Home
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### How Can I Go On
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### La Japonaise
 
@@ -13984,7 +12278,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Polonez A-dur op. 40
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Polonez As-dur
 
@@ -14020,7 +12314,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Polonez es-moll op. 26
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Polonez f-moll op.71
 
@@ -14220,19 +12514,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sonata b-moll op.35 - Finale. Presto
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sonata b-moll op.35 - Grave. Doppio movimento
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sonata b-moll op.35 - Marche funebre. Lento
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sonata b-moll op.35 - Scherzo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sonata g-moll op. 65 - Allegro moderato
 
@@ -14488,7 +12782,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Somebody That I Used to Know (feat. Kimbra)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Gregory Abbott
 
@@ -14686,7 +12980,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I've Gotta Go
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Kisses In The Dark
 
@@ -14706,15 +13000,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Shape Of A Broken Heart
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Slow Down
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Take Care
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Where Have You Been
 
@@ -14722,7 +13016,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Will Never Know
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### The Wrong Kind of War
 
@@ -14792,7 +13086,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ambasadorowie (wg obrazu Hansa Holbeina Ml.)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ballada wrzesniowa
 
@@ -14800,7 +13094,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bob Dylan
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dwadziescia lat pozniej (wg Aleksandra Dumasa, ojca)
 
@@ -14820,11 +13114,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Pamietnik znaleziony w starych nutach
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Pan Wolodyjowski (wg Henryka Sienkiewicza)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Piosenka napisana mimochodem
 
@@ -14844,7 +13138,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Przypowiesc o slepcach (wg obrazu Pietera Bruegla St.)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Quasimodo
 
@@ -14852,7 +13146,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Rublow (wg filmu Andrieja Tarkowskiego)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Swiadkowie
 
@@ -14872,7 +13166,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Autoportret Witkacego (Witkacy)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ballada o spalonej synagodze
 
@@ -14884,11 +13178,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Czerwony autobus (Linke)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Kanapka z czlowiekiem (Linke)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Modlitwa o wschodzie slonca
 
@@ -14896,7 +13190,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Osly i ludzie (Goya)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Pikieta powstancza (Gierymski)
 
@@ -14908,7 +13202,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Rejtan, czyli raport ambasadora (Matejko)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Rozstrzelanie (Wróblewski)
 
@@ -14932,7 +13226,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Wieszanie zdrajcow (Norblin)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wigilia na Syberii (Malczewski)
 
@@ -14944,7 +13238,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Zatruta studnia (Malczewski)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Zeslanie studentow (Malczewski)
 
@@ -15032,7 +13326,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bajka o Glupim Jasiu
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ballada Wrzesniowa
 
@@ -15040,7 +13334,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Epitafium dla W.Wysockiego
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Krajobraz po uczcie
 
@@ -15048,7 +13342,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Lekcja historii klasycznej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Miedzy nami
 
@@ -15060,23 +13354,23 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mury
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nasza Klasa
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nie lubie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### O krok
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Oblawa
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Piosenka napisana mimochodem
 
@@ -15096,7 +13390,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sen Katarzyny II
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wedrowka z cieniem
 
@@ -15116,7 +13410,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Zrodlo (Wawoz)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## James Brown
 
@@ -15134,7 +13428,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Get up (i feel like being a) sex machine(live)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Get up offa that thing (live)
 
@@ -15166,11 +13460,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Return to me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### She looks all types a' good
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Static, pts. 1 & 2
 
@@ -15494,7 +13788,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Fire
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Foxey Lady
 
@@ -15506,11 +13800,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Hey Joe
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hound Dog
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Introducing The Experience
 
@@ -15526,7 +13820,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Purple Haze [BBC Sessions]
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Rhythm And Blues World Service
 
@@ -15586,7 +13880,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jammin' [BBC Sessions]
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killing Floor [BBC Sessions]
 
@@ -15602,7 +13896,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Purple Haze [BBC Sessions]
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Radio One [BBC Sessions]
 
@@ -15642,7 +13936,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Cry Me A River (Live)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Delta Lady
 
@@ -15654,7 +13948,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Feelin' Alright
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Many Rivers To Cross
 
@@ -15662,7 +13956,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Night Calls
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### She Came In Through The Bathroom Window
 
@@ -15670,7 +13964,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Summer In The City
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Letter (Live)
 
@@ -15678,7 +13972,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Unchain My Heart
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Up Were We Belong (Feat. Jennifer Warnes)
 
@@ -15686,15 +13980,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### When The Night Comes
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### With A Little Help From My Friends
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Are So Beautiful
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Can Leave Your Hat On
 
@@ -15714,19 +14008,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Could You Be Loved
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Let The Sun Go Down On Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### First We Take Manhattan
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Have a Little Faith In Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### My Father's Son
 
@@ -15750,7 +14044,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sorry Seems To Be The Hardest Word
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sweet Lil' Woman
 
@@ -15964,7 +14258,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Boom Boom
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Bottle up and go
 
@@ -15980,7 +14274,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I'm bad like Jesse James
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Same old Blues again
 
@@ -16036,7 +14330,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### My Baby Don't Love Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### My Baby Put Me Down
 
@@ -16224,7 +14518,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I'm Bad Like Jesse James
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm In The Mood
 
@@ -16298,7 +14592,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Beautiful Boy (Darling Boy)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Cold Turkey
 
@@ -16314,7 +14608,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Happy Xmas (War Is Over)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm Losing You
 
@@ -16322,7 +14616,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Imagine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Instant Karma!
 
@@ -16330,7 +14624,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jealous Guy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love
 
@@ -16822,7 +15116,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### 12 Groszy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Gdy mam co chce, wtedy wiecej chce
 
@@ -16850,7 +15144,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Maciek, ja tylko zartowalem
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Moj los
 
@@ -16878,7 +15172,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sztos
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### W obliczu konca
 
@@ -17014,11 +15308,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Boskie buenos
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Eksplozja
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jestem kobieta
 
@@ -17034,11 +15328,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Lipstick on the glass
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Lucciola
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Milosc jest cudowna
 
@@ -17066,11 +15360,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Szal niebieskich cial
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### To tylko tango
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Zadza pieniadza
 
@@ -17098,11 +15392,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Kocham cie kochanie moje
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Kreon
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mental cut
 
@@ -17280,7 +15574,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Czarne Slonca
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dziewczyna sie bala pogrzebow
 
@@ -17288,7 +15582,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jezdzcy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Maria ma syna
 
@@ -17328,11 +15622,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Arahja
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Baranek
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Bliskie spotkania 3 stopnia
 
@@ -17340,15 +15634,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Brooklynska Rada Zydow
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Celina
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Gdy nie ma dzieci
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jesli zechcesz odejsc-odejdz
 
@@ -17356,11 +15650,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Komu bije dzwon czyli piosenka o Szczocie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mieszkam w Polsce
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sowieci
 
@@ -17376,7 +15670,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Zegarmistrz swiatla
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Spokojnie
 
@@ -17384,7 +15678,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Arahja
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Axe
 
@@ -17392,7 +15686,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Czarne Slonca
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Do Ani
 
@@ -17400,7 +15694,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jezdzcy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Landy
 
@@ -17432,11 +15726,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Baranek
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Celina
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dyplomata
 
@@ -17448,15 +15742,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Inzynierowie z Petrobudowy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Knajpa mordercow
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Krolowa zycia
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Kurwy wedrowniczki
 
@@ -17716,7 +16010,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Whole Lotta Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Remasters (cd1)
 
@@ -17724,7 +16018,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Babe I'm Gonna Leave You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Black Dog
 
@@ -17736,15 +16030,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Communication Breakdown
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dazed And Confused
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Good Times Bad Times
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heartbreaker
 
@@ -17752,7 +16046,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Immigrant Song
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Misty Mountain Hop
 
@@ -17768,11 +16062,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Since I've Been Loving You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Stairway To Heaven
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Battle Of Evermore
 
@@ -17780,7 +16074,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Whole Lotta Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Remasters (cd2)
 
@@ -17792,7 +16086,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### All my love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### D'yer mak'er
 
@@ -17816,7 +16110,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nobody's fault but mine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The rain song
 
@@ -17824,7 +16118,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The song remains the same
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Trampled underfoot
 
@@ -17976,15 +16270,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ain't No Cure For Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Everybody Knows
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### First We Take Manhattan
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Can't Forget
 
@@ -17992,7 +16286,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I'm Your Man
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jazz Police
 
@@ -18076,7 +16370,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In My Secret Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Itself
 
@@ -18108,11 +16402,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dance Me To The End Of Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Everybody Knows
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Famous Blue Raincoat
 
@@ -18120,7 +16414,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Hallelujah
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hey, That's No Way To Say Goodbye
 
@@ -18128,7 +16422,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I'm Your Man
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It It Be Your Will
 
@@ -18180,7 +16474,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ain´t no cure for love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Anthem
 
@@ -18192,7 +16486,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Closing time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Democracy
 
@@ -18200,11 +16494,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### First we take Manhattan
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In my secret life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Take this waltz
 
@@ -18216,7 +16510,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The future
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The letters
 
@@ -18244,7 +16538,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Closing Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Democracy
 
@@ -18260,7 +16554,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Future
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Waiting for the Miracle
 
@@ -18320,11 +16614,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dance Me To The End Of Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hallelujah
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heart With No Companion
 
@@ -18384,7 +16678,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Want It Darker
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Leszek Mozdzer
 
@@ -19010,7 +17304,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Perfect Day
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Rock And Roll Heart
 
@@ -19038,7 +17332,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Walk On The Wild Side
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Louis Armstrong
 
@@ -19072,7 +17366,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### La vie en rose
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mack the knife
 
@@ -19108,11 +17402,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### What a wonderfull world
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### When the saints go marchin' in
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Selection of (2/2)
 
@@ -19120,7 +17414,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A fine romance
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Can anyone explain ?
 
@@ -19136,7 +17430,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dream a litle dream of me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm puttin' all my eggs in one basket
 
@@ -19606,7 +17900,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Aniol
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Badz ostrozny
 
@@ -19642,7 +17936,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Krakowski Spleen
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ocean wolnego czasu - Krakow
 
@@ -19650,7 +17944,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Po prostu badz
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Raz - dwa - raz - dwa (live)
 
@@ -19666,7 +17960,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ta noc do innych jest niepodobna
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### To mi sie sni
 
@@ -19738,7 +18032,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### James Bond
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Manekiny
 
@@ -19746,7 +18040,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mikrofon
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Moskwa Odessa
 
@@ -19762,11 +18056,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Swobodne spadanie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ten co wcześniej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Zlota Kolekcja
 
@@ -19802,7 +18096,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nigdy wiecej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Oni zaraz przyjda tu
 
@@ -19810,7 +18104,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Pan Malenczuk
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Populares Uber Alles
 
@@ -19818,7 +18112,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Recydywa i ja
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Samba Mamba
 
@@ -19842,7 +18136,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Twist Again
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Makowicz vs Mozdzer
 
@@ -19976,7 +18270,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dni, ktorych nie znamy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Gdziekolwiek
 
@@ -20080,7 +18374,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Down Under
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Mette Henriette
 
@@ -20262,7 +18556,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In The Air Tonight
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Miami Vice
 
@@ -20274,11 +18568,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Smuggler's Blues
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Original Miami Vice Theme
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tina Turner
 
@@ -20320,15 +18614,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bad (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Beat It (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Billie Jean (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Black Or White (Single Edit)
 
@@ -20344,7 +18638,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dirty Diana (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Stop 'Til You Get Enough (2003 Edit)
 
@@ -20360,7 +18654,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Just Can't Stop Loving You (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One More Chance (Album Version)
 
@@ -20372,7 +18666,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Smooth Criminal (Album Version)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Way You Make Me Feel (Album Version)
 
@@ -20384,7 +18678,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Are Not Alone (Radio Edit)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Rock My World (Radio Edit)
 
@@ -20704,7 +18998,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You're My Heart, You're My Soul (Original No. 1 Mix '84)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Molly Martin MD
 
@@ -24184,11 +22478,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ale wkolo jest wesolo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Autobiografia
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Biala mysz
 
@@ -24208,7 +22502,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Idz precz
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jeszcze nie umarlem
 
@@ -24232,11 +22526,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Niepokonani
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Niewiele Ci moge dac
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Opanuj sie
 
@@ -24248,7 +22542,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Wyspa, drzewo, zamek
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Pieprz i Wanilia
 
@@ -25104,7 +23398,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### (I've Had) The Time Of My Life - Bill Medley & Jennifer Warnes
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### 500 Miles - Hooters
 
@@ -25112,7 +23406,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Africa - Toto
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### All The Love In The World - Dionne Warwick
 
@@ -25148,7 +23442,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Danger Zone - Kenny Loggins
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dead Ringer For Love - Meat Loaf (featuring Cher)
 
@@ -25160,11 +23454,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Answer Me - The Alan Parsons Projekt
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Down Under - Men At Work
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### E=MC2 - Big Audio Dynamite
 
@@ -25180,11 +23474,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Eye Of The Tiger - Survivor
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ghostbusters - Ray Parker Jr.
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Girl I'm Gonna Miss You - Milli Vanilli
 
@@ -25204,7 +23498,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Hol On Tight - Electric Light Orchestra
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hold Me Now - Thompson Twins
 
@@ -25308,7 +23602,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Final Countdown - Europe
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Land Of Make Believe - Bucks Fizz
 
@@ -25316,7 +23610,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Power Of Love - Jennifer Rush
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Promis You Made - Cock Robin
 
@@ -25324,7 +23618,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Time After Time - Cyndi Lauper
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Together Forever - Rick Astley
 
@@ -25352,11 +23646,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Walk This Way - Run-DMC
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Built This City - Starship
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who' Crying Now - Journey
 
@@ -25390,11 +23684,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jesus
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keep Yourself Alive
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keep Yourself Alive [Long Lost Re-take]
 
@@ -25402,7 +23696,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Liar
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Liar [1991 Bonus Remix by John Luongo and Gary Hellman]
 
@@ -25418,7 +23712,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### My Fairy King
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas of Rhye
 
@@ -25446,7 +23740,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nevermore
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ogre Battle
 
@@ -25498,7 +23792,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Brighton Rock
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Bring Back That Leroy Brown
 
@@ -25510,7 +23804,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Flick Of The Wrist
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In The Lap Of The Gods
 
@@ -25518,7 +23812,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In The Lap Of The Gods ... Revisited
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killer Queen
 
@@ -25526,7 +23820,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Lily Of The Valley
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Misfire
 
@@ -25534,7 +23828,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### She Makes Me (Stormtrooper In Stilettos)
 
@@ -25546,7 +23840,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tenement Funster
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 04 A Night at the Opera
 
@@ -25558,7 +23852,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Death on Two Legs (Dedicated to...)
 
@@ -25582,7 +23876,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seaside Rendezvous
 
@@ -25594,7 +23888,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Prophet's Song
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -25618,7 +23912,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Somebody To Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Teo Torriatte (Let Us Cling Together)
 
@@ -25638,11 +23932,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You And I
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Take My Breath Away
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 06 News Of The World
 
@@ -25678,15 +23972,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Spread Your Wings
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who Needs You
 
@@ -25706,7 +24000,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Stop Me Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dreamer's Ball
 
@@ -25730,7 +24024,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jealousy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Leaving Home Ain't Easy
 
@@ -25738,7 +24032,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Let Me Entertain You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### More Of That Jazz
 
@@ -25762,11 +24056,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Crazy Little Thing Call Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Try Suicide
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dragon Attack
 
@@ -25790,7 +24084,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Save Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 09 Flash Gordon
 
@@ -25878,11 +24172,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Back Chat
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Body Language
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Calling All Girls
 
@@ -25914,7 +24208,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Under Pressure (+ David Bowie)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 11 The Works
 
@@ -25926,7 +24220,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want To Break Free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Is This The World We Created...?
 
@@ -25934,7 +24228,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### It's A Hard Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keep Passing The Open Windows
 
@@ -25950,7 +24244,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Radio Ga Ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tear It Up
 
@@ -25966,7 +24260,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Lose Your Head
 
@@ -25974,7 +24268,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Friends Will Be Friends
 
@@ -25990,11 +24284,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One Vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Year Of Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Pain Is So Close To Pleasure
 
@@ -26006,7 +24300,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Who Wants To Live Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 13 The Miracle
 
@@ -26014,7 +24308,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Breakthru
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Chinese Torture (Bonus Track)
 
@@ -26026,7 +24320,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want It All
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Khashoggi's Ship
 
@@ -26042,15 +24336,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Rain Must Fall
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Scandal
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Invisible Man
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Invisible Man (12" Version) (Bonus Track)
 
@@ -26058,11 +24352,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Miracle
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Was It All Worth It
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 14 Innuendo
 
@@ -26078,11 +24372,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Delilah
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Try So Hard
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Headlong
 
@@ -26094,11 +24388,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I'm Going Slightly Mad
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Innuendo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Lost Opportunity (B-Side)
 
@@ -26106,7 +24400,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ride The Wild Wind
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Hitman
 
@@ -26114,11 +24408,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Show Must Go On
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### These Are The Days Of Our Lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### 15 Made In Heaven
 
@@ -26126,31 +24420,31 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Winter's Tale
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heaven For Everyone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Was Born To Love You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It's A Beautiful Day
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It's A Beautiful Day (reprise)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Let Me Live
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Made In Heaven
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Made In Heaven (instrumental)
 
@@ -26158,15 +24452,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mother Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### My Life Has Been Saved
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Too Much Love Will Kill You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Yeah!
 
@@ -26174,7 +24468,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Don't Fool Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### A Night At The Odeon
 
@@ -26262,7 +24556,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Another One Bites The Dust
 
@@ -26270,7 +24564,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -26278,7 +24572,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Stop Me Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heaven For Everyone (Single Version)
 
@@ -26302,7 +24596,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Radio Ga Ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas Of Rhye
 
@@ -26310,15 +24604,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Somebody To Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Show Must Go On
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### These Are The Days Of Our Lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Under Pressure
 
@@ -26326,15 +24620,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who Wants To Live Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -26362,7 +24656,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Try So Hard
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Drowse
 
@@ -26378,7 +24672,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Lily Of The Valley
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Long Away
 
@@ -26390,11 +24684,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love Of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Nevermore
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Play The Game
 
@@ -26402,7 +24696,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Spread Your Wings
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### There Must Be More To Life Than This (William Orbit Mix)
 
@@ -26410,15 +24704,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### These Are The Days Of Our Lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who Wants To Live Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Take My Breath Away
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -26434,7 +24728,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Winter's Tale
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -26442,7 +24736,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Friends Will Be Friends
 
@@ -26450,11 +24744,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Was Born To Love You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In The Lap Of The Gods... Revisited
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Is This The World We Created... ?
 
@@ -26462,23 +24756,23 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### It's A Hard Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jealousy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Made In Heaven
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mother Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Year Of Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sail Away Sweet Sister
 
@@ -26486,19 +24780,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Save Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Somebody To Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Miracle
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Too Much Love Will Kill You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Greatest Hits Disk 1
 
@@ -26514,7 +24808,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -26522,7 +24816,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Stop Me Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Fat Bottomed Girls
 
@@ -26542,7 +24836,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Play The Game
 
@@ -26550,7 +24844,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Save Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas Of Rhye
 
@@ -26558,15 +24852,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Somebody To Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -26578,11 +24872,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A kind of magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Breakthru
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Friends will be friends
 
@@ -26598,43 +24892,43 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I want it all
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I want to break free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm going slightly mad
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Innuendo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It's a hard life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Radio ga ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The invisible man
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The miracle
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The show must go on
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Under pressure
 
@@ -26642,7 +24936,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Who wants to live forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Greatest Hits Disk 3
 
@@ -26662,7 +24956,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Heaven for Everyone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Las Palabras de Amor (The Words of Love)
 
@@ -26670,7 +24964,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Let Me Live
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Living on My Own (Freddie Mercury)
 
@@ -26702,11 +24996,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### These Are the Days of Our Lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Too Much Love Will Kill You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Under Pressure (with David Bowie)
 
@@ -26714,7 +25008,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Don't Fool Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Hungarian Rhapsody
 
@@ -26850,7 +25144,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Flick Of The Wrist
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### God Save The Queen
 
@@ -26870,7 +25164,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In The Lap Of The Gods...Revisited
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Jailhouse Rock
 
@@ -26882,7 +25176,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Keep Yourself Alive
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keep Yourself Alive (reprise)
 
@@ -26894,7 +25188,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Liar
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Modern Times Rock'n'Roll
 
@@ -26902,7 +25196,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ogre Battle
 
@@ -27094,7 +25388,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Keep Yourself Alive
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killer Queen
 
@@ -27102,19 +25396,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Let Me Entertain You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -27126,15 +25420,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Brighton Rock
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Stop Me Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### God Save The Queen
 
@@ -27146,7 +25440,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Spread Your Wings
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tie Your Mother Down
 
@@ -27154,11 +25448,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Live Magic
 
@@ -27166,7 +25460,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Another One Bites The Dust
 
@@ -27174,7 +25468,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Friends Will Be Friends
 
@@ -27190,7 +25484,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want To Break Free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Is This The World We Created?
 
@@ -27198,11 +25492,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One Vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Radio Ga-Ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas Of Rhye
 
@@ -27218,11 +25512,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Made In Japan - Live In Japan 1985
 
@@ -27230,7 +25524,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Another One Bites The Dust
 
@@ -27238,7 +25532,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -27258,7 +25552,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want To Break Free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In The Lap Of The Gods
 
@@ -27270,11 +25564,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One Vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Radio Ga Ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas Of Rhye
 
@@ -27294,15 +25588,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who Wants To Live Forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Narrative
 
@@ -27310,7 +25604,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A kind of magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Another one bites the dust
 
@@ -27318,7 +25612,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy little thing called love
 
@@ -27326,19 +25620,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't stop me now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heaven for everyone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I want it all
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I want to break free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killer queen
 
@@ -27346,11 +25640,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### One vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Radio Ga Ga
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Seven Seas of Rhye
 
@@ -27358,15 +25652,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Somebody to love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The show must go on
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### These are the days of our lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Under pressure
 
@@ -27374,15 +25668,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We are the champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We will rock you
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Who wants to live forever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're my best friend
 
@@ -27654,11 +25948,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Keep Yourself Alive
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Liar
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Modern Times Rock'n'Roll
 
@@ -27666,7 +25960,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### My Fairy King
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ogre Battle
 
@@ -27686,7 +25980,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Flick Of The Wrist
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It's Late
 
@@ -27702,15 +25996,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nevermore
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Spread Your Wings
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Stone Cold Crazy
 
@@ -27718,11 +26012,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tenement Funster
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You [fast]
 
@@ -27742,7 +26036,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Alright Alright
 
@@ -27790,15 +26084,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Let Me Entertain You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Liar
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Now I'm Here (Reprise)
 
@@ -27922,7 +26216,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Back Chat
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Dragon Attack
 
@@ -27934,11 +26228,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love Of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Now I'm Here (Reprise)
 
@@ -27950,11 +26244,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Save Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Somebody To Love
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Staying Power
 
@@ -27978,7 +26272,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -28014,11 +26308,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Queen Rock Montreal
 
@@ -28158,7 +26452,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want It All
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'm In Love With My Car
 
@@ -28170,7 +26464,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Keep Yourself Alive
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### No-One But You (Only The Good Die Young)
 
@@ -28178,11 +26472,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Now I'm Here
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Put Out The Fire
 
@@ -28210,7 +26504,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Queen Symphonic
 
@@ -28218,7 +26512,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### A Kind Of Magic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Another Bites The Dust
 
@@ -28226,7 +26520,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bohemian Rhapsody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crazy Little Thing Called Love
 
@@ -28234,7 +26528,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Don't Stop Me Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Fat Bottomed Girls
 
@@ -28246,11 +26540,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Want It All
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Want To Break Free
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killer Queen
 
@@ -28258,19 +26552,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love Of My Life
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Vision
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Show Must Go On
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### These Are The Days Of Our Lives
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tie Your Mother Down
 
@@ -28282,11 +26576,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### We Are The Champions
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Will Rock You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You're My Best Friend
 
@@ -28848,7 +27142,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Human
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Innocent Man
 
@@ -28872,7 +27166,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Skin
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Fire
 
@@ -28906,7 +27200,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Blues Before Sunrise
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Can Anyone Ask For More
 
@@ -29030,7 +27324,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Fever
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Heaven Help Us All
 
@@ -29038,7 +27332,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Here We Go Again
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hey Girl
 
@@ -29046,11 +27340,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### It Was A Very Good Year
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Over The Rainbow
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sinner's Prayer
 
@@ -29058,7 +27352,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sorry Seems To Be The Hardest Word
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sweet Potato Pie
 
@@ -29066,7 +27360,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Don't Know Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Hallelujah I Love Her So
 
@@ -29102,7 +27396,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Hallelujah, I Love Her So
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Got A Woman
 
@@ -29118,7 +27412,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mess Around
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Sinner's Prayer
 
@@ -29126,7 +27420,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### This Little Girl Of Mine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Ray Charles Live
 
@@ -29218,15 +27512,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Baby It's Cold Outside
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Come Rain Or Come Shine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Let The Sun Catch You Crying
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Drown In My Own Tears
 
@@ -29234,15 +27528,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Georgia On My Mind
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hallelujah I Love Her So
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Hit The Road Jack
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Believe To My Soul
 
@@ -29258,15 +27552,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### It Should've Been Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I've Got A Woman
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Leave My Woman Alone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Lonely Avenue
 
@@ -29274,7 +27568,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Mess Around
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### One Mint Julep
 
@@ -29290,15 +27584,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### This Little Girl Of Mine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Unchain My Heart
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### What'd I Say (Parts 1 & 2)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### the definitive Ray Charles - disc 2
 
@@ -29306,19 +27600,19 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Born To Lose
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Busted
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Cincinnati Kid
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Crying Time
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Eleanor Rigby
 
@@ -29330,11 +27624,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### I Can't Stop Loving You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Don't Need No Doctor
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I'll Be Good To You
 
@@ -29342,7 +27636,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Imagine
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### In The Heat Of The Night
 
@@ -29366,7 +27660,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Take These Chains From My Heart
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### That Lucky Old Sun
 
@@ -29378,7 +27672,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Yesterday
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Are My Sunshine
 
@@ -29386,7 +27680,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Don't Know Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Your Cheatin' Heart
 
@@ -30222,7 +28516,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### (I Can't Get No) Satisfaction
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### 19th Nervous Breakdown
 
@@ -30230,7 +28524,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Get Off Of My Cloud
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Gimme Shelter
 
@@ -30250,7 +28544,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Jumpin' Jack Flash
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Let's Spend The Night Together
 
@@ -30266,7 +28560,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Paint It, Black
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ruby Tuesday
 
@@ -30290,15 +28584,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Under My Thumb
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wild Horses
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You Can't Always Get What You Want
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### Forty Licks (cd2)
 
@@ -30306,11 +28600,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Angie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Anybody Seen My Baby ?
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Beast Of Burden
 
@@ -30318,11 +28612,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Brown Sugar
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Don't Stop
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Emotional Rescue
 
@@ -30338,7 +28632,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### It's Only Rock 'n' Roll
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Keys To Your Love
 
@@ -30350,7 +28644,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love Is Strong
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Miss You
 
@@ -30392,7 +28686,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You Got It
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Run-DMC
 
@@ -32916,11 +31210,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Kiedy jestes taka bliska
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Like a Rolling Stone
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love in vain
 
@@ -32936,7 +31230,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tolerancja /Na mily Bog
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### You've got to know angel
 
@@ -32960,7 +31254,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Allegro ma non troppo
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I jeszcze raz (piosenka wigilijna)
 
@@ -32976,7 +31270,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Koniugacje
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Moja rzeczywistosc
 
@@ -32984,15 +31278,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nie ma drugiej takiej
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Tango Memento Vitae
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Uciekaj moje serce
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ulica Paryska w Warszawie
 
@@ -33000,7 +31294,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Wychowanie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Starship
 
@@ -33010,7 +31304,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Nothing's Gonna Stop Us Now
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Sting
 
@@ -33024,11 +31318,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Englishman in New York
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Fields of Gold
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Fortress around Your Heart
 
@@ -33048,7 +31342,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Love Is the Seventh Wave
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Mad about You
 
@@ -33116,7 +31410,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Message in a Bottle  [live]
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Never Coming Home
 
@@ -33154,7 +31448,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Eye of the Tiger
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Tango
 
@@ -34178,11 +32472,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Light My Fire
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Love Me Two Times
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Moonlight Drive
 
@@ -34190,11 +32484,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### No Me Moleste Mosquito
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### People Are Strange
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Queen Of The Highway
 
@@ -34210,7 +32504,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Strange Days
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Summer's Almost Gone
 
@@ -34234,7 +32528,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### When The Music's Over
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Whiskeys, Mystics and Men
 
@@ -34242,7 +32536,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### You're Lost Little Girl
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ### The Best Of The Doors - CD 2
 
@@ -34250,7 +32544,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Alabama Song
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Back Door Man
 
@@ -34258,7 +32552,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Break On Through
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Five To One
 
@@ -34274,7 +32568,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### My Eyes Have Seen You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Peace Frog
 
@@ -34282,7 +32576,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Riders On The Storm
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Roadhouse Blues
 
@@ -34298,7 +32592,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The End
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Spy
 
@@ -34514,11 +32808,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Addicted To Love (Live)
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Goldeneye
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Great Spirits
 
@@ -34562,7 +32856,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Best
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### What You Get Is What You See
 
@@ -34586,7 +32880,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Can't Stop Thinking of You
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Complicated Disaster
 
@@ -34594,7 +32888,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### In Your Wildest Dreams
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### It's Only Love
 
@@ -34602,7 +32896,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### On Silent Wings
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Paradise Is Here
 
@@ -34610,7 +32904,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Private Dancer
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Something Beautiful Remains
 
@@ -34626,7 +32920,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Tonight
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Two People
 
@@ -34634,11 +32928,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Typical Male
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### We Don't Need Another Hero
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### What's Love Got to Do with It?
 
@@ -34740,7 +33034,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### 1996
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Autobusy i tramwaje
 
@@ -34748,7 +33042,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Bog
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Chlopaki nie placza
 
@@ -34760,7 +33054,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Dzikosc serca
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Ewa
 
@@ -34784,11 +33078,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Karuzela a'capella
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### King
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Na bruku
 
@@ -34804,11 +33098,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### To wychowanie
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Warszawa
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Zero
 
@@ -35108,7 +33402,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Ice Ice Baby
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Killer
 
@@ -35160,7 +33454,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Call Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Cheri Cheri Lady
 
@@ -35308,11 +33602,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Boombastic
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Get Ready for This
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Get Up
 
@@ -35324,7 +33618,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Here Comes the Hotstappers
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### House of Love
 
@@ -35344,7 +33638,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Kingdton Town
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### People Everyday
 
@@ -35352,7 +33646,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Push the Feeling on
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Shame Shame Shame
 
@@ -35372,7 +33666,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Twist & Shout
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### U Got 2 Know
 
@@ -35384,7 +33678,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Call Me
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Doctor in the Tardis
 
@@ -35392,15 +33686,15 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Everybody Needs Somebody
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Footloose
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### I Just Died in Your Arms
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### London Nights
 
@@ -35424,7 +33718,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Small Twon Boy
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Stars on 45
 
@@ -35432,11 +33726,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Sushine Reggae
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Swing the Mood
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### The Different Stroy
 
@@ -35444,7 +33738,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### The Model
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Too Shy
 
@@ -35452,11 +33746,11 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Voyage Voyage
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 #### Wouldn't it Be Good
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Toto
 
@@ -35586,7 +33880,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 #### Wake Me Up Before You Go-Go
 
-- **Ulubione:** nie
+- **Ulubione:** tak
 
 ## Will to Power
 
