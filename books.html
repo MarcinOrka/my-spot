@@ -107,10 +107,18 @@ body.page-library main {
   font-size: 0.82rem;
 }
 .library-toolbar__count {
-  margin: 0;
+  margin: 0 0 0.35rem auto;
   color: var(--muted);
   font-size: 0.82rem;
   white-space: nowrap;
+  align-self: flex-end;
+}
+.library-toolbar__ratings {
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.65rem 0.85rem;
 }
 .library-list {
   display: flex;
@@ -481,6 +489,7 @@ body.page-library main {
         <option value="nie">nie</option>
           </select>
         </label>
+        <div class="library-toolbar__ratings">
         <label class="library-toolbar__compact" for="lc-filter">Ocena LubimyCzytac.pl
           <select id="lc-filter">
         <option value="">Wszystkie</option>
@@ -532,6 +541,7 @@ body.page-library main {
           </select>
         </label>
         <p class="library-toolbar__count" id="library-count">416 książek</p>
+        </div>
       </div>
       <div class="library-list" id="library-list">
       <article class="library-card" data-authors="[&quot;Stefan Ahnhem&quot;]" data-read="nie" data-lc="7,2/10" data-rating="brak">
