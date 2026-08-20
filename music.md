@@ -10,7 +10,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn Spanish - Survival Guide
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### A Trip to the Beach
 
@@ -8872,7 +8872,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish Grammar Review
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### The Imperfect
 
@@ -11268,7 +11268,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn Spanish with The Independent
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Advanced - Episode 1
 
@@ -14698,7 +14698,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn to Speak Spanish with Discover Spanish
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Holiday Greetings from Johnny and Cristina
 
@@ -17598,7 +17598,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn Spanish with La Casa Rojas - magazine by Rojas Spanish Language
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Anuncio de Viajes Argentina y Peru 2008
 
@@ -17684,7 +17684,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn Spanish with La Casa Rojas - magazine by Rojas Spanish Language
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 02-Pod-2011: No era tan fácil como pensaba
 
@@ -19004,7 +19004,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish Grammar Review
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### A Review of Previous Episodes
 
@@ -19030,7 +19030,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish Grammar - AAC Edition
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### The Conditional
 
@@ -19038,7 +19038,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish Grammar Review
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Adjectives - Placement and Meaning
 
@@ -19472,7 +19472,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Angielski - At Work
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Track 01
 
@@ -19544,7 +19544,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Angielski - Gramatyka
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 01 Lesson one ex 1
 
@@ -19836,7 +19836,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Angielski - Idiomy
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Track 01
 
@@ -20052,7 +20052,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Angielski - Phrasal verbs
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Track 01
 
@@ -20256,7 +20256,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Hiszpanski - Pawlikowska
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Pawlikowska_000
 
@@ -20732,7 +20732,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Hiszpanski - rozmowki
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 01.Podstawowe zwroty
 
@@ -20776,7 +20776,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Hiszpanski Aula 1
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Dialog 1
 
@@ -21012,7 +21012,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Hiszpanski Kurs Podstawowy
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Lekcja 01 01-Slowka - www.jezykiobce.pl (c) Edgard
 
@@ -21160,7 +21160,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Hiszpanski na wakacje
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 10 lekcja 3
 
@@ -21600,7 +21600,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish - The EZ Way with LaGringa
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 4 useful Verbs
 
@@ -26600,7 +26600,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Coffee Break Spanish
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### CBS Show Time Spanish – Lesson 01
 
@@ -29756,7 +29756,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Learn Spanish | SpanishPod101.com
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Absolute Beginner #1 - Is That a Spanish Name?
 
@@ -31630,7 +31630,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### SSL4YOU  Spanish Segunda Lengua
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### Adictos a la Televisión. Couch potato.
 
@@ -33934,7 +33934,7 @@ Posortowane alfabetycznie według autora, albumu i tytułu utworu.
 
 ### Spanish Podcasts for Beginners with Maria Fernandez
 
-- **Gatunek:** Educational
+- **Gatunek:** Audiobook
 
 #### 30% OFF Maria Fernandez’s Spanish online course
 
