@@ -1,6 +1,6 @@
 # Biblioteka
 
-Unikalne tytuły z katalogu `Books` (416 pozycji). Różne formaty tej samej książki (EPUB, MOBI, PDF) są scalone w jeden wpis.
+Unikalne tytuły z katalogu `Books` (417 pozycji). Różne formaty tej samej książki (EPUB, MOBI, PDF) są scalone w jeden wpis.
 
 Pola: **tytuł**, **autor**, **język publikacji**, **przeczytana**, **ocena LubimyCzytac.pl**, **ocena**, **opis**.
 Opisy poszerzono na podstawie publicznych źródeł (Wikipedia, Google Books), tam gdzie dało się potwierdzić pozycję.
@@ -320,6 +320,15 @@ Posortowane alfabetycznie według nazwiska autora, potem tytułu.
 - **Ocena LubimyCzytac.pl:** 6,8/10
 - **Ocena:** brak
 - **Opis:** Poradnik biznesowy założyciela Virgin Group, zbierający praktyczne wskazówki, które Richard Branson publikował m.in. w „New York Timesie”. Zamiast akademickich szablonów opiera się na dekadach prowadzenia firm i łamania zasad. Porusza zarządzanie ludźmi, innowacje, kryzys finansowy i własne recepty na sukces poza szkołą biznesu.
+
+### The Happiness Files: Insights on Work and Life
+
+- **Autor:** Arthur C. Brooks
+- **Język:** angielski
+- **Przeczytana:** tak
+- **Ocena LubimyCzytac.pl:** brak
+- **Ocena:** 2/5
+- **Opis:** Wybór esejów Arthura C. Brooksa, profesora Harvardu, z jego felietonu „How to Build a Life” w „The Atlantic” (Harvard Business Review Press, 2025). Każdy tekst zaczyna się od badań z nauk behawioralnych o tym, jak działa szczęście, a kończy praktycznymi radami. Rozdziały pogrupowano tematycznie: zarządzanie sobą, praca i kariera, pieniądze, równowaga między pracą, życiem i relacjami.
 
 ### Dary niedoskonałości
 
