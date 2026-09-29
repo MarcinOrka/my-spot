@@ -3358,9 +3358,9 @@ Posortowane alfabetycznie według nazwiska autora, potem tytułu.
 
 - **Autor:** Max Tegmark
 - **Język:** polski
-- **Przeczytana:** nie
+- **Przeczytana:** tak
 - **Ocena LubimyCzytac.pl:** 8,2/10
-- **Ocena:** brak
+- **Ocena:** 2/5
 - **Opis:** Popularnonaukowa książka kosmologa Maxa Tegmarka z 2014 roku. Autor łączy przegląd współczesnej astrofizyki i teorii kwantowej z hipotezą matematycznego wszechświata: tezą, że rzeczywistość fizyczna jest strukturą matematyczną. Tegmark argumentuje, że ta perspektywa zmienia sposób, w jaki fizycy powinni zadawać pytania o naturę rzeczywistości i wieloświat.
 
 ### Życie 3.0. Człowiek w erze sztucznej inteligencji
